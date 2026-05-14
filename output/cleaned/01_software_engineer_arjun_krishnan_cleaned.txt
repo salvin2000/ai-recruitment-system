@@ -1,0 +1,29 @@
+Arjun Krishnan
+arjun.krishnan@email.com  |  +91 98765 43210  |  Bangalore, India  |  linkedin.com/in/arjunkrishnan
+SUMMARY
+Backend-focused Software Engineer with 4 years of experience building high-performance Python services and RESTful APIs. Strong in system design, database optimisation, and cloud deployment on AWS. Passionate about clean architecture and test-driven development.
+SKILLS
+WORK EXPERIENCE
+Software Engineer  -  Infosys Limited, Bangalore  Jul 2021 - Present
+Designed and built microservices for a fintech platform handling 2M+ daily transactions
+Reduced API response time by 35% through query optimisation and Redis caching
+Led migration of monolithic Django app to FastAPI microservices architecture
+Wrote comprehensive unit and integration tests achieving 91% code coverage
+Mentored 3 junior developers and conducted weekly code review sessions
+Software Engineer Intern  -  Wipro Technologies, Bangalore  Jan 2021 - Jun 2021
+Built internal dashboard for tracking CI/CD pipeline status using Flask and React
+Automated data ingestion scripts reducing manual effort by 6 hours/week
+EDUCATION
+B.Tech Computer Science & Engineering  |  NIT Trichy  2017 - 2021  |  CGPA: 8.7 / 10
+CERTIFICATIONS
+AWS Certified Solutions Architect - Associate  (2023)
+Python for Data Engineering - Coursera  (2022)
+PROJECTS
+ZecTrack - Real-time Job Application Tracker  -  Personal Project  2023
+Built with FastAPI + PostgreSQL + Redis; deployed on AWS EC2 with Docker
+Features: resume parsing, JD matching, status tracking for 500+ applications
+Languages  Python, Java, SQL, Bash
+Frameworks  FastAPI, Django, Flask, Celery
+Databases  PostgreSQL, MongoDB, Redis, Elasticsearch
+Cloud & DevOps  AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, GitHub Actions
+Testing  Pytest, Unittest, Postman, Locust

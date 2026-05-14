@@ -1,0 +1,29 @@
+Anil Varghese
+anil.varghese@finance.com  |  +91 94456 78901  |  Kochi, Kerala  |  CFA Level II Candidate
+PROFESSIONAL SUMMARY
+Finance Analyst with 4 years of experience in financial modelling, FP&A, and investment analysis across banking and corporate finance environments. CFA Level II candidate. Skilled in Excel-based modelling, Power BI reporting, and communicating financial insights to senior stakeholders.
+TECHNICAL SKILLS
+WORK EXPERIENCE
+Finance Analyst - FP&A  -  Muthoot Finance, Kochi  Jun 2021 - Present
+Built and maintained 3-statement financial model used for quarterly board presentations
+Led annual budgeting process for 4 business units - Rs. 280 Cr combined budget
+Developed Power BI dashboard for real-time P&L and variance tracking - adopted company-wide
+Performed DCF and comparable analysis for 2 acquisition targets; reports presented to CFO
+Reduced monthly close reporting time from 7 days to 4 days through Excel automation (VBA macros)
+Junior Finance Analyst  -  Federal Bank, Kochi  Aug 2019 - May 2021
+Analysed branch-level P&L for 120 branches and prepared monthly performance reports
+Assisted in preparation of RBI regulatory filings and Basel III capital adequacy reports
+Built loan portfolio analysis model tracking Rs. 800 Cr NPA data across segments
+EDUCATION
+MBA - Finance  |  IIM Kozhikode  2017 - 2019  |  CGPA: 7.8 / 10
+B.Com (Hons) Finance  |  Christ University, Bangalore  2014 - 2017  |  First Class - 81%
+CERTIFICATIONS & QUALIFICATIONS
+CFA Level II Candidate - CFA Institute  (Appearing 2024)
+CFA Level I - Cleared with above-90th-percentile score  (2022)
+Financial Modelling & Valuation Analyst (FMVA) - CFI  (2021)
+Bloomberg Market Concepts (BMC) Certification  (2020)
+Financial Modelling  DCF, LBO, Comparable Company Analysis, Scenario & Sensitivity Analysis
+Tools  MS Excel (Advanced - VBA, Power Query), Bloomberg Terminal, Capital IQ
+Reporting & BI  Power BI, SAP BPC, Tableau, PowerPoint
+Accounting  IFRS, IndAS, P&L, Balance Sheet, Cash Flow Statement analysis
+Programming  Python (basic - Pandas for data analysis), SQL
