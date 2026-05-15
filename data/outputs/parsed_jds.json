@@ -1,0 +1,3909 @@
+{
+  "total_jds_parsed": 78,
+  "generated_at": "2026-05-15T14:14:43.954487",
+  "job_descriptions": [
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.942895"
+      },
+      "role_name": "Management Trainee (General)",
+      "description": "1. Management Trainee (General)\nJob Description:\nA Management Trainee (General) is part of a structured training program designed to develop\nfuture managers. Trainees rotate across departments such as operations, HR, finance, and\nmarketing to gain a holistic understanding of the business. They assist in projects, analyze",
+      "required_skills": [
+        "adaptability and learning agility",
+        "basic business and financial knowledge",
+        "ms excel, powerpoint proficiency"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Participate in cross-functional training programs",
+        "Assist in daily business operations",
+        "Analyze reports and prepare presentations",
+        "Support senior managers in strategic initiatives",
+        "Identify process improvements"
+      ],
+      "ai_profile": {
+        "role": "Management Trainee (General)",
+        "skills_required": [
+          "adaptability and learning agility",
+          "basic business and financial knowledge",
+          "ms excel, powerpoint proficiency"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 3
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.943626"
+      },
+      "role_name": "Graduate Management Trainee (GMT)",
+      "description": "2. Graduate Management Trainee (GMT)\nJob Description:\nGraduate Management Trainees are recruited directly from colleges/universities and trained\nthrough structured leadership programs. The focus is on developing future leaders through\nreal-time projects, mentoring, and performance tracking.",
+      "required_skills": [
+        "academic excellence and business acumen",
+        "leadership potential",
+        "problem solving",
+        "team collaboration"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Undergo structured classroom and on-the-job training",
+        "Work on live business projects",
+        "Collaborate with multiple departments",
+        "Track KPIs and performance metrics",
+        "Present insights to leadership"
+      ],
+      "ai_profile": {
+        "role": "Graduate Management Trainee (GMT)",
+        "skills_required": [
+          "academic excellence and business acumen",
+          "leadership potential",
+          "problem solving",
+          "team collaboration"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.943726"
+      },
+      "role_name": "Executive Trainee",
+      "description": "3. Executive Trainee\nJob Description:\nExecutive Trainees are groomed for executive-level roles. They assist in decision-making\nprocesses, operational execution, and reporting while being trained in managerial",
+      "required_skills": [
+        "business understanding",
+        "data analysis and reporting",
+        "problem",
+        "solving ability",
+        "time management"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in executing departmental strategies",
+        "Prepare business reports and dashboards",
+        "Support project management activities",
+        "Coordinate with internal teams",
+        "Monitor operational performance"
+      ],
+      "ai_profile": {
+        "role": "Executive Trainee",
+        "skills_required": [
+          "business understanding",
+          "data analysis and reporting",
+          "problem",
+          "solving ability",
+          "time management"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 5
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.943814"
+      },
+      "role_name": "Leadership Trainee",
+      "description": "4. Leadership Trainee\nJob Description:\nLeadership Trainees are part of high-potential programs aimed at grooming future leaders.\nThese roles involve exposure to strategic projects, leadership mentoring, and fast-track career\ngrowth.",
+      "required_skills": [
+        "high emotional intelligence",
+        "making ability",
+        "problem",
+        "solving mindset",
+        "strategic thinking",
+        "strong leadership and decision"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Work directly with senior leadership",
+        "Handle strategic and high-impact projects",
+        "Lead small teams or initiatives",
+        "Analyze business performance and suggest improvements",
+        "Participate in leadership development programs"
+      ],
+      "ai_profile": {
+        "role": "Leadership Trainee",
+        "skills_required": [
+          "high emotional intelligence",
+          "making ability",
+          "problem",
+          "solving mindset",
+          "strategic thinking",
+          "strong leadership and decision"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 6
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.943904"
+      },
+      "role_name": "Business Management Trainee",
+      "description": "5. Business Management Trainee\nJob Description:\nBusiness Management Trainees focus on understanding business operations, revenue\ngeneration, and market dynamics. They are involved in strategy execution, sales support, and\nbusiness growth initiatives.",
+      "required_skills": [
+        "analytical thinking",
+        "business acumen",
+        "crm tools knowledge",
+        "sales and negotiation basics"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Analyze market trends and business performance",
+        "Support business development activities",
+        "Work with sales and marketing teams",
+        "Prepare business plans and reports",
+        "Assist in client interactions"
+      ],
+      "ai_profile": {
+        "role": "Business Management Trainee",
+        "skills_required": [
+          "analytical thinking",
+          "business acumen",
+          "crm tools knowledge",
+          "sales and negotiation basics"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.943993"
+      },
+      "role_name": "Corporate Management Trainee",
+      "description": "6. Corporate Management Trainee\nJob Description:\nCorporate Management Trainees work in corporate offices focusing on strategic planning,\ncorporate governance, and business analytics. They support leadership in decision-making\nand policy implementation.",
+      "required_skills": [
+        "attention to detail",
+        "data interpretation",
+        "knowledge of corporate functions",
+        "strategic thinking"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in corporate strategy development",
+        "Analyze company-wide performance metrics",
+        "Prepare presentations for leadership meetings",
+        "Support compliance and governance activities",
+        "Conduct business research"
+      ],
+      "ai_profile": {
+        "role": "Corporate Management Trainee",
+        "skills_required": [
+          "attention to detail",
+          "data interpretation",
+          "knowledge of corporate functions",
+          "strategic thinking"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.944081"
+      },
+      "role_name": "Management Trainee – Operations",
+      "description": "7. Management Trainee – Operations\nJob Description:\nOperations Management Trainees are trained to manage day-to-day operational activities.\nThey focus on process efficiency, productivity improvement, and resource management.",
+      "required_skills": [
+        "excel and reporting tools",
+        "knowledge of supply chain basics",
+        "operations and process understanding",
+        "time and resource management"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Monitor daily operations",
+        "Analyze operational KPIs",
+        "Identify inefficiencies and suggest improvements",
+        "Coordinate with production/logistics teams",
+        "Ensure quality and compliance standards"
+      ],
+      "ai_profile": {
+        "role": "Management Trainee – Operations",
+        "skills_required": [
+          "excel and reporting tools",
+          "knowledge of supply chain basics",
+          "operations and process understanding",
+          "time and resource management"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.944334"
+      },
+      "role_name": "Finance Management Trainee",
+      "description": "8. Finance Management Trainee\nJob Description:\nTrains in financial planning, budgeting, reporting, and corporate finance functions to support\nbusiness decisions.",
+      "required_skills": [
+        "analytical thinking, attention to detail",
+        "financial analysis, excel, accounting principles"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in budgeting and forecasting",
+        "Prepare financial reports and MIS",
+        "Analyze financial performance",
+        "Support audits and compliance"
+      ],
+      "ai_profile": {
+        "role": "Finance Management Trainee",
+        "skills_required": [
+          "analytical thinking, attention to detail",
+          "financial analysis, excel, accounting principles"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 2
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.944530"
+      },
+      "role_name": "Accounts Trainee",
+      "description": "9. Accounts Trainee\nJob Description:\nSupports daily accounting activities and bookkeeping functions.",
+      "required_skills": [
+        "tally/erp, basic accounting, excel"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Maintain ledgers and journal entries",
+        "Process invoices and payments",
+        "Reconcile accounts",
+        "Assist in month-end closing"
+      ],
+      "ai_profile": {
+        "role": "Accounts Trainee",
+        "skills_required": [
+          "tally/erp, basic accounting, excel"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.944655"
+      },
+      "role_name": "Financial Analyst Trainee",
+      "description": "10. Financial Analyst Trainee\nJob Description:\nAnalyzes financial data to support strategic decision-making.",
+      "required_skills": [
+        "advanced excel, financial modeling, data analysis"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Perform financial modeling",
+        "Analyze trends and KPIs",
+        "Prepare reports and dashboards",
+        "Support investment analysis"
+      ],
+      "ai_profile": {
+        "role": "Financial Analyst Trainee",
+        "skills_required": [
+          "advanced excel, financial modeling, data analysis"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.944778"
+      },
+      "role_name": "Audit Trainee",
+      "description": "11. Audit Trainee\nJob Description:\nSupports internal/external audits ensuring compliance and accuracy.",
+      "required_skills": [
+        "auditing standards, compliance knowledge"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in audit planning and execution",
+        "Review financial records",
+        "Identify discrepancies",
+        "Prepare audit reports"
+      ],
+      "ai_profile": {
+        "role": "Audit Trainee",
+        "skills_required": [
+          "auditing standards, compliance knowledge"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.944890"
+      },
+      "role_name": "Taxation Trainee",
+      "description": "12. Taxation Trainee\nJob Description:\nAssists in tax compliance, filing, and planning.",
+      "required_skills": [
+        "tax laws (gst, income tax), excel"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Prepare GST, TDS returns",
+        "Assist in tax filings",
+        "Ensure compliance with tax laws",
+        "Support tax audits"
+      ],
+      "ai_profile": {
+        "role": "Taxation Trainee",
+        "skills_required": [
+          "tax laws (gst, income tax), excel"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.944993"
+      },
+      "role_name": "Banking Operations Trainee",
+      "description": "13. Banking Operations Trainee\nJob Description:\nHandles core banking processes and customer transactions.",
+      "required_skills": [
+        "banking systems, communication"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Process transactions and documentation",
+        "Assist in loan processing",
+        "Ensure regulatory compliance",
+        "Customer service support"
+      ],
+      "ai_profile": {
+        "role": "Banking Operations Trainee",
+        "skills_required": [
+          "banking systems, communication"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.945099"
+      },
+      "role_name": "HR Management Trainee",
+      "description": "14. HR Management Trainee\nJob Description:\nTrains in all HR functions including recruitment, employee relations, and performance\nmanagement.",
+      "required_skills": [],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in hiring and onboarding",
+        "Maintain employee records",
+        "Support HR policies",
+        "Coordinate training programs"
+      ],
+      "ai_profile": {
+        "role": "HR Management Trainee",
+        "skills_required": [],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 0
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.945205"
+      },
+      "role_name": "Talent Acquisition Trainee",
+      "description": "15. Talent Acquisition Trainee\nJob Description:\nFocuses on recruitment and staffing processes.",
+      "required_skills": [
+        "sourcing tools, communication, negotiation"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Source candidates",
+        "Screen resumes",
+        "Schedule interviews",
+        "Coordinate hiring process"
+      ],
+      "ai_profile": {
+        "role": "Talent Acquisition Trainee",
+        "skills_required": [
+          "sourcing tools, communication, negotiation"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.945358"
+      },
+      "role_name": "Learning & Development Trainee",
+      "description": "16. Learning & Development Trainee\nJob Description:\nSupports employee training and development initiatives.",
+      "required_skills": [
+        "presentation, communication, lms tools"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in training programs",
+        "Track employee learning progress",
+        "Prepare training materials",
+        "Evaluate training effectiveness"
+      ],
+      "ai_profile": {
+        "role": "Learning & Development Trainee",
+        "skills_required": [
+          "presentation, communication, lms tools"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.945499"
+      },
+      "role_name": "HR Operations Trainee",
+      "description": "17. HR Operations Trainee\nJob Description:\nHandles administrative HR tasks and employee lifecycle management.",
+      "required_skills": [
+        "hrms tools, attention to detail"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Maintain HR databases",
+        "Process employee documentation",
+        "Handle payroll coordination",
+        "Support HR compliance"
+      ],
+      "ai_profile": {
+        "role": "HR Operations Trainee",
+        "skills_required": [
+          "hrms tools, attention to detail"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.945599"
+      },
+      "role_name": "Payroll Trainee",
+      "description": "18. Payroll Trainee\nJob Description:",
+      "required_skills": [
+        "payroll software, excel, compliance"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": "• Manage attendance and leave records\n• Ensure statutory compliance\n• Generate payslips"
+      },
+      "responsibilities": [],
+      "ai_profile": {
+        "role": "Payroll Trainee",
+        "skills_required": [
+          "payroll software, excel, compliance"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.945872"
+      },
+      "role_name": "Marketing Management Trainee",
+      "description": "19. Marketing Management Trainee\nJob Description:\nWorks on marketing strategies, campaigns, and brand promotion.",
+      "required_skills": [
+        "marketing concepts, analytics tools"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in campaign planning",
+        "Analyze market trends",
+        "Coordinate marketing activities",
+        "Support branding initiatives"
+      ],
+      "ai_profile": {
+        "role": "Marketing Management Trainee",
+        "skills_required": [
+          "marketing concepts, analytics tools"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.945951"
+      },
+      "role_name": "Sales Trainee",
+      "description": "20. Sales Trainee\nJob Description:\nSupports sales operations and client acquisition.",
+      "required_skills": [
+        "communication, negotiation"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Generate leads",
+        "Assist in sales pitches",
+        "Maintain client relationships",
+        "Track sales performance"
+      ],
+      "ai_profile": {
+        "role": "Sales Trainee",
+        "skills_required": [
+          "communication, negotiation"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946019"
+      },
+      "role_name": "Digital Marketing Trainee",
+      "description": "21. Digital Marketing Trainee\nJob Description:\nWorks on online marketing channels and campaigns.",
+      "required_skills": [
+        "seo, google analytics, content marketing"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Manage social media",
+        "Run SEO/SEM campaigns",
+        "Analyze website traffic",
+        "Create content"
+      ],
+      "ai_profile": {
+        "role": "Digital Marketing Trainee",
+        "skills_required": [
+          "seo, google analytics, content marketing"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946088"
+      },
+      "role_name": "Brand Management Trainee",
+      "description": "22. Brand Management Trainee\nJob Description:\nSupports brand positioning and communication strategies.",
+      "required_skills": [
+        "creativity, communication, analytics"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in brand campaigns",
+        "Monitor brand performance",
+        "Conduct market research",
+        "Coordinate with agencies"
+      ],
+      "ai_profile": {
+        "role": "Brand Management Trainee",
+        "skills_required": [
+          "creativity, communication, analytics"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946147"
+      },
+      "role_name": "Business Development Trainee",
+      "description": "23. Business Development Trainee\nJob Description:\nFocuses on expanding business opportunities and partnerships.",
+      "required_skills": [
+        "sales, negotiation, strategic thinking"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Identify new markets",
+        "Generate leads",
+        "Develop proposals",
+        "Build client relationships"
+      ],
+      "ai_profile": {
+        "role": "Business Development Trainee",
+        "skills_required": [
+          "sales, negotiation, strategic thinking"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946203"
+      },
+      "role_name": "Market Research Trainee",
+      "description": "24. Market Research Trainee\nJob Description:\nAnalyzes market data to support business decisions.",
+      "required_skills": [
+        "data analysis, research tools"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Conduct surveys and research",
+        "Analyze consumer behavior",
+        "Prepare reports",
+        "Support strategy teams"
+      ],
+      "ai_profile": {
+        "role": "Market Research Trainee",
+        "skills_required": [
+          "data analysis, research tools"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946258"
+      },
+      "role_name": "Operations Management Trainee",
+      "description": "25. Operations Management Trainee\nJob Description:\nFocuses on improving operational efficiency and productivity.",
+      "required_skills": [
+        "process improvement, excel"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Monitor processes",
+        "Analyze KPIs",
+        "Improve workflows",
+        "Coordinate teams"
+      ],
+      "ai_profile": {
+        "role": "Operations Management Trainee",
+        "skills_required": [
+          "process improvement, excel"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946315"
+      },
+      "role_name": "Supply Chain Trainee",
+      "description": "26. Supply Chain Trainee\nJob Description:\nSupports supply chain planning and logistics.",
+      "required_skills": [
+        "supply chain knowledge, analytics"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Manage inventory flow",
+        "Coordinate suppliers",
+        "Track shipments",
+        "Analyze supply chain data"
+      ],
+      "ai_profile": {
+        "role": "Supply Chain Trainee",
+        "skills_required": [
+          "supply chain knowledge, analytics"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946375"
+      },
+      "role_name": "Logistics Trainee",
+      "description": "27. Logistics Trainee\nJob Description:\nHandles transportation and distribution processes.",
+      "required_skills": [
+        "logistics systems, coordination"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Plan deliveries",
+        "Track shipments",
+        "Coordinate logistics vendors",
+        "Optimize routes"
+      ],
+      "ai_profile": {
+        "role": "Logistics Trainee",
+        "skills_required": [
+          "logistics systems, coordination"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946434"
+      },
+      "role_name": "Procurement Trainee",
+      "description": "28. Procurement Trainee\nJob Description:\nSupports purchasing and vendor management.",
+      "required_skills": [
+        "negotiation, vendor management"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Identify suppliers",
+        "Negotiate prices",
+        "Process purchase orders",
+        "Maintain vendor records"
+      ],
+      "ai_profile": {
+        "role": "Procurement Trainee",
+        "skills_required": [
+          "negotiation, vendor management"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946492"
+      },
+      "role_name": "Inventory Management Trainee",
+      "description": "29. Inventory Management Trainee\nJob Description:\nManages stock levels and inventory control systems.",
+      "required_skills": [
+        "inventory tools, data analysis"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Track inventory",
+        "Maintain stock records",
+        "Forecast demand",
+        "Reduce wastage"
+      ],
+      "ai_profile": {
+        "role": "Inventory Management Trainee",
+        "skills_required": [
+          "inventory tools, data analysis"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946548"
+      },
+      "role_name": "Production Trainee",
+      "description": "30. Production Trainee\nJob Description:\nSupports manufacturing and production processes.",
+      "required_skills": [
+        "production planning, technical knowledge"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Monitor production lines",
+        "Ensure quality standards",
+        "Optimize production efficiency",
+        "Coordinate with engineering teams"
+      ],
+      "ai_profile": {
+        "role": "Production Trainee",
+        "skills_required": [
+          "production planning, technical knowledge"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946606"
+      },
+      "role_name": "IT Management Trainee",
+      "description": "31. IT Management Trainee\nJob Description:\nLearns IT operations, project management, and system administration.",
+      "required_skills": [
+        "it fundamentals, project management"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Support IT projects",
+        "Monitor systems",
+        "Coordinate with teams",
+        "Ensure system performance"
+      ],
+      "ai_profile": {
+        "role": "IT Management Trainee",
+        "skills_required": [
+          "it fundamentals, project management"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946663"
+      },
+      "role_name": "Business Analyst Trainee",
+      "description": "32. Business Analyst Trainee\nJob Description:\nBridges business needs and IT solutions.",
+      "required_skills": [
+        "analytical thinking, sql, communication"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Gather requirements",
+        "Analyze business processes",
+        "Prepare documentation",
+        "Support project delivery"
+      ],
+      "ai_profile": {
+        "role": "Business Analyst Trainee",
+        "skills_required": [
+          "analytical thinking, sql, communication"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946720"
+      },
+      "role_name": "Data Analyst Trainee",
+      "description": "33. Data Analyst Trainee\nJob Description:\nAnalyzes data to generate insights.",
+      "required_skills": [
+        "sql, excel, python, power bi"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Clean and analyze data",
+        "Create dashboards",
+        "Generate reports",
+        "Support decision-making"
+      ],
+      "ai_profile": {
+        "role": "Data Analyst Trainee",
+        "skills_required": [
+          "sql, excel, python, power bi"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946774"
+      },
+      "role_name": "Software Project Trainee",
+      "description": "34. Software Project Trainee\nJob Description:\nSupports software development lifecycle and project coordination.",
+      "required_skills": [
+        "sdlc, agile, communication"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in project planning",
+        "Track progress",
+        "Coordinate developers",
+        "Manage documentation"
+      ],
+      "ai_profile": {
+        "role": "Software Project Trainee",
+        "skills_required": [
+          "sdlc, agile, communication"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946832"
+      },
+      "role_name": "Systems Analyst Trainee",
+      "description": "35. Systems Analyst Trainee\nJob Description:\nAnalyzes IT systems and improves efficiency.",
+      "required_skills": [
+        "system analysis, sql"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Study system requirements",
+        "Suggest improvements",
+        "Support implementation",
+        "Document processes"
+      ],
+      "ai_profile": {
+        "role": "Systems Analyst Trainee",
+        "skills_required": [
+          "system analysis, sql"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946888"
+      },
+      "role_name": "Cybersecurity Trainee",
+      "description": "36. Cybersecurity Trainee\nJob Description:\nSupports security systems and protects IT infrastructure.",
+      "required_skills": [
+        "networking, ethical hacking basics"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Monitor security threats",
+        "Conduct vulnerability assessments",
+        "Assist in incident response",
+        "Maintain security protocols"
+      ],
+      "ai_profile": {
+        "role": "Cybersecurity Trainee",
+        "skills_required": [
+          "networking, ethical hacking basics"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.946963"
+      },
+      "role_name": "Production Management Trainee",
+      "description": "37. Production Management Trainee\nJob Description:\nTrains in managing production processes, ensuring efficiency, quality, and timely output in\nmanufacturing environments.",
+      "required_skills": [
+        "knowledge of manufacturing processes",
+        "production planning, lean manufacturing basics"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Monitor production schedules and output",
+        "Assist in process optimization",
+        "Ensure quality and safety standards",
+        "Coordinate with engineering and maintenance teams",
+        "Analyze production data"
+      ],
+      "ai_profile": {
+        "role": "Production Management Trainee",
+        "skills_required": [
+          "knowledge of manufacturing processes",
+          "production planning, lean manufacturing basics"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 2
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947040"
+      },
+      "role_name": "Quality Control Trainee",
+      "description": "38. Quality Control Trainee\nJob Description:\nFocuses on maintaining product quality by testing, inspection, and compliance with\nstandards.",
+      "required_skills": [
+        "analytical thinking",
+        "attention to detail",
+        "quality tools (six sigma basics, qc tools)"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Conduct quality checks and inspections",
+        "Maintain quality documentation",
+        "Identify defects and root causes",
+        "Support quality audits"
+      ],
+      "ai_profile": {
+        "role": "Quality Control Trainee",
+        "skills_required": [
+          "analytical thinking",
+          "attention to detail",
+          "quality tools (six sigma basics, qc tools)"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 3
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947109"
+      },
+      "role_name": "Plant Operations Trainee",
+      "description": "39. Plant Operations Trainee\nJob Description:\nLearns plant operations, maintenance coordination, and production workflows.",
+      "required_skills": [
+        "operations management",
+        "safety awareness",
+        "technical understanding of machinery"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Monitor plant activities",
+        "Assist in equipment maintenance planning",
+        "Ensure safety compliance",
+        "Optimize operational efficiency"
+      ],
+      "ai_profile": {
+        "role": "Plant Operations Trainee",
+        "skills_required": [
+          "operations management",
+          "safety awareness",
+          "technical understanding of machinery"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 3
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947173"
+      },
+      "role_name": "Industrial Engineering Trainee",
+      "description": "40. Industrial Engineering Trainee\nJob Description:\nWorks on process improvement, cost reduction, and efficiency optimization.",
+      "required_skills": [
+        "lean / six sigma basics",
+        "process optimization, data analysis"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Analyze workflows and processes",
+        "Improve productivity and reduce waste",
+        "Conduct time and motion studies",
+        "Support process automation"
+      ],
+      "ai_profile": {
+        "role": "Industrial Engineering Trainee",
+        "skills_required": [
+          "lean / six sigma basics",
+          "process optimization, data analysis"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 2
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947246"
+      },
+      "role_name": "Bank Management Trainee (Probationary Officer –",
+      "description": "41. Bank Management Trainee (Probationary Officer –\nPO)\nJob Description:\nTrains in banking operations, customer service, and financial product management in banks.",
+      "required_skills": [
+        "banking knowledge",
+        "communication and customer handling",
+        "numerical ability"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Handle customer accounts and transactions",
+        "Process loans and credit applications",
+        "Ensure compliance with banking regulations",
+        "Manage branch operations"
+      ],
+      "ai_profile": {
+        "role": "Bank Management Trainee (Probationary Officer –",
+        "skills_required": [
+          "banking knowledge",
+          "communication and customer handling",
+          "numerical ability"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 3
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947317"
+      },
+      "role_name": "Investment Banking Trainee",
+      "description": "42. Investment Banking Trainee\nJob Description:\nSupports capital market activities, mergers, acquisitions, and financial advisory.",
+      "required_skills": [
+        "advanced excel, powerpoint",
+        "financial modeling, valuation"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Prepare financial models",
+        "Conduct market and company research",
+        "Assist in deal execution",
+        "Create pitch decks"
+      ],
+      "ai_profile": {
+        "role": "Investment Banking Trainee",
+        "skills_required": [
+          "advanced excel, powerpoint",
+          "financial modeling, valuation"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 2
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947379"
+      },
+      "role_name": "Risk Management Trainee",
+      "description": "43. Risk Management Trainee\nJob Description:\nIdentifies and manages financial, operational, and credit risks.",
+      "required_skills": [
+        "analytical thinking",
+        "risk analysis, statistics"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Analyze risk exposure",
+        "Monitor risk metrics",
+        "Assist in risk reporting",
+        "Ensure compliance"
+      ],
+      "ai_profile": {
+        "role": "Risk Management Trainee",
+        "skills_required": [
+          "analytical thinking",
+          "risk analysis, statistics"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 2
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947448"
+      },
+      "role_name": "Insurance Management Trainee",
+      "description": "44. Insurance Management Trainee\nJob Description:\nHandles insurance operations, underwriting, and claims management.",
+      "required_skills": [
+        "communication and analysis",
+        "insurance knowledge"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Process insurance applications",
+        "Assist in underwriting",
+        "Handle claims",
+        "Maintain customer relations"
+      ],
+      "ai_profile": {
+        "role": "Insurance Management Trainee",
+        "skills_required": [
+          "communication and analysis",
+          "insurance knowledge"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 2
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947513"
+      },
+      "role_name": "Retail Management Trainee",
+      "description": "45. Retail Management Trainee\nJob Description:",
+      "required_skills": [
+        "customer service, sales",
+        "retail operations knowledge"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Manage store operations",
+        "Monitor sales and inventory",
+        "Ensure customer satisfaction",
+        "Implement promotions"
+      ],
+      "ai_profile": {
+        "role": "Retail Management Trainee",
+        "skills_required": [
+          "customer service, sales",
+          "retail operations knowledge"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 2
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947756"
+      },
+      "role_name": "Store Operations Trainee",
+      "description": "46. Store Operations Trainee\nJob Description:\nSupports daily store activities and team coordination.",
+      "required_skills": [
+        "leadership, communication"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Supervise store staff",
+        "Maintain inventory",
+        "Ensure store compliance",
+        "Handle customer queries"
+      ],
+      "ai_profile": {
+        "role": "Store Operations Trainee",
+        "skills_required": [
+          "leadership, communication"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947864"
+      },
+      "role_name": "Category Management Trainee",
+      "description": "47. Category Management Trainee\nJob Description:\nManages product categories, pricing, and assortment strategies.",
+      "required_skills": [
+        "data analysis, business acumen"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Analyze sales data",
+        "Plan product assortment",
+        "Coordinate with suppliers",
+        "Optimize pricing strategies"
+      ],
+      "ai_profile": {
+        "role": "Category Management Trainee",
+        "skills_required": [
+          "data analysis, business acumen"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.947930"
+      },
+      "role_name": "E-commerce Operations Trainee",
+      "description": "48. E-commerce Operations Trainee\nJob Description:\nHandles online business operations and digital sales channels.",
+      "required_skills": [
+        "commerce tools, analytics"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Manage product listings",
+        "Track orders and fulfillment",
+        "Analyze online sales",
+        "Optimize website performance"
+      ],
+      "ai_profile": {
+        "role": "E-commerce Operations Trainee",
+        "skills_required": [
+          "commerce tools, analytics"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948004"
+      },
+      "role_name": "Hotel Management Trainee",
+      "description": "49. Hotel Management Trainee\nJob Description:\nTrains in hotel operations including front office, housekeeping, and F&B services.",
+      "required_skills": [
+        "communication, customer service"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in guest services",
+        "Coordinate hotel departments",
+        "Ensure service quality",
+        "Handle reservations"
+      ],
+      "ai_profile": {
+        "role": "Hotel Management Trainee",
+        "skills_required": [
+          "communication, customer service"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948063"
+      },
+      "role_name": "Food & Beverage Trainee",
+      "description": "50. Food & Beverage Trainee\nJob Description:\nFocuses on restaurant and catering operations.",
+      "required_skills": [],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in service delivery",
+        "Manage food quality standards",
+        "Coordinate kitchen and service staff",
+        "Handle customer feedback"
+      ],
+      "ai_profile": {
+        "role": "Food & Beverage Trainee",
+        "skills_required": [],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 0
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948122"
+      },
+      "role_name": "Front Office Trainee",
+      "description": "51. Front Office Trainee\nJob Description:\nHandles guest interaction and front desk operations.",
+      "required_skills": [
+        "communication, problem",
+        "solving"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Manage check-ins/check-outs",
+        "Handle reservations",
+        "Address guest queries",
+        "Maintain records"
+      ],
+      "ai_profile": {
+        "role": "Front Office Trainee",
+        "skills_required": [
+          "communication, problem",
+          "solving"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 2
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948231"
+      },
+      "role_name": "Hospitality Operations Trainee",
+      "description": "52. Hospitality Operations Trainee\nJob Description:\nOversees multiple hospitality functions and ensures smooth operations.",
+      "required_skills": [
+        "leadership, operations management"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Coordinate departments",
+        "Ensure service standards",
+        "Monitor operations"
+      ],
+      "ai_profile": {
+        "role": "Hospitality Operations Trainee",
+        "skills_required": [
+          "leadership, operations management"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948316"
+      },
+      "role_name": "Hospital Management Trainee",
+      "description": "53. Hospital Management Trainee\nJob Description:\nSupports hospital administration and healthcare operations.",
+      "required_skills": [
+        "communication, organization",
+        "healthcare management"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Manage patient services",
+        "Coordinate departments",
+        "Ensure compliance",
+        "Improve hospital processes"
+      ],
+      "ai_profile": {
+        "role": "Hospital Management Trainee",
+        "skills_required": [
+          "communication, organization",
+          "healthcare management"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 2
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948389"
+      },
+      "role_name": "Pharmaceutical Management Trainee",
+      "description": "54. Pharmaceutical Management Trainee\nJob Description:\nWorks in pharma sales, operations, and regulatory functions.",
+      "required_skills": [
+        "pharma knowledge, sales"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Support product marketing",
+        "Coordinate with healthcare professionals",
+        "Ensure regulatory compliance",
+        "Analyze sales performance"
+      ],
+      "ai_profile": {
+        "role": "Pharmaceutical Management Trainee",
+        "skills_required": [
+          "pharma knowledge, sales"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948485"
+      },
+      "role_name": "Healthcare Operations Trainee",
+      "description": "55. Healthcare Operations Trainee\nJob Description:\nFocuses on improving healthcare delivery systems and operational efficiency.",
+      "required_skills": [
+        "operations management, analytics"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Analyze healthcare workflows",
+        "Support hospital operations"
+      ],
+      "ai_profile": {
+        "role": "Healthcare Operations Trainee",
+        "skills_required": [
+          "operations management, analytics"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 1
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948665"
+      },
+      "role_name": "Data Science Trainee",
+      "description": "56. Data Science Trainee\nJob Description:\nA Data Science Trainee works on analyzing structured and unstructured data to generate\ninsights that support business decisions. The role involves learning statistical modeling,\nmachine learning basics, and data visualization.",
+      "required_skills": [
+        "analytical thinking",
+        "data visualization (power bi, tableau)",
+        "machine learning basics",
+        "python / r, sql",
+        "statistics and probability"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Collect, clean, and preprocess data",
+        "Perform exploratory data analysis (EDA)",
+        "Build basic predictive models",
+        "Create dashboards and reports",
+        "Support data-driven decision-making"
+      ],
+      "ai_profile": {
+        "role": "Data Science Trainee",
+        "skills_required": [
+          "analytical thinking",
+          "data visualization (power bi, tableau)",
+          "machine learning basics",
+          "python / r, sql",
+          "statistics and probability"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": false,
+        "total_skills_count": 5
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948846"
+      },
+      "role_name": "AI/ML Business Trainee",
+      "description": "57. AI/ML Business Trainee\nJob Description:\nBridges AI/ML capabilities with business needs by assisting in implementing AI-driven\nsolutions across functions.",
+      "required_skills": [
+        "ai/ml fundamentals",
+        "business analysis",
+        "communication and problem",
+        "data interpretation",
+        "python basics",
+        "solving"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Understand business problems and map AI solutions",
+        "Assist in AI/ML model deployment",
+        "Work with data scientists and business teams",
+        "Analyze AI model outcomes",
+        "Support automation initiatives"
+      ],
+      "ai_profile": {
+        "role": "AI/ML Business Trainee",
+        "skills_required": [
+          "ai/ml fundamentals",
+          "business analysis",
+          "communication and problem",
+          "data interpretation",
+          "python basics",
+          "solving"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": true,
+        "total_skills_count": 6
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.948960"
+      },
+      "role_name": "Product Management Trainee",
+      "description": "58. Product Management Trainee\nJob Description:\nSupports product lifecycle management, from ideation to launch, ensuring alignment with\ncustomer needs and business goals.",
+      "required_skills": [
+        "agile methodologies",
+        "basic ux understanding",
+        "communication and stakeholder management",
+        "product thinking"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in product planning and roadmap",
+        "Gather and analyze customer requirements",
+        "Coordinate with engineering, design, and marketing teams",
+        "Track product performance",
+        "Support product launches"
+      ],
+      "ai_profile": {
+        "role": "Product Management Trainee",
+        "skills_required": [
+          "agile methodologies",
+          "basic ux understanding",
+          "communication and stakeholder management",
+          "product thinking"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": true,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.949055"
+      },
+      "role_name": "Strategy Trainee",
+      "description": "59. Strategy Trainee\nJob Description:\nWorks on business strategy, market expansion, and competitive analysis to support senior\nleadership in decision-making.",
+      "required_skills": [
+        "data analysis",
+        "research and problem",
+        "solving",
+        "strategic thinking"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Conduct market and competitor analysis",
+        "Prepare strategic reports and presentations",
+        "Analyze business performance metrics",
+        "Support strategic planning initiatives",
+        "Assist leadership in decision-making"
+      ],
+      "ai_profile": {
+        "role": "Strategy Trainee",
+        "skills_required": [
+          "data analysis",
+          "research and problem",
+          "solving",
+          "strategic thinking"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.949140"
+      },
+      "role_name": "Innovation Management Trainee",
+      "description": "60. Innovation Management Trainee\nJob Description:\nFocuses on identifying new ideas, technologies, and business models to drive innovation\nwithin the organization.",
+      "required_skills": [
+        "creativity and design thinking",
+        "problem",
+        "related programs",
+        "research and analysis",
+        "solving"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Research emerging trends and technologies",
+        "Support innovation projects",
+        "Collaborate with cross-functional teams",
+        "Conduct feasibility studies",
+        "Develop prototypes or pilot projects"
+      ],
+      "ai_profile": {
+        "role": "Innovation Management Trainee",
+        "skills_required": [
+          "creativity and design thinking",
+          "problem",
+          "related programs",
+          "research and analysis",
+          "solving"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 5
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.949273"
+      },
+      "role_name": "Sustainability / ESG Trainee",
+      "description": "61. Sustainability / ESG Trainee\nJob Description:\nWorks on environmental, social, and governance (ESG) initiatives to ensure sustainable and\nresponsible business practices.",
+      "required_skills": [
+        "data analysis and reporting",
+        "esg frameworks knowledge",
+        "research and compliance understanding"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Track sustainability metrics and reports",
+        "Assist in ESG compliance and audits",
+        "Develop sustainability initiatives",
+        "Analyze environmental impact",
+        "Support CSR programs"
+      ],
+      "ai_profile": {
+        "role": "Sustainability / ESG Trainee",
+        "skills_required": [
+          "data analysis and reporting",
+          "esg frameworks knowledge",
+          "research and compliance understanding"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 3
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.949368"
+      },
+      "role_name": "Digital Transformation Trainee",
+      "description": "62. Digital Transformation Trainee\nJob Description:\nSupports digital initiatives aimed at improving business processes through technology,\nautomation, and digital tools.",
+      "required_skills": [
+        "basic it knowledge",
+        "business analysis",
+        "change management",
+        "digital tools (erp, crm)",
+        "process improvement"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in digital transformation projects",
+        "Analyze current processes and identify automation opportunities",
+        "Work with IT and business teams",
+        "Implement digital tools and platforms",
+        "Monitor transformation outcomes"
+      ],
+      "ai_profile": {
+        "role": "Digital Transformation Trainee",
+        "skills_required": [
+          "basic it knowledge",
+          "business analysis",
+          "change management",
+          "digital tools (erp, crm)",
+          "process improvement"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": true,
+        "total_skills_count": 5
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.949478"
+      },
+      "role_name": "Public Sector Management Trainee (PSU MT)",
+      "description": "63. Public Sector Management Trainee (PSU MT)\nJob Description:\nPublic Sector Management Trainees are recruited by government-owned enterprises (PSUs)\nand trained across functions such as operations, finance, HR, and projects. They are groomed\nfor future managerial roles in large public sector organizations.",
+      "required_skills": [
+        "basic project management",
+        "communication and teamwork",
+        "knowledge of public sector regulations",
+        "understanding of core engineering/business functions"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Undergo structured training across departments",
+        "Assist in project execution and operations",
+        "Monitor KPIs and prepare reports",
+        "Ensure compliance with government policies and regulations",
+        "Support strategic and administrative functions"
+      ],
+      "ai_profile": {
+        "role": "Public Sector Management Trainee (PSU MT)",
+        "skills_required": [
+          "basic project management",
+          "communication and teamwork",
+          "knowledge of public sector regulations",
+          "understanding of core engineering/business functions"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": true,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.949620"
+      },
+      "role_name": "Administrative Trainee",
+      "description": "64. Administrative Trainee\nJob Description:\nAdministrative Trainees work in government departments or public institutions, supporting\nadministrative operations, documentation, and coordination.",
+      "required_skills": [
+        "communication and documentation",
+        "knowledge of government procedures",
+        "ms office proficiency",
+        "time management"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Manage office administration and records",
+        "Assist in policy implementation",
+        "Coordinate between departments",
+        "Prepare official documents and reports",
+        "Support public service delivery"
+      ],
+      "ai_profile": {
+        "role": "Administrative Trainee",
+        "skills_required": [
+          "communication and documentation",
+          "knowledge of government procedures",
+          "ms office proficiency",
+          "time management"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.949829"
+      },
+      "role_name": "Government Project Trainee",
+      "description": "65. Government Project Trainee\nJob Description:",
+      "required_skills": [
+        "coordination and stakeholder management",
+        "data analysis and reporting",
+        "problem",
+        "project management",
+        "solving"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in project planning and execution",
+        "Monitor project progress and timelines",
+        "Coordinate with stakeholders and contractors",
+        "Prepare project reports and documentation",
+        "Ensure compliance with government guidelines"
+      ],
+      "ai_profile": {
+        "role": "Government Project Trainee",
+        "skills_required": [
+          "coordination and stakeholder management",
+          "data analysis and reporting",
+          "problem",
+          "project management",
+          "solving"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 5
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.949929"
+      },
+      "role_name": "Public Policy Trainee",
+      "description": "66. Public Policy Trainee\nJob Description:\nSupports policy research, analysis, and implementation in government bodies, think tanks,\nand NGOs.",
+      "required_skills": [
+        "data interpretation",
+        "knowledge of public policy and governance",
+        "writing and communication"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Conduct policy research and analysis",
+        "Prepare policy briefs and reports",
+        "Analyze socio-economic data",
+        "Assist in policy formulation",
+        "Support stakeholder consultations"
+      ],
+      "ai_profile": {
+        "role": "Public Policy Trainee",
+        "skills_required": [
+          "data interpretation",
+          "knowledge of public policy and governance",
+          "writing and communication"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 3
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950026"
+      },
+      "role_name": "Management Consulting Trainee",
+      "description": "67. Management Consulting Trainee\nJob Description:\nA Management Consulting Trainee supports consulting teams in solving business problems\nfor clients across industries. The role involves research, data analysis, and assisting in\ndeveloping strategic recommendations.",
+      "required_skills": [
+        "advanced excel and powerpoint",
+        "strong business acumen",
+        "structured thinking"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Conduct industry and market research",
+        "Analyze business data and performance metrics",
+        "Assist in preparing client presentations and reports",
+        "Support problem-solving frameworks and case analysis",
+        "Participate in client meetings and discussions"
+      ],
+      "ai_profile": {
+        "role": "Management Consulting Trainee",
+        "skills_required": [
+          "advanced excel and powerpoint",
+          "strong business acumen",
+          "structured thinking"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": true,
+        "total_skills_count": 3
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950118"
+      },
+      "role_name": "Strategy Analyst Trainee",
+      "description": "68. Strategy Analyst Trainee\nJob Description:\nFocuses on internal corporate strategy, helping organizations plan growth, expansion, and\ncompetitive positioning.",
+      "required_skills": [
+        "data analysis and financial understanding",
+        "presentation and communication",
+        "strategic thinking"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Conduct competitor and market analysis",
+        "Analyze financial and operational data",
+        "Support strategic planning initiatives",
+        "Prepare dashboards and reports",
+        "Assist leadership in decision-making"
+      ],
+      "ai_profile": {
+        "role": "Strategy Analyst Trainee",
+        "skills_required": [
+          "data analysis and financial understanding",
+          "presentation and communication",
+          "strategic thinking"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": true,
+        "total_skills_count": 3
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950210"
+      },
+      "role_name": "Business Transformation Trainee",
+      "description": "69. Business Transformation Trainee\nJob Description:\nWorks on improving business processes, driving digital transformation, and implementing\nchange management initiatives.",
+      "required_skills": [
+        "analytical thinking",
+        "change management",
+        "process improvement (lean, six sigma basics)",
+        "project management"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Analyze current business processes",
+        "Identify inefficiencies and improvement areas",
+        "Support transformation projects",
+        "Work with cross-functional teams",
+        "Track project outcomes and KPIs"
+      ],
+      "ai_profile": {
+        "role": "Business Transformation Trainee",
+        "skills_required": [
+          "analytical thinking",
+          "change management",
+          "process improvement (lean, six sigma basics)",
+          "project management"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": true,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950296"
+      },
+      "role_name": "Corporate Planning Trainee",
+      "description": "70. Corporate Planning Trainee\nJob Description:\nSupports corporate planning functions including budgeting, forecasting, and long-term\nbusiness planning.",
+      "required_skills": [
+        "data interpretation",
+        "excel and reporting tools",
+        "financial analysis and planning",
+        "strategic thinking"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "MBA",
+        "fields_of_study": [],
+        "mba_preferred": true
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Assist in annual business planning and budgeting",
+        "Analyze financial and operational performance",
+        "Prepare management reports and presentations",
+        "Support strategic initiatives",
+        "Monitor KPIs and business metrics"
+      ],
+      "ai_profile": {
+        "role": "Corporate Planning Trainee",
+        "skills_required": [
+          "data interpretation",
+          "excel and reporting tools",
+          "financial analysis and planning",
+          "strategic thinking"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "Bachelor's Degree",
+        "mba_preferred": true,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950372"
+      },
+      "role_name": "Management Trainee",
+      "description": "71. Management Trainee\nJob Description:\nEntry-level role designed to develop future managers through structured training across\nmultiple departments.",
+      "required_skills": [
+        "analytical thinking",
+        "basic business understanding",
+        "communication and teamwork",
+        "ms excel and powerpoint"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Participate in training programs and job rotations",
+        "Assist in daily operations and projects",
+        "Analyze data and prepare reports",
+        "Support senior team members"
+      ],
+      "ai_profile": {
+        "role": "Management Trainee",
+        "skills_required": [
+          "analytical thinking",
+          "basic business understanding",
+          "communication and teamwork",
+          "ms excel and powerpoint"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950444"
+      },
+      "role_name": "Junior Executive / Analyst",
+      "description": "72. Junior Executive / Analyst\nJob Description:\nHandles basic operational or analytical tasks with supervision, focusing on execution and\nreporting.",
+      "required_skills": [
+        "basic domain knowledge",
+        "data analysis",
+        "problem",
+        "solving",
+        "time management"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Execute assigned tasks and processes",
+        "Prepare reports and dashboards",
+        "Assist in decision-making with data insights",
+        "Coordinate with team members"
+      ],
+      "ai_profile": {
+        "role": "Junior Executive / Analyst",
+        "skills_required": [
+          "basic domain knowledge",
+          "data analysis",
+          "problem",
+          "solving",
+          "time management"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 5
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950516"
+      },
+      "role_name": "Executive / Associate",
+      "description": "73. Executive / Associate\nJob Description:\nTakes ownership of specific functions or projects and contributes to business performance.",
+      "required_skills": [
+        "analytical thinking",
+        "communication and coordination",
+        "decision",
+        "functional expertise",
+        "making"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Manage day-to-day operations",
+        "Handle client or internal stakeholder communication",
+        "Deliver project tasks independently",
+        "Improve processes and efficiency"
+      ],
+      "ai_profile": {
+        "role": "Executive / Associate",
+        "skills_required": [
+          "analytical thinking",
+          "communication and coordination",
+          "decision",
+          "functional expertise",
+          "making"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 5
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950583"
+      },
+      "role_name": "Senior Executive / Senior Analyst",
+      "description": "74. Senior Executive / Senior Analyst\nJob Description:\nHandles complex tasks, leads small teams, and contributes to strategic initiatives.",
+      "required_skills": [
+        "leadership and mentoring",
+        "problem",
+        "solving",
+        "strategic thinking"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Lead projects or modules",
+        "Analyze complex data and provide insights",
+        "Mentor junior team members",
+        "Improve business processes"
+      ],
+      "ai_profile": {
+        "role": "Senior Executive / Senior Analyst",
+        "skills_required": [
+          "leadership and mentoring",
+          "problem",
+          "solving",
+          "strategic thinking"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950653"
+      },
+      "role_name": "Assistant Manager",
+      "description": "75. Assistant Manager\nJob Description:\nSupervises teams and manages operations within a department while contributing to business\nplanning.",
+      "required_skills": [
+        "business understanding",
+        "conflict resolution",
+        "decision",
+        "leadership and people management",
+        "making"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Manage team performance",
+        "Ensure operational efficiency",
+        "Support strategic initiatives",
+        "Coordinate cross-functional teams"
+      ],
+      "ai_profile": {
+        "role": "Assistant Manager",
+        "skills_required": [
+          "business understanding",
+          "conflict resolution",
+          "decision",
+          "leadership and people management",
+          "making"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 5
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950719"
+      },
+      "role_name": "Manager",
+      "description": "76. Manager\nJob Description:\nResponsible for managing departments, driving performance, and achieving business targets.",
+      "required_skills": [
+        "financial understanding",
+        "stakeholder management",
+        "strategic planning",
+        "strong leadership"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Set team goals and KPIs",
+        "Manage budgets and resources",
+        "Drive business growth initiatives",
+        "Lead cross-functional projects"
+      ],
+      "ai_profile": {
+        "role": "Manager",
+        "skills_required": [
+          "financial understanding",
+          "stakeholder management",
+          "strategic planning",
+          "strong leadership"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 4
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950786"
+      },
+      "role_name": "Senior Manager",
+      "description": "77. Senior Manager\nJob Description:\nLeads large teams or multiple departments and plays a key role in strategic decision-making.",
+      "required_skills": [
+        "advanced decision",
+        "business acumen",
+        "change management",
+        "making",
+        "strategic leadership"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Develop and execute business strategies",
+        "Manage multiple teams or units",
+        "Drive organizational growth",
+        "Align operations with company goals"
+      ],
+      "ai_profile": {
+        "role": "Senior Manager",
+        "skills_required": [
+          "advanced decision",
+          "business acumen",
+          "change management",
+          "making",
+          "strategic leadership"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 5
+      }
+    },
+    {
+      "metadata": {
+        "source_file": "management_trainee.pdf",
+        "parsed_at": "2026-05-15T14:14:43.950864"
+      },
+      "role_name": "General Manager / Director",
+      "description": "78. General Manager / Director\nJob Description:\nSenior leadership role responsible for overall business performance, strategy, and\norganizational success.",
+      "required_skills": [
+        "high",
+        "level decision",
+        "making",
+        "stakeholder and board management",
+        "strategic and financial expertise",
+        "visionary leadership"
+      ],
+      "experience": {
+        "min_years": 0,
+        "max_years": null,
+        "description": "",
+        "fresher_eligible": false
+      },
+      "education": {
+        "min_degree": "",
+        "preferred_degree": "",
+        "fields_of_study": [],
+        "mba_preferred": false
+      },
+      "salary": {
+        "india": "",
+        "international": "",
+        "currency": "",
+        "raw": ""
+      },
+      "responsibilities": [
+        "Define long-term strategy",
+        "Oversee entire business units",
+        "Drive profitability and growth",
+        "Represent organization at executive level"
+      ],
+      "ai_profile": {
+        "role": "General Manager / Director",
+        "skills_required": [
+          "high",
+          "level decision",
+          "making",
+          "stakeholder and board management",
+          "strategic and financial expertise",
+          "visionary leadership"
+        ],
+        "min_experience_years": 0,
+        "max_experience_years": null,
+        "fresher_eligible": false,
+        "min_education": "",
+        "mba_preferred": false,
+        "total_skills_count": 6
+      }
+    }
+  ]
+}
