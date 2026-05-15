@@ -1,0 +1,27 @@
+Priya Nair
+priya.nair@design.io  |  +91 94321 87650  |  Kochi, Kerala  |  behance.net/priyanair
+OBJECTIVE
+Product-focused UI/UX Designer with 3 years of experience creating intuitive, user-centred digital experiences for web and mobile platforms. Skilled in the full design process from user research and wireframing through to high-fidelity prototyping and handoff.
+DESIGN SKILLS
+WORK EXPERIENCE
+UI/UX Designer  -  Tata Consultancy Services, Kochi  Mar 2022 - Present
+Led end-to-end redesign of a banking mobile app used by 1.2M customers - 28% retention improvement
+Conducted 40+ user interviews and synthesised findings into actionable design decisions
+Built and maintained a design system with 80+ reusable components across 3 product teams
+Reduced design-to-development handoff time by 30% by introducing structured Zeplin workflows
+Junior UX Designer  -  Creative Studio Kochi  Jan 2021 - Feb 2022
+Designed wireframes and prototypes for 6 client websites and 2 mobile apps
+Ran usability testing sessions and iterated designs based on user feedback
+EDUCATION
+B.Des Visual Communication  |  NIFT Bangalore  2017 - 2021  |  CGPA: 8.9 / 10
+CERTIFICATIONS
+Google UX Design Professional Certificate  (2022)
+Interaction Design Foundation - UX Research  (2022)
+PORTFOLIO HIGHLIGHTS
+ZecPath Hiring Portal Redesign - increased application completion rate by 22%
+HealthTrack Mobile App - won Best UX at Kerala Design Fest 2023
+Design Tools  Figma, Adobe XD, Sketch, InVision
+Prototyping  Figma Prototypes, Marvel, Zeplin, Principle
+Research Methods  User Interviews, Usability Testing, Card Sorting, A/B Testing
+Visual Design  Typography, Colour Theory, Iconography, Motion Design
+Front-End (basic)  HTML, CSS, Basic React - enough to collaborate with engineers

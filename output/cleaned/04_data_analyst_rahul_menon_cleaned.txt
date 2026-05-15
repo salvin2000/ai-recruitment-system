@@ -1,0 +1,30 @@
+Rahul Menon
+rahul.menon@analytics.com  |  +91 91234 56780  |  Hyderabad, India  |  kaggle.com/rahulmenon
+PROFESSIONAL SUMMARY
+Data Analyst with 3.5 years of experience transforming raw business data into actionable insights. Proficient in Python, SQL, and Power BI. Track record of building dashboards and reports that directly influenced product and revenue decisions worth over Rs. 50 Cr.
+TECHNICAL SKILLS
+WORK EXPERIENCE
+Data Analyst  -  Swiggy, Hyderabad  Apr 2021 - Present
+Built Power BI dashboards tracking 15 KPIs for the supply chain team - used in weekly leadership reviews
+Identified delivery inefficiency pattern saving Rs. 1.2 Cr/month through route optimisation analysis
+Automated weekly reporting pipeline using Python + Airflow, saving 12 analyst-hours/week
+Conducted cohort analysis on 500K+ customer records to improve retention campaign targeting
+Collaborated with product and engineering teams to define and implement data tracking events
+Data Analyst Intern  -  HDFC Bank, Hyderabad  Jul 2020 - Mar 2021
+Analysed credit card transaction data to identify fraud patterns using SQL and Python
+Built Excel-based reporting templates adopted by the risk analytics team
+EDUCATION
+B.Sc Statistics  |  University of Hyderabad  2017 - 2020  |  First Class - 78%
+PG Diploma in Data Science  |  IIIT Hyderabad  2020 - 2021  |  Grade: A
+CERTIFICATIONS
+Google Data Analytics Professional Certificate  (2022)
+Microsoft Power BI Data Analyst Associate  (2023)
+SQL for Data Science - UC Davis / Coursera  (2021)
+NOTABLE PROJECTS
+Customer Churn Prediction Model - 84% accuracy using Random Forest; deployed as Flask API
+IPL Match Outcome Analysis - Kaggle notebook with 3,400+ upvotes
+Languages  Python (Pandas, NumPy, Matplotlib, Seaborn), SQL, R (basic)
+BI & Visualisation  Power BI, Tableau, Google Data Studio, Excel (Advanced)
+Databases  MySQL, PostgreSQL, BigQuery, Snowflake
+ML & Stats  Scikit-learn, Regression, Classification, Clustering, Hypothesis Testing
+Tools  Jupyter Notebook, Git, Airflow (basic), dbt (basic)

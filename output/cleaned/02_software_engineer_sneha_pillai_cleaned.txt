@@ -1,0 +1,26 @@
+Sneha Pillai
+sneha.pillai@dev.io  |  +91 87654 32109  |  Pune, India  |  github.com/snehapillai
+PROFILE
+Frontend Software Engineer with 3 years of experience building responsive, accessible web applications using React and TypeScript. Experienced in design system implementation, performance optimisation, and collaborating with product and design teams in agile environments.
+TECHNICAL SKILLS
+Frontend: React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Redux
+Testing: Jest, React Testing Library, Cypress (E2E)
+Tools: Git, Webpack, Vite, Figma, Storybook, JIRA
+Backend (basic): Node.js, Express.js, REST API consumption
+EXPERIENCE
+Frontend Engineer  -  Freshworks, Pune  Aug 2022 - Present
+Built and maintained 12 React components for the CRM product used by 40,000+ customers
+Implemented lazy loading and code splitting; reduced initial bundle size by 42%
+Developed accessible UI components meeting WCAG 2.1 AA standards
+Collaborated with UX team to migrate legacy jQuery codebase to React - completed in 3 sprints
+Junior Frontend Developer  -  StartupXYZ, Pune  Jun 2021 - Jul 2022
+Developed landing pages and dashboards using React and Tailwind CSS
+Integrated third-party APIs (Razorpay, Google Maps, Firebase Auth)
+EDUCATION
+B.E. Information Technology  |  Pune University  2017 - 2021  |  First Class with Distinction
+CERTIFICATIONS
+Meta Frontend Developer Professional Certificate  (2023)
+JavaScript Algorithms and Data Structures - freeCodeCamp  (2021)
+OPEN SOURCE
+Contributor to react-hook-form: fixed 3 accessibility bugs (merged PRs)
+Maintained personal UI component library with 200+ GitHub stars
