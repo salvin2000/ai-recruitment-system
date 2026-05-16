@@ -1,0 +1,36 @@
+Sneha Pillai
+Data Analyst
+sneha.pillai@gmail.com | 9845123456 | linkedin.com/in/snehapillai
+Mumbai, Maharashtra
+
+Professional Summary
+Detail-oriented Data Analyst with 2 years of experience in business intelligence.
+
+Core Competencies
+SQL, Python, Power BI, Tableau, Excel, Statistical Analysis
+
+Professional Experience
+Data Analyst - Analytics Corp, Mumbai
+March 2022 - Present
+- Designed 15+ Power BI dashboards for senior management
+- Reduced manual reporting time by 60% through Python automation
+
+Educational Background
+Master of Science - Statistics
+University of Mumbai | 2019 - 2021
+Percentage: 78%
+
+Certifications & Training
+- Google Data Analytics Professional Certificate (2022)
+- Microsoft Power BI Associate (2023)
+
+Key Projects
+Sales Dashboard Automation
+- Automated monthly sales reporting saving 20 hours/month
+
+Achievements & Awards
+- Best Employee Award Q3 2023
+
+Languages Known
+English - Professional
+Hindi - Native

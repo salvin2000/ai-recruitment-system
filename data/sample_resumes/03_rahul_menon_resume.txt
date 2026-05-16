@@ -1,0 +1,36 @@
+Rahul Menon
+B.Tech Computer Science | Fresher
+rahul.menon@gmail.com | +91-8765432109 | github.com/rahulmenon
+Kochi, Kerala
+
+Objective
+Fresher seeking software developer role to apply technical skills.
+
+Skills
+Python, Java, HTML, CSS, MySQL, Git, Linux
+
+Academic Projects
+Library Management System
+- Built using Python and MySQL
+- Features: book search, issue/return tracking
+
+Student Result Analysis
+- Data analysis using Python and Pandas
+- Generated automated PDF reports
+
+Education
+Bachelor of Technology - Computer Science
+Model Engineering College, Kochi | 2019-2023
+CGPA: 7.8 / 10
+
+Certifications
+- Python Programming - NPTEL (2022)
+- Web Development Bootcamp - Udemy (2023)
+
+Achievements
+- Second Prize in College Hackathon 2022
+- Active member of Google Developer Student Club
+
+Hobbies & Interests
+- Open Source Contribution
+- Competitive Programming

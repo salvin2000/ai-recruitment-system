@@ -1,0 +1,24 @@
+{
+  "report_generated_at": "2026-05-16T21:55:10.377468",
+  "resumes_processed": 3,
+  "total_sections": 23,
+  "detected_sections": 23,
+  "average_accuracy": 100.0,
+  "accuracy_per_resume": [
+    100.0,
+    100.0,
+    100.0
+  ],
+  "section_frequency": {
+    "header": 3,
+    "skills": 3,
+    "work_experience": 2,
+    "education": 3,
+    "certifications": 3,
+    "projects": 3,
+    "achievements": 3,
+    "languages": 2,
+    "hobbies": 1
+  },
+  "most_common_section": "header"
+}

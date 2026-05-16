@@ -1,0 +1,37 @@
+Arjun Krishnan
+Software Engineer
+arjun.krishnan@email.com | +91-9876543210 | linkedin.com/in/arjunkrishnan
+Bangalore, Karnataka, India
+
+Summary
+Experienced Software Engineer with 3 years of experience in Python and Machine Learning.
+
+Technical Skills
+Python, Java, JavaScript, SQL, TensorFlow, Docker, AWS, Git
+
+Work Experience
+Software Engineer - TechCorp India Pvt Ltd, Bangalore
+June 2022 - Present
+- Developed RESTful APIs using Django REST Framework
+- Implemented Machine Learning models for customer churn prediction
+
+Education
+Bachelor of Technology - Computer Science Engineering
+RV College of Engineering, Bangalore | 2017 - 2021
+CGPA: 8.4 / 10
+
+Certifications
+- AWS Certified Developer Associate (2023)
+- Machine Learning Specialization - Coursera (2022)
+
+Projects
+AI Resume Screening System
+- Built NLP-based resume parser using Python and spaCy
+- Tech Stack: Python, Flask, PostgreSQL
+
+Achievements
+- Winner of TechFest Hackathon 2023
+
+Languages
+English - Fluent
+Hindi - Fluent

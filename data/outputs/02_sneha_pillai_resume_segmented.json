@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "segmented_at": "2026-05-16T21:55:10.367672",
+    "segmenter_version": "1.0",
+    "total_sections": 8,
+    "detected_sections": 8,
+    "accuracy": 100.0,
+    "section_types_found": [
+      "header",
+      "skills",
+      "work_experience",
+      "education",
+      "certifications",
+      "projects",
+      "achievements",
+      "languages"
+    ],
+    "source_file": "02_sneha_pillai_resume.txt"
+  },
+  "sections": [
+    {
+      "type": "header",
+      "heading": "Header",
+      "content": [
+        "Sneha Pillai",
+        "Data Analyst",
+        "sneha.pillai@gmail.com | 9845123456 | linkedin.com/in/snehapillai",
+        "Mumbai, Maharashtra",
+        "",
+        "Professional Summary",
+        "Detail-oriented Data Analyst with 2 years of experience in business intelligence.",
+        ""
+      ],
+      "line_start": 0,
+      "line_end": 8,
+      "header_info": {
+        "name": "Sneha Pillai",
+        "email": "sneha.pillai@gmail.com",
+        "phone": "9845123456",
+        "linkedin": "linkedin.com/in/snehapillai",
+        "github": ""
+      }
+    },
+    {
+      "type": "skills",
+      "heading": "Core Competencies",
+      "content": [
+        "SQL, Python, Power BI, Tableau, Excel, Statistical Analysis"
+      ],
+      "line_start": 8,
+      "line_end": 11
+    },
+    {
+      "type": "work_experience",
+      "heading": "Professional Experience",
+      "content": [
+        "Data Analyst - Analytics Corp, Mumbai",
+        "March 2022 - Present",
+        "Designed 15+ Power BI dashboards for senior management",
+        "Reduced manual reporting time by 60% through Python automation"
+      ],
+      "line_start": 11,
+      "line_end": 17
+    },
+    {
+      "type": "education",
+      "heading": "Educational Background",
+      "content": [
+        "Master of Science - Statistics",
+        "University of Mumbai | 2019 - 2021",
+        "Percentage: 78%"
+      ],
+      "line_start": 17,
+      "line_end": 22
+    },
+    {
+      "type": "certifications",
+      "heading": "Certifications & Training",
+      "content": [
+        "Google Data Analytics Professional Certificate (2022)",
+        "Microsoft Power BI Associate (2023)"
+      ],
+      "line_start": 22,
+      "line_end": 26
+    },
+    {
+      "type": "projects",
+      "heading": "Key Projects",
+      "content": [
+        "Sales Dashboard Automation",
+        "Automated monthly sales reporting saving 20 hours/month"
+      ],
+      "line_start": 26,
+      "line_end": 30
+    },
+    {
+      "type": "achievements",
+      "heading": "Achievements & Awards",
+      "content": [
+        "Best Employee Award Q3 2023"
+      ],
+      "line_start": 30,
+      "line_end": 33
+    },
+    {
+      "type": "languages",
+      "heading": "Languages Known",
+      "content": [
+        "English - Professional",
+        "Hindi - Native"
+      ],
+      "line_start": 33,
+      "line_end": 37
+    }
+  ],
+  "section_summary": {
+    "header": 1,
+    "skills": 1,
+    "work_experience": 1,
+    "education": 1,
+    "certifications": 1,
+    "projects": 1,
+    "achievements": 1,
+    "languages": 1
+  }
+}

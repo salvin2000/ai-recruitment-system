@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "segmented_at": "2026-05-16T21:55:10.374697",
+    "segmenter_version": "1.0",
+    "total_sections": 7,
+    "detected_sections": 7,
+    "accuracy": 100.0,
+    "section_types_found": [
+      "header",
+      "skills",
+      "projects",
+      "education",
+      "certifications",
+      "achievements",
+      "hobbies"
+    ],
+    "source_file": "03_rahul_menon_resume.txt"
+  },
+  "sections": [
+    {
+      "type": "header",
+      "heading": "Header",
+      "content": [
+        "Rahul Menon",
+        "B.Tech Computer Science | Fresher",
+        "rahul.menon@gmail.com | +91-8765432109 | github.com/rahulmenon",
+        "Kochi, Kerala",
+        "",
+        "Objective",
+        "Fresher seeking software developer role to apply technical skills.",
+        ""
+      ],
+      "line_start": 0,
+      "line_end": 8,
+      "header_info": {
+        "name": "Rahul Menon",
+        "email": "rahul.menon@gmail.com",
+        "phone": "+91-8765432109",
+        "linkedin": "",
+        "github": "github.com/rahulmenon"
+      }
+    },
+    {
+      "type": "skills",
+      "heading": "Skills",
+      "content": [
+        "Python, Java, HTML, CSS, MySQL, Git, Linux"
+      ],
+      "line_start": 8,
+      "line_end": 11
+    },
+    {
+      "type": "projects",
+      "heading": "Academic Projects",
+      "content": [
+        "Library Management System",
+        "Built using Python and MySQL",
+        "Features: book search, issue/return tracking",
+        "Student Result Analysis",
+        "Data analysis using Python and Pandas",
+        "Generated automated PDF reports"
+      ],
+      "line_start": 11,
+      "line_end": 20
+    },
+    {
+      "type": "education",
+      "heading": "Education",
+      "content": [
+        "Bachelor of Technology - Computer Science",
+        "Model Engineering College, Kochi | 2019-2023",
+        "CGPA: 7.8 / 10"
+      ],
+      "line_start": 20,
+      "line_end": 25
+    },
+    {
+      "type": "certifications",
+      "heading": "Certifications",
+      "content": [
+        "Python Programming - NPTEL (2022)",
+        "Web Development Bootcamp - Udemy (2023)"
+      ],
+      "line_start": 25,
+      "line_end": 29
+    },
+    {
+      "type": "achievements",
+      "heading": "Achievements",
+      "content": [
+        "Second Prize in College Hackathon 2022",
+        "Active member of Google Developer Student Club"
+      ],
+      "line_start": 29,
+      "line_end": 33
+    },
+    {
+      "type": "hobbies",
+      "heading": "Hobbies & Interests",
+      "content": [
+        "Open Source Contribution",
+        "Competitive Programming"
+      ],
+      "line_start": 33,
+      "line_end": 37
+    }
+  ],
+  "section_summary": {
+    "header": 1,
+    "skills": 1,
+    "projects": 1,
+    "education": 1,
+    "certifications": 1,
+    "achievements": 1,
+    "hobbies": 1
+  }
+}
