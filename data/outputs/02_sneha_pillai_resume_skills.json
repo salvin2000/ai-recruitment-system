@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "extracted_at": "2026-05-18T09:42:59.078663",
+    "engine_version": "1.0",
+    "total_skills": 8,
+    "high_confidence": 8,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "source_file": "02_sneha_pillai_resume.txt"
+  },
+  "skills": [
+    {
+      "skill": "statistics",
+      "category": "Technical",
+      "sub_category": "data_analytics",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "power bi",
+      "category": "Technical",
+      "sub_category": "data_analytics",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 3
+    },
+    {
+      "skill": "data analysis",
+      "category": "Technical",
+      "sub_category": "data_analytics",
+      "confidence": 1.0,
+      "match_type": "synonym",
+      "occurrences": 4
+    },
+    {
+      "skill": "tableau",
+      "category": "Technical",
+      "sub_category": "data_analytics",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "python",
+      "category": "Technical",
+      "sub_category": "programming_languages",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 3
+    },
+    {
+      "skill": "excel",
+      "category": "Technical",
+      "sub_category": "data_analytics",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "sql",
+      "category": "Technical",
+      "sub_category": "programming_languages",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "attention to detail",
+      "category": "Soft",
+      "sub_category": "soft_skills",
+      "confidence": 0.9,
+      "match_type": "synonym",
+      "occurrences": 1
+    }
+  ],
+  "skills_by_category": {
+    "Technical": [
+      {
+        "skill": "statistics",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "power bi",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "data analysis",
+        "confidence": 1.0,
+        "match_type": "synonym"
+      },
+      {
+        "skill": "tableau",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "python",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "excel",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "sql",
+        "confidence": 1.0,
+        "match_type": "exact"
+      }
+    ],
+    "Soft": [
+      {
+        "skill": "attention to detail",
+        "confidence": 0.9,
+        "match_type": "synonym"
+      }
+    ]
+  },
+  "skill_summary": {
+    "technical": [
+      "statistics",
+      "power bi",
+      "data analysis",
+      "tableau",
+      "python",
+      "excel",
+      "sql"
+    ],
+    "business": [],
+    "soft": [
+      "attention to detail"
+    ],
+    "creative": []
+  }
+}

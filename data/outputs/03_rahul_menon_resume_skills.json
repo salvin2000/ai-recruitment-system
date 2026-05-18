@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "extracted_at": "2026-05-18T09:42:59.101279",
+    "engine_version": "1.0",
+    "total_skills": 7,
+    "high_confidence": 7,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "source_file": "03_rahul_menon_resume.txt"
+  },
+  "skills": [
+    {
+      "skill": "data analysis",
+      "category": "Technical",
+      "sub_category": "data_analytics",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 1
+    },
+    {
+      "skill": "python",
+      "category": "Technical",
+      "sub_category": "programming_languages",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 7
+    },
+    {
+      "skill": "git",
+      "category": "Technical",
+      "sub_category": "cloud_devops",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "pandas",
+      "category": "Technical",
+      "sub_category": "ai_ml",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "mysql",
+      "category": "Technical",
+      "sub_category": "databases",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 4
+    },
+    {
+      "skill": "linux",
+      "category": "Technical",
+      "sub_category": "cloud_devops",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 1
+    },
+    {
+      "skill": "java",
+      "category": "Technical",
+      "sub_category": "programming_languages",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 1
+    }
+  ],
+  "skills_by_category": {
+    "Technical": [
+      {
+        "skill": "data analysis",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "python",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "git",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "pandas",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "mysql",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "linux",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "java",
+        "confidence": 1.0,
+        "match_type": "exact"
+      }
+    ]
+  },
+  "skill_summary": {
+    "technical": [
+      "data analysis",
+      "python",
+      "git",
+      "pandas",
+      "mysql",
+      "linux",
+      "java"
+    ],
+    "business": [],
+    "soft": [],
+    "creative": []
+  }
+}

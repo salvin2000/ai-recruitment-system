@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "extracted_at": "2026-05-18T09:42:59.049025",
+    "engine_version": "1.0",
+    "total_skills": 13,
+    "high_confidence": 13,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "source_file": "01_arjun_krishnan_resume.txt"
+  },
+  "skills": [
+    {
+      "skill": "machine learning",
+      "category": "Technical",
+      "sub_category": "ai_ml",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 3
+    },
+    {
+      "skill": "django",
+      "category": "Technical",
+      "sub_category": "web_frameworks",
+      "confidence": 1.0,
+      "match_type": "synonym",
+      "occurrences": 3
+    },
+    {
+      "skill": "javascript",
+      "category": "Technical",
+      "sub_category": "programming_languages",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "postgresql",
+      "category": "Technical",
+      "sub_category": "databases",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "tensorflow",
+      "category": "Technical",
+      "sub_category": "ai_ml",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "python",
+      "category": "Technical",
+      "sub_category": "programming_languages",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 8
+    },
+    {
+      "skill": "docker",
+      "category": "Technical",
+      "sub_category": "cloud_devops",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "flask",
+      "category": "Technical",
+      "sub_category": "web_frameworks",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "java",
+      "category": "Technical",
+      "sub_category": "programming_languages",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "sql",
+      "category": "Technical",
+      "sub_category": "programming_languages",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "aws",
+      "category": "Technical",
+      "sub_category": "cloud_devops",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 3
+    },
+    {
+      "skill": "git",
+      "category": "Technical",
+      "sub_category": "cloud_devops",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 2
+    },
+    {
+      "skill": "nlp",
+      "category": "Technical",
+      "sub_category": "ai_ml",
+      "confidence": 1.0,
+      "match_type": "exact",
+      "occurrences": 1
+    }
+  ],
+  "skills_by_category": {
+    "Technical": [
+      {
+        "skill": "machine learning",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "django",
+        "confidence": 1.0,
+        "match_type": "synonym"
+      },
+      {
+        "skill": "javascript",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "postgresql",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "tensorflow",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "python",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "docker",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "flask",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "java",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "sql",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "aws",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "git",
+        "confidence": 1.0,
+        "match_type": "exact"
+      },
+      {
+        "skill": "nlp",
+        "confidence": 1.0,
+        "match_type": "exact"
+      }
+    ]
+  },
+  "skill_summary": {
+    "technical": [
+      "machine learning",
+      "django",
+      "javascript",
+      "postgresql",
+      "tensorflow",
+      "python",
+      "docker",
+      "flask",
+      "java",
+      "sql",
+      "aws",
+      "git",
+      "nlp"
+    ],
+    "business": [],
+    "soft": [],
+    "creative": []
+  }
+}
