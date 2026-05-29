@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "parsed_at": "2026-05-29T07:40:53.497354",
+    "parser_version": "4.0",
+    "total_roles": 1,
+    "total_months": 47,
+    "total_years": 3.9,
+    "total_display": "3 yr 11 mo",
+    "has_gaps": false,
+    "has_overlaps": false,
+    "current_role": "Software Engineer",
+    "source_file": "01_arjun_krishnan_resume.txt"
+  },
+  "roles": [
+    {
+      "job_title": "Software Engineer",
+      "company": "TechCorp India Pvt Ltd",
+      "start_date": "2022-06-01",
+      "end_date": "2026-05-29",
+      "start_raw": "June 2022",
+      "end_raw": "Present",
+      "duration_months": 47,
+      "duration_display": "3 yr 11 mo",
+      "is_current": true,
+      "skills_mentioned": [
+        "machine learning",
+        "django"
+      ]
+    }
+  ],
+  "gaps": [],
+  "overlaps": [],
+  "relevance": {
+    "relevance_score": 0.67,
+    "role_similarity": 1.0,
+    "skills_match": 0.17,
+    "experience_score": 1.0,
+    "total_years": 3.9,
+    "meets_min_experience": true,
+    "grade": "B"
+  }
+}

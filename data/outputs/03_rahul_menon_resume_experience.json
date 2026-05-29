@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "parsed_at": "2026-05-29T07:40:53.534998",
+    "parser_version": "4.0",
+    "total_roles": 0,
+    "total_months": 0,
+    "total_years": 0.0,
+    "total_display": "Unknown",
+    "has_gaps": false,
+    "has_overlaps": false,
+    "current_role": null,
+    "source_file": "03_rahul_menon_resume.txt"
+  },
+  "roles": [],
+  "gaps": [],
+  "overlaps": [],
+  "relevance": {
+    "relevance_score": 0.0,
+    "role_similarity": 0.0,
+    "skills_match": 0.0,
+    "experience_score": 0.0,
+    "total_years": 0.0,
+    "meets_min_experience": false,
+    "grade": "D"
+  }
+}
