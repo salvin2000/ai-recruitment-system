@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "parsed_at": "2026-06-01T21:03:15.897242",
+    "parser_version": "2.0",
+    "total_qualifications": 1,
+    "total_certifications": 2,
+    "highest_degree": "b.tech",
+    "source_file": "01_arjun_krishnan_resume.txt"
+  },
+  "qualifications": [
+    {
+      "degree_raw": "b.tech",
+      "degree_normalized": "b.tech",
+      "field_of_study": "Computer Science",
+      "institution": "RV College of Engineering",
+      "graduation_year": "2021",
+      "raw_text": "Bachelor of Technology - Computer Science Engineering\nRV College of Engineering, Bangalore | 2017 - 2021\nCGPA: 8.4 / 10"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Developer Associate",
+      "year": "2023",
+      "category": "Cloud",
+      "raw": "AWS Certified Developer Associate (2023)"
+    },
+    {
+      "name": "Machine Learning Specialization - Coursera",
+      "year": "2022",
+      "category": "Data Science Ml",
+      "raw": "Machine Learning Specialization - Coursera (2022)"
+    }
+  ],
+  "relevance": {
+    "relevance_score": 1.0,
+    "degree_score": 1.0,
+    "field_score": 1.0,
+    "certification_score": 1.0,
+    "grade": "A",
+    "meets_min_degree": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "parsed_at": "2026-06-01T21:03:15.914513",
+    "parser_version": "2.0",
+    "total_qualifications": 1,
+    "total_certifications": 2,
+    "highest_degree": "b.tech",
+    "source_file": "03_rahul_menon_resume.txt"
+  },
+  "qualifications": [
+    {
+      "degree_raw": "b.tech",
+      "degree_normalized": "b.tech",
+      "field_of_study": "Computer Science",
+      "institution": "Model Engineering College",
+      "graduation_year": "2023",
+      "raw_text": "Bachelor of Technology - Computer Science\nModel Engineering College, Kochi | 2019-2023\nCGPA: 7.8 / 10"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Python Programming - NPTEL",
+      "year": "2022",
+      "category": "Programming",
+      "raw": "Python Programming - NPTEL (2022)"
+    },
+    {
+      "name": "Web Development Bootcamp - Udemy",
+      "year": "2023",
+      "category": "Programming",
+      "raw": "Web Development Bootcamp - Udemy (2023)"
+    }
+  ],
+  "relevance": {
+    "relevance_score": 1.0,
+    "degree_score": 1.0,
+    "field_score": 1.0,
+    "certification_score": 1.0,
+    "grade": "A",
+    "meets_min_degree": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "parsed_at": "2026-06-01T21:03:15.904141",
+    "parser_version": "2.0",
+    "total_qualifications": 1,
+    "total_certifications": 1,
+    "highest_degree": "m.sc",
+    "source_file": "02_sneha_pillai_resume.txt"
+  },
+  "qualifications": [
+    {
+      "degree_raw": "m.sc",
+      "degree_normalized": "m.sc",
+      "field_of_study": "Data Science",
+      "institution": "University of Mumbai",
+      "graduation_year": "2021",
+      "raw_text": "Master of Science - Statistics\nUniversity of Mumbai | 2019 - 2021\nPercentage: 78%"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Power BI Associate",
+      "year": "2023",
+      "category": "Cloud",
+      "raw": "Microsoft Power BI Associate (2023)"
+    }
+  ],
+  "relevance": {
+    "relevance_score": 0.89,
+    "degree_score": 1.0,
+    "field_score": 0.64,
+    "certification_score": 1.0,
+    "grade": "A",
+    "meets_min_degree": true
+  }
+}
