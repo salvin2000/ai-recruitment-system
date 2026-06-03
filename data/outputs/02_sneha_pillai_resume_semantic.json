@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "matched_at": "2026-06-03T13:15:04.431871",
+    "engine_version": "1.0",
+    "resume_file": "02_sneha_pillai_resume.txt",
+    "jd_file": "software_engineer_jd",
+    "embedding_type": "TF-IDF + Cosine + Jaccard"
+  },
+  "similarity_scores": {
+    "skills": {
+      "score": 0.0368,
+      "cosine": 0.0442,
+      "jaccard": 0.0256,
+      "level": "low"
+    },
+    "experience": {
+      "score": 0.0483,
+      "cosine": 0.0551,
+      "jaccard": 0.0326,
+      "level": "low"
+    },
+    "projects": {
+      "score": 0.0,
+      "cosine": 0.0,
+      "jaccard": 0.0,
+      "level": "low"
+    }
+  },
+  "overall_match": {
+    "score": 0.0335,
+    "level": "low",
+    "grade": "D",
+    "recommendation": "Weak Match — Not Recommended",
+    "weights_used": {
+      "skills": 0.45,
+      "experience": 0.35,
+      "projects": 0.2
+    }
+  }
+}

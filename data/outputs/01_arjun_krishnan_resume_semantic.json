@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "matched_at": "2026-06-03T13:15:04.430474",
+    "engine_version": "1.0",
+    "resume_file": "01_arjun_krishnan_resume.txt",
+    "jd_file": "software_engineer_jd",
+    "embedding_type": "TF-IDF + Cosine + Jaccard"
+  },
+  "similarity_scores": {
+    "skills": {
+      "score": 0.3985,
+      "cosine": 0.4537,
+      "jaccard": 0.3158,
+      "level": "high"
+    },
+    "experience": {
+      "score": 0.2068,
+      "cosine": 0.232,
+      "jaccard": 0.1481,
+      "level": "medium"
+    },
+    "projects": {
+      "score": 0.1298,
+      "cosine": 0.1681,
+      "jaccard": 0.0588,
+      "level": "medium"
+    }
+  },
+  "overall_match": {
+    "score": 0.2777,
+    "level": "medium",
+    "grade": "B",
+    "recommendation": "Good Match — Consider for Interview",
+    "weights_used": {
+      "skills": 0.45,
+      "experience": 0.35,
+      "projects": 0.2
+    }
+  }
+}

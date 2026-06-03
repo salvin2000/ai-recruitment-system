@@ -1,0 +1,60 @@
+{
+  "report_generated_at": "2026-06-03T13:15:04.445478",
+  "total_resumes": 3,
+  "grade_distribution": {
+    "A": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "B": {
+      "count": 1,
+      "percentage": 33.3
+    },
+    "C": {
+      "count": 1,
+      "percentage": 33.3
+    },
+    "D": {
+      "count": 1,
+      "percentage": 33.3
+    }
+  },
+  "level_distribution": {
+    "high": 0,
+    "medium": 1,
+    "low": 2
+  },
+  "average_scores": {
+    "skills": 0.18,
+    "experience": 0.1151,
+    "projects": 0.0822,
+    "overall": 0.1377
+  },
+  "thresholds_used": {
+    "skills": {
+      "high": 0.35,
+      "medium": 0.18,
+      "low": 0.05
+    },
+    "experience": {
+      "high": 0.25,
+      "medium": 0.12,
+      "low": 0.05
+    },
+    "projects": {
+      "high": 0.18,
+      "medium": 0.08,
+      "low": 0.03
+    },
+    "overall": {
+      "high": 0.28,
+      "medium": 0.15,
+      "low": 0.08
+    }
+  },
+  "weights_used": {
+    "skills": 0.45,
+    "experience": 0.35,
+    "projects": 0.2
+  }
+}

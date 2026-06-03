@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "matched_at": "2026-06-03T13:15:04.433589",
+    "engine_version": "1.0",
+    "resume_file": "03_rahul_menon_resume.txt",
+    "jd_file": "software_engineer_jd",
+    "embedding_type": "TF-IDF + Cosine + Jaccard"
+  },
+  "similarity_scores": {
+    "skills": {
+      "score": 0.1046,
+      "cosine": 0.1289,
+      "jaccard": 0.0682,
+      "level": "low"
+    },
+    "experience": {
+      "score": 0.0902,
+      "cosine": 0.1135,
+      "jaccard": 0.036,
+      "level": "low"
+    },
+    "projects": {
+      "score": 0.1168,
+      "cosine": 0.1565,
+      "jaccard": 0.043,
+      "level": "medium"
+    }
+  },
+  "overall_match": {
+    "score": 0.102,
+    "level": "low",
+    "grade": "C",
+    "recommendation": "Moderate Match — Review Manually",
+    "weights_used": {
+      "skills": 0.45,
+      "experience": 0.35,
+      "projects": 0.2
+    }
+  }
+}
