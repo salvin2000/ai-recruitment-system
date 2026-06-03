@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "scored_at": "2026-06-03T20:51:07.444582",
+    "engine_version": "1.0",
+    "candidate_id": "ZCP-CAND-ARJU",
+    "job_id": "ZCP-JOB-20260529-SW01",
+    "role_type": "software_engineer",
+    "weight_profile": {
+      "profile_name": "software_engineer",
+      "weights": {
+        "semantic_similarity": 0.2,
+        "experience_relevance": 0.3,
+        "skill_match": 0.35,
+        "education_alignment": 0.15
+      }
+    }
+  },
+  "component_scores": {
+    "skill_match": {
+      "name": "skill_match",
+      "raw_score": 0.675,
+      "raw_score_pct": 67.5,
+      "weight": 0.35,
+      "weighted_score": 23.62,
+      "data_present": true,
+      "explanation": "Required skills: 6 of 7 matched (85.7%). Matched: python, django, aws, docker, postgresql. Missing: rest api."
+    },
+    "experience_relevance": {
+      "name": "experience_relevance",
+      "raw_score": 0.85,
+      "raw_score_pct": 85.0,
+      "weight": 0.3,
+      "weighted_score": 25.5,
+      "data_present": true,
+      "explanation": "Total experience: 4.25 years. Role similarity: 85.0%. Skills in experience: 68.0%. Meets minimum requirement: Yes."
+    },
+    "education_alignment": {
+      "name": "education_alignment",
+      "raw_score": 1.0,
+      "raw_score_pct": 100.0,
+      "weight": 0.15,
+      "weighted_score": 15.0,
+      "data_present": true,
+      "explanation": "Highest degree: B.TECH. Meets minimum degree: Yes. Degree level score: 100.0%. Field relevance: 90.0%. Certifications: 2."
+    },
+    "semantic_similarity": {
+      "name": "semantic_similarity",
+      "raw_score": 0.7875,
+      "raw_score_pct": 78.8,
+      "weight": 0.2,
+      "weighted_score": 15.75,
+      "data_present": true,
+      "explanation": "Overall semantic similarity: 0.315 (normalized to 78.8%). Skills: 0.36000000000000004, Experience: 0.225, Projects: 0.135."
+    }
+  },
+  "final_score": {
+    "score": 79.87,
+    "grade": "B+",
+    "recommendation": "Likely Hire — Proceed to Technical Interview",
+    "strengths": [
+      "Experience Relevance: 85.0%",
+      "Education Alignment: 100.0%",
+      "Semantic Similarity: 78.8%"
+    ],
+    "gaps": [],
+    "missing_data": [],
+    "is_complete": true
+  },
+  "score_breakdown": {
+    "skill_match": 23.62,
+    "experience_relevance": 25.5,
+    "education_alignment": 15.0,
+    "semantic_similarity": 15.75,
+    "total": 79.87
+  }
+}

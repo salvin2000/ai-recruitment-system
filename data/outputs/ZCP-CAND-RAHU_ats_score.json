@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "scored_at": "2026-06-03T20:51:07.445053",
+    "engine_version": "1.0",
+    "candidate_id": "ZCP-CAND-RAHU",
+    "job_id": "ZCP-JOB-20260529-SW01",
+    "role_type": "software_engineer",
+    "weight_profile": {
+      "profile_name": "software_engineer",
+      "weights": {
+        "semantic_similarity": 0.2,
+        "experience_relevance": 0.3,
+        "skill_match": 0.35,
+        "education_alignment": 0.15
+      }
+    }
+  },
+  "component_scores": {
+    "skill_match": {
+      "name": "skill_match",
+      "raw_score": 0.2,
+      "raw_score_pct": 20.0,
+      "weight": 0.35,
+      "weighted_score": 7.0,
+      "data_present": true,
+      "explanation": "Required skills: 2 of 7 matched (28.6%). Matched: python, git. Missing: django, aws, docker, postgresql, rest api."
+    },
+    "experience_relevance": {
+      "name": "experience_relevance",
+      "raw_score": 0.3,
+      "raw_score_pct": 30.0,
+      "weight": 0.3,
+      "weighted_score": 9.0,
+      "data_present": true,
+      "explanation": "Total experience: 1.5 years. Role similarity: 30.0%. Skills in experience: 24.0%. Meets minimum requirement: No."
+    },
+    "education_alignment": {
+      "name": "education_alignment",
+      "raw_score": 1.0,
+      "raw_score_pct": 100.0,
+      "weight": 0.15,
+      "weighted_score": 15.0,
+      "data_present": true,
+      "explanation": "Highest degree: B.TECH. Meets minimum degree: Yes. Degree level score: 100.0%. Field relevance: 90.0%. Certifications: 2."
+    },
+    "semantic_similarity": {
+      "name": "semantic_similarity",
+      "raw_score": 0.4375,
+      "raw_score_pct": 43.8,
+      "weight": 0.2,
+      "weighted_score": 8.75,
+      "data_present": true,
+      "explanation": "Overall semantic similarity: 0.175 (normalized to 43.8%). Skills: 0.2, Experience: 0.125, Projects: 0.075."
+    }
+  },
+  "final_score": {
+    "score": 39.75,
+    "grade": "D",
+    "recommendation": "Reject — Does Not Meet Minimum Requirements",
+    "strengths": [
+      "Education Alignment: 100.0%"
+    ],
+    "gaps": [
+      "Skill Match: 20.0%",
+      "Experience Relevance: 30.0%"
+    ],
+    "missing_data": [],
+    "is_complete": true
+  },
+  "score_breakdown": {
+    "skill_match": 7.0,
+    "experience_relevance": 9.0,
+    "education_alignment": 15.0,
+    "semantic_similarity": 8.75,
+    "total": 39.75
+  }
+}
