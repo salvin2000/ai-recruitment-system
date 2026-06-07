@@ -1,0 +1,14 @@
+{
+  "normalized_text": "[NAME_MASKED]. [NAME_MASKED][EMAIL_MASKED] | [PHONE_MASKED]\nMale, [AGE_INDICATORS_MASKED], [RELIGION_MASKED], [NAME_MASKED], Karnataka, [NAME_MASKED] [NAME_MASKED] [NAME_MASKED] 3 [NAME_MASKED].\nA [NAME_MASKED] [NAME_MASKED]-[NAME_MASKED]. [NAME_MASKED], Django, [NAME_MASKED], [NAME_MASKED], AWS, Docker, [NAME_MASKED]\n[NAME_MASKED] - [NAME_MASKED] Ltd, [NAME_MASKED] 2022 - Present\n- [NAME_MASKED] [NAME_MASKED] Framework\n- [NAME_MASKED] [NAME_MASKED] [NAME_MASKED]\n[NAME_MASKED] - [NAME_MASKED]\n[NAME_MASKED] Engineering, Bangalore | [PHONE_MASKED]\nCGPA: 8.4 / 10 Certifications\n- [NAME_MASKED] Associate (2023)\n- [NAME_MASKED] - Coursera (2022)",
+  "original_length": 819,
+  "normalized_length": 648,
+  "masking_log": {
+    "name": 27,
+    "email": 1,
+    "phone": 2,
+    "age_indicators": 1,
+    "religion": 1
+  },
+  "total_masked": 32,
+  "buzzwords_removed": 0
+}

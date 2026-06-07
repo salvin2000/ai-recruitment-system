@@ -1,0 +1,139 @@
+{
+  "batch_summary": {
+    "evaluated_at": "2026-06-07T20:26:04.497558",
+    "total_resumes": 3,
+    "high_risk_count": 1,
+    "medium_risk_count": 2,
+    "low_risk_count": 0
+  },
+  "score_distribution": {
+    "mean_score": 54.82,
+    "std_dev": 17.83,
+    "score_range": 40.12,
+    "min_score": 39.75,
+    "max_score": 79.87,
+    "outliers": [],
+    "flagged": false,
+    "threshold": 20.0
+  },
+  "individual_results": [
+    {
+      "bias_evaluation": {
+        "evaluated_at": "2026-06-07T20:26:04.496823",
+        "risk_level": "High",
+        "flags": [
+          "High personal information density",
+          "High buzzword density"
+        ],
+        "total_flags": 2
+      },
+      "personal_info": {
+        "personal_info_count": 34,
+        "total_words": 112,
+        "density": 0.3036,
+        "flagged": true,
+        "fields_found": {
+          "name": 27,
+          "email": 1,
+          "phone": 2,
+          "gender_pronouns": 1,
+          "age_indicators": 1,
+          "religion": 1,
+          "marital_status": 1
+        },
+        "threshold": 0.05
+      },
+      "buzzword_analysis": {
+        "buzzword_count": 5,
+        "total_words": 112,
+        "density": 0.0446,
+        "flagged": true,
+        "found_buzzwords": [
+          "Passionate",
+          "cutting-edge",
+          "rockstar",
+          "enthusiastic",
+          "innovative"
+        ],
+        "threshold": 0.03
+      },
+      "keyword_dependence": {
+        "flagged": false,
+        "reason": "No skill data"
+      },
+      "candidate_id": "ZCP-CAND-ARJU"
+    },
+    {
+      "bias_evaluation": {
+        "evaluated_at": "2026-06-07T20:26:04.497175",
+        "risk_level": "Medium",
+        "flags": [
+          "High personal information density"
+        ],
+        "total_flags": 1
+      },
+      "personal_info": {
+        "personal_info_count": 22,
+        "total_words": 68,
+        "density": 0.3235,
+        "flagged": true,
+        "fields_found": {
+          "name": 15,
+          "email": 1,
+          "phone": 3,
+          "gender_pronouns": 1,
+          "age_indicators": 2
+        },
+        "threshold": 0.05
+      },
+      "buzzword_analysis": {
+        "buzzword_count": 0,
+        "total_words": 68,
+        "density": 0.0,
+        "flagged": false,
+        "found_buzzwords": [],
+        "threshold": 0.03
+      },
+      "keyword_dependence": {
+        "flagged": false,
+        "reason": "No skill data"
+      },
+      "candidate_id": "ZCP-CAND-SNEH"
+    },
+    {
+      "bias_evaluation": {
+        "evaluated_at": "2026-06-07T20:26:04.497502",
+        "risk_level": "Medium",
+        "flags": [
+          "High personal information density"
+        ],
+        "total_flags": 1
+      },
+      "personal_info": {
+        "personal_info_count": 16,
+        "total_words": 64,
+        "density": 0.25,
+        "flagged": true,
+        "fields_found": {
+          "name": 13,
+          "email": 1,
+          "phone": 2
+        },
+        "threshold": 0.05
+      },
+      "buzzword_analysis": {
+        "buzzword_count": 0,
+        "total_words": 64,
+        "density": 0.0,
+        "flagged": false,
+        "found_buzzwords": [],
+        "threshold": 0.03
+      },
+      "keyword_dependence": {
+        "flagged": false,
+        "reason": "No skill data"
+      },
+      "candidate_id": "ZCP-CAND-RAHU"
+    }
+  ]
+}
