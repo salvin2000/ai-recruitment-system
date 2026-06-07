@@ -1,0 +1,304 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-07T19:56:09.571181",
+    "job_id": "ZCP-JOB-20260529-SW01",
+    "role_type": "software_engineer",
+    "engine_version": "1.0",
+    "thresholds": {
+      "auto_shortlist": 72,
+      "manual_review": 48,
+      "auto_reject": 47
+    }
+  },
+  "summary": {
+    "total_candidates": 6,
+    "shortlisted_count": 2,
+    "review_count": 1,
+    "rejected_count": 3,
+    "shortlist_rate": 33.3,
+    "rejection_rate": 50.0,
+    "avg_score": 53.78,
+    "top_score": 82.24,
+    "lowest_score": 21.5
+  },
+  "shortlisted_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": "ZCP-CAND-ARJU",
+      "score": 82.24,
+      "grade": "A",
+      "zone": "shortlisted",
+      "zone_label": "Shortlisted",
+      "recommendation": "Likely Hire — Proceed to Technical Interview",
+      "strengths": [
+        "Experience Relevance: 90.0%",
+        "Education Alignment: 100.0%",
+        "Semantic Similarity: 83.1%"
+      ],
+      "gaps": [],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 23.62,
+        "experience_relevance": 27.0,
+        "education_alignment": 15.0,
+        "semantic_similarity": 16.62
+      }
+    },
+    {
+      "rank": 2,
+      "candidate_id": "ZCP-CAND-PRIY",
+      "score": 73.99,
+      "grade": "B+",
+      "zone": "shortlisted",
+      "zone_label": "Shortlisted",
+      "recommendation": "Likely Hire — Proceed to Technical Interview",
+      "strengths": [
+        "Experience Relevance: 80.0%",
+        "Education Alignment: 100.0%",
+        "Semantic Similarity: 74.4%"
+      ],
+      "gaps": [],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 20.12,
+        "experience_relevance": 24.0,
+        "education_alignment": 15.0,
+        "semantic_similarity": 14.87
+      }
+    }
+  ],
+  "review_candidates": [
+    {
+      "rank": 3,
+      "candidate_id": "ZCP-CAND-KART",
+      "score": 65.74,
+      "grade": "B",
+      "zone": "review",
+      "zone_label": "Manual Review",
+      "recommendation": "Possible Hire — Proceed to Screening Call",
+      "strengths": [
+        "Experience Relevance: 75.0%",
+        "Education Alignment: 90.0%"
+      ],
+      "gaps": [],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 16.62,
+        "experience_relevance": 22.5,
+        "education_alignment": 13.5,
+        "semantic_similarity": 13.12
+      }
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "rank": 4,
+      "candidate_id": "ZCP-CAND-SNEH",
+      "score": 41.85,
+      "grade": "C",
+      "zone": "rejected",
+      "zone_label": "Rejected",
+      "recommendation": "Review Manually — Borderline Candidate",
+      "strengths": [
+        "Education Alignment: 89.0%"
+      ],
+      "gaps": [
+        "Skill Match: 10.0%",
+        "Semantic Similarity: 35.0%"
+      ],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 3.5,
+        "experience_relevance": 18.0,
+        "education_alignment": 13.35,
+        "semantic_similarity": 7.0
+      }
+    },
+    {
+      "rank": 5,
+      "candidate_id": "ZCP-CAND-RAHU",
+      "score": 37.37,
+      "grade": "D",
+      "zone": "rejected",
+      "zone_label": "Rejected",
+      "recommendation": "Reject — Does Not Meet Minimum Requirements",
+      "strengths": [
+        "Education Alignment: 100.0%"
+      ],
+      "gaps": [
+        "Skill Match: 20.0%",
+        "Experience Relevance: 25.0%",
+        "Semantic Similarity: 39.4%"
+      ],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 7.0,
+        "experience_relevance": 7.5,
+        "education_alignment": 15.0,
+        "semantic_similarity": 7.87
+      }
+    },
+    {
+      "rank": 6,
+      "candidate_id": "ZCP-CAND-VISH",
+      "score": 21.5,
+      "grade": "D",
+      "zone": "rejected",
+      "zone_label": "Rejected",
+      "recommendation": "Reject — Does Not Meet Minimum Requirements",
+      "strengths": [
+        "Education Alignment: 80.0%"
+      ],
+      "gaps": [
+        "Skill Match: 0.0%",
+        "Experience Relevance: 20.0%",
+        "Semantic Similarity: 17.5%"
+      ],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 0.0,
+        "experience_relevance": 6.0,
+        "education_alignment": 12.0,
+        "semantic_similarity": 3.5
+      }
+    }
+  ],
+  "full_ranked_list": [
+    {
+      "rank": 1,
+      "candidate_id": "ZCP-CAND-ARJU",
+      "score": 82.24,
+      "grade": "A",
+      "zone": "shortlisted",
+      "zone_label": "Shortlisted",
+      "recommendation": "Likely Hire — Proceed to Technical Interview",
+      "strengths": [
+        "Experience Relevance: 90.0%",
+        "Education Alignment: 100.0%",
+        "Semantic Similarity: 83.1%"
+      ],
+      "gaps": [],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 23.62,
+        "experience_relevance": 27.0,
+        "education_alignment": 15.0,
+        "semantic_similarity": 16.62
+      }
+    },
+    {
+      "rank": 2,
+      "candidate_id": "ZCP-CAND-PRIY",
+      "score": 73.99,
+      "grade": "B+",
+      "zone": "shortlisted",
+      "zone_label": "Shortlisted",
+      "recommendation": "Likely Hire — Proceed to Technical Interview",
+      "strengths": [
+        "Experience Relevance: 80.0%",
+        "Education Alignment: 100.0%",
+        "Semantic Similarity: 74.4%"
+      ],
+      "gaps": [],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 20.12,
+        "experience_relevance": 24.0,
+        "education_alignment": 15.0,
+        "semantic_similarity": 14.87
+      }
+    },
+    {
+      "rank": 3,
+      "candidate_id": "ZCP-CAND-KART",
+      "score": 65.74,
+      "grade": "B",
+      "zone": "review",
+      "zone_label": "Manual Review",
+      "recommendation": "Possible Hire — Proceed to Screening Call",
+      "strengths": [
+        "Experience Relevance: 75.0%",
+        "Education Alignment: 90.0%"
+      ],
+      "gaps": [],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 16.62,
+        "experience_relevance": 22.5,
+        "education_alignment": 13.5,
+        "semantic_similarity": 13.12
+      }
+    },
+    {
+      "rank": 4,
+      "candidate_id": "ZCP-CAND-SNEH",
+      "score": 41.85,
+      "grade": "C",
+      "zone": "rejected",
+      "zone_label": "Rejected",
+      "recommendation": "Review Manually — Borderline Candidate",
+      "strengths": [
+        "Education Alignment: 89.0%"
+      ],
+      "gaps": [
+        "Skill Match: 10.0%",
+        "Semantic Similarity: 35.0%"
+      ],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 3.5,
+        "experience_relevance": 18.0,
+        "education_alignment": 13.35,
+        "semantic_similarity": 7.0
+      }
+    },
+    {
+      "rank": 5,
+      "candidate_id": "ZCP-CAND-RAHU",
+      "score": 37.37,
+      "grade": "D",
+      "zone": "rejected",
+      "zone_label": "Rejected",
+      "recommendation": "Reject — Does Not Meet Minimum Requirements",
+      "strengths": [
+        "Education Alignment: 100.0%"
+      ],
+      "gaps": [
+        "Skill Match: 20.0%",
+        "Experience Relevance: 25.0%",
+        "Semantic Similarity: 39.4%"
+      ],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 7.0,
+        "experience_relevance": 7.5,
+        "education_alignment": 15.0,
+        "semantic_similarity": 7.87
+      }
+    },
+    {
+      "rank": 6,
+      "candidate_id": "ZCP-CAND-VISH",
+      "score": 21.5,
+      "grade": "D",
+      "zone": "rejected",
+      "zone_label": "Rejected",
+      "recommendation": "Reject — Does Not Meet Minimum Requirements",
+      "strengths": [
+        "Education Alignment: 80.0%"
+      ],
+      "gaps": [
+        "Skill Match: 0.0%",
+        "Experience Relevance: 20.0%",
+        "Semantic Similarity: 17.5%"
+      ],
+      "is_complete": true,
+      "breakdown": {
+        "skill_match": 0.0,
+        "experience_relevance": 6.0,
+        "education_alignment": 12.0,
+        "semantic_similarity": 3.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Rank,Candidate ID,Score,Grade,Zone,Complete,Skill Match,Experience,Education,Semantic,Recommendation
+1,ZCP-CAND-ARJU,82.24,A,Shortlisted,Yes,23.62,27.0,15.0,16.62,Likely Hire — Proceed to Technical Interview
+2,ZCP-CAND-PRIY,73.99,B+,Shortlisted,Yes,20.12,24.0,15.0,14.87,Likely Hire — Proceed to Technical Interview
+3,ZCP-CAND-KART,65.74,B,Manual Review,Yes,16.62,22.5,13.5,13.12,Possible Hire — Proceed to Screening Call
+4,ZCP-CAND-SNEH,41.85,C,Rejected,Yes,3.5,18.0,13.35,7.0,Review Manually — Borderline Candidate
+5,ZCP-CAND-RAHU,37.37,D,Rejected,Yes,7.0,7.5,15.0,7.87,Reject — Does Not Meet Minimum Requirements
+6,ZCP-CAND-VISH,21.5,D,Rejected,Yes,0.0,6.0,12.0,3.5,Reject — Does Not Meet Minimum Requirements
