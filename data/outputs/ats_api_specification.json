@@ -1,0 +1,417 @@
+{
+  "api_info": {
+    "title": "Zecpath ATS AI REST API",
+    "version": "v1",
+    "base_path": "/api/v1/ats",
+    "description": "REST API for the Zecpath AI Recruitment System ATS pipeline",
+    "generated_at": "2026-06-08T14:59:16.118291"
+  },
+  "authentication": {
+    "type": "Bearer Token",
+    "header": "Authorization: Bearer <token>",
+    "description": "All endpoints require a valid JWT Bearer token"
+  },
+  "endpoints": {
+    "upload_resume": {
+      "method": "POST",
+      "path": "/api/v1/ats/resumes/upload",
+      "description": "Upload a resume file for processing. Returns a job_id for tracking.",
+      "auth": "Bearer token required",
+      "request": {
+        "content_type": "multipart/form-data",
+        "fields": {
+          "file": {
+            "type": "file",
+            "required": true,
+            "description": "PDF or DOCX resume file, max 5MB"
+          },
+          "job_id": {
+            "type": "string",
+            "required": true,
+            "description": "Job posting ID to match against"
+          },
+          "role_type": {
+            "type": "string",
+            "required": false,
+            "description": "Role type for weight profile selection"
+          },
+          "candidate_id": {
+            "type": "string",
+            "required": false,
+            "description": "Candidate ID — auto-generated if not provided"
+          }
+        }
+      },
+      "response": {
+        "201": {
+          "description": "Resume uploaded successfully. Processing job queued.",
+          "schema": {
+            "job_id": "ZCP-JOB-20260607-A1B2",
+            "candidate_id": "ZCP-CAND-20260607-C3D4",
+            "status": "pending",
+            "upload_time": "2026-06-07T10:00:00Z",
+            "estimated_time_seconds": 30,
+            "tracking_url": "/api/v1/ats/jobs/ZCP-JOB-20260607-A1B2/status"
+          }
+        },
+        "400": {
+          "description": "Invalid file type or missing required fields"
+        },
+        "413": {
+          "description": "File exceeds 5MB size limit"
+        },
+        "422": {
+          "description": "File is corrupted or cannot be parsed"
+        }
+      }
+    },
+    "parse_resume": {
+      "method": "POST",
+      "path": "/api/v1/ats/resumes/{candidate_id}/parse",
+      "description": "Trigger full parsing pipeline — extract skills, experience, education. Async operation.",
+      "auth": "Bearer token required",
+      "request": {
+        "content_type": "application/json",
+        "body": {
+          "candidate_id": {
+            "type": "string",
+            "required": true
+          },
+          "job_id": {
+            "type": "string",
+            "required": true
+          },
+          "pipeline_stages": {
+            "type": "array",
+            "required": false,
+            "description": "Stages to run: skills, experience, education, semantic, bias",
+            "default": [
+              "skills",
+              "experience",
+              "education",
+              "semantic"
+            ]
+          }
+        }
+      },
+      "response": {
+        "202": {
+          "description": "Parsing job accepted. Returns job_id for status tracking.",
+          "schema": {
+            "job_id": "ZCP-PARSE-20260607-E5F6",
+            "candidate_id": "ZCP-CAND-20260607-C3D4",
+            "status": "processing",
+            "stages": [
+              "skills",
+              "experience",
+              "education",
+              "semantic"
+            ],
+            "tracking_url": "/api/v1/ats/jobs/ZCP-PARSE-20260607-E5F6/status"
+          }
+        },
+        "404": {
+          "description": "Candidate not found"
+        },
+        "409": {
+          "description": "Parsing already in progress for this candidate"
+        }
+      }
+    },
+    "score_candidate": {
+      "method": "POST",
+      "path": "/api/v1/ats/candidates/{candidate_id}/score",
+      "description": "Run ATS scoring formula for a candidate against a job. Requires parsing to be completed first.",
+      "auth": "Bearer token required",
+      "request": {
+        "content_type": "application/json",
+        "body": {
+          "candidate_id": {
+            "type": "string",
+            "required": true
+          },
+          "job_id": {
+            "type": "string",
+            "required": true
+          },
+          "role_type": {
+            "type": "string",
+            "required": false,
+            "default": "default"
+          },
+          "custom_weights": {
+            "type": "object",
+            "required": false,
+            "description": "Override default weight profile",
+            "schema": {
+              "skill_match": "float 0-1",
+              "experience_relevance": "float 0-1",
+              "education_alignment": "float 0-1",
+              "semantic_similarity": "float 0-1"
+            }
+          }
+        }
+      },
+      "response": {
+        "200": {
+          "description": "Scoring completed. Returns full score breakdown.",
+          "schema": {
+            "candidate_id": "ZCP-CAND-20260607-C3D4",
+            "job_id": "ZCP-JOB-20260529-SW01",
+            "final_score": 79.87,
+            "grade": "B+",
+            "recommendation": "Likely Hire - Proceed to Technical Interview",
+            "component_scores": {
+              "skill_match": {
+                "raw_score": 0.675,
+                "weighted_score": 23.62
+              },
+              "experience_relevance": {
+                "raw_score": 0.85,
+                "weighted_score": 25.5
+              },
+              "education_alignment": {
+                "raw_score": 1.0,
+                "weighted_score": 15.0
+              },
+              "semantic_similarity": {
+                "raw_score": 0.788,
+                "weighted_score": 15.75
+              }
+            },
+            "strengths": [
+              "Experience Relevance: 85.0%"
+            ],
+            "gaps": [],
+            "scored_at": "2026-06-07T10:00:30Z"
+          }
+        },
+        "404": {
+          "description": "Candidate or job not found"
+        },
+        "412": {
+          "description": "Parsing not completed for this candidate"
+        }
+      }
+    },
+    "shortlist_candidates": {
+      "method": "POST",
+      "path": "/api/v1/ats/jobs/{job_id}/shortlist",
+      "description": "Run ranking and shortlisting for all candidates of a job. Returns ranked list with zone classification.",
+      "auth": "Bearer token required",
+      "request": {
+        "content_type": "application/json",
+        "body": {
+          "job_id": {
+            "type": "string",
+            "required": true
+          },
+          "role_type": {
+            "type": "string",
+            "required": false,
+            "default": "default"
+          },
+          "thresholds": {
+            "type": "object",
+            "required": false,
+            "description": "Override default zone thresholds",
+            "schema": {
+              "auto_shortlist": "int",
+              "manual_review": "int",
+              "auto_reject": "int"
+            }
+          },
+          "top_n": {
+            "type": "int",
+            "required": false,
+            "default": 10,
+            "description": "Return top N candidates only"
+          }
+        }
+      },
+      "response": {
+        "200": {
+          "description": "Shortlisting completed. Returns ranked candidate list.",
+          "schema": {
+            "job_id": "ZCP-JOB-20260529-SW01",
+            "summary": {
+              "total_candidates": 6,
+              "shortlisted_count": 2,
+              "review_count": 1,
+              "rejected_count": 3,
+              "shortlist_rate": 33.3,
+              "avg_score": 53.78
+            },
+            "shortlisted": [
+              {
+                "rank": 1,
+                "candidate_id": "ZCP-CAND-ARJU",
+                "score": 82.24,
+                "grade": "A",
+                "zone": "shortlisted"
+              }
+            ],
+            "review": [],
+            "rejected": [],
+            "generated_at": "2026-06-07T10:01:00Z"
+          }
+        },
+        "404": {
+          "description": "Job not found"
+        },
+        "412": {
+          "description": "No scored candidates found for this job"
+        }
+      }
+    },
+    "get_job_status": {
+      "method": "GET",
+      "path": "/api/v1/ats/jobs/{job_id}/status",
+      "description": "Poll the status of any async job — upload, parse, score, or shortlist.",
+      "auth": "Bearer token required",
+      "request": {
+        "path_params": {
+          "job_id": "string — the job tracking ID"
+        }
+      },
+      "response": {
+        "200": {
+          "description": "Job status returned.",
+          "schema": {
+            "job_id": "ZCP-JOB-20260607-A1B2",
+            "job_type": "parse_resume",
+            "status": "completed",
+            "progress": 100,
+            "started_at": "2026-06-07T10:00:05Z",
+            "completed_at": "2026-06-07T10:00:28Z",
+            "duration_seconds": 23,
+            "result_url": "/api/v1/ats/candidates/ZCP-CAND-C3D4/score",
+            "error": null
+          }
+        },
+        "404": {
+          "description": "Job not found"
+        }
+      }
+    },
+    "get_candidate": {
+      "method": "GET",
+      "path": "/api/v1/ats/candidates/{candidate_id}",
+      "description": "Retrieve full structured candidate profile including parsed skills, experience, education.",
+      "auth": "Bearer token required",
+      "response": {
+        "200": {
+          "schema": {
+            "candidate_id": "ZCP-CAND-ARJU",
+            "parsed_at": "2026-06-07T10:00:28Z",
+            "skills": [
+              "python",
+              "django",
+              "aws"
+            ],
+            "experience_years": 3.9,
+            "highest_degree": "b.tech",
+            "certifications": 2,
+            "bias_risk": "Medium"
+          }
+        },
+        "404": {
+          "description": "Candidate not found"
+        }
+      }
+    },
+    "batch_upload": {
+      "method": "POST",
+      "path": "/api/v1/ats/resumes/batch",
+      "description": "Upload up to 50 resumes at once. Returns a batch_job_id for tracking all uploads.",
+      "auth": "Bearer token required",
+      "request": {
+        "content_type": "multipart/form-data",
+        "fields": {
+          "files": {
+            "type": "file[]",
+            "required": true,
+            "description": "Up to 50 PDF or DOCX files"
+          },
+          "job_id": {
+            "type": "string",
+            "required": true
+          },
+          "role_type": {
+            "type": "string",
+            "required": false
+          }
+        }
+      },
+      "response": {
+        "202": {
+          "schema": {
+            "batch_job_id": "ZCP-BATCH-20260607-G7H8",
+            "total_files": 10,
+            "accepted_files": 10,
+            "rejected_files": 0,
+            "status": "processing",
+            "tracking_url": "/api/v1/ats/jobs/ZCP-BATCH-20260607-G7H8/status"
+          }
+        }
+      }
+    }
+  },
+  "error_codes": {
+    "ATS_001": "Invalid file type. Only PDF and DOCX are supported.",
+    "ATS_002": "File size exceeds 5MB limit.",
+    "ATS_003": "Resume text extraction failed. File may be corrupted.",
+    "ATS_004": "Candidate not found in the system.",
+    "ATS_005": "Job posting not found in the system.",
+    "ATS_006": "Parsing not completed. Cannot score before parsing.",
+    "ATS_007": "Scoring not completed. Cannot shortlist before scoring.",
+    "ATS_008": "Async job not found or expired.",
+    "ATS_009": "Batch size exceeds 50 file limit.",
+    "ATS_010": "Authentication token invalid or expired.",
+    "ATS_011": "Rate limit exceeded. Maximum 100 requests per minute.",
+    "ATS_012": "Parsing already in progress for this candidate.",
+    "ATS_013": "Invalid weight profile. Weights must sum to 1.0.",
+    "ATS_014": "No candidates found for this job posting.",
+    "ATS_015": "Service temporarily unavailable. Retry after 60 seconds."
+  },
+  "async_job_schema": {
+    "job_id": "string — unique job tracking ID",
+    "job_type": "string — upload | parse | score | shortlist | batch",
+    "candidate_id": "string — candidate being processed",
+    "job_posting_id": "string — job posting being matched against",
+    "status": "string — pending | processing | completed | failed | cancelled",
+    "progress": "int — 0 to 100 percent completion",
+    "created_at": "ISO datetime",
+    "started_at": "ISO datetime or null",
+    "completed_at": "ISO datetime or null",
+    "duration_seconds": "int or null",
+    "result_url": "string — URL to fetch result when completed",
+    "error": "object or null — error details if failed",
+    "retry_count": "int — number of retries attempted",
+    "max_retries": 3
+  },
+  "logging_standards": {
+    "format": "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
+    "levels": {
+      "INFO": "Normal operations — resume uploaded, job queued, scoring completed",
+      "WARNING": "Potential issues — file size near limit, slow processing, retries",
+      "ERROR": "Failures — extraction failed, scoring error, job timed out",
+      "DEBUG": "Detailed tracing — individual parsing steps, score calculations"
+    },
+    "templates": {
+      "upload": "UPLOAD | candidate={candidate_id} job={job_id} size={size_kb}KB status={status}",
+      "parse": "PARSE  | candidate={candidate_id} stage={stage} duration={duration}ms",
+      "score": "SCORE  | candidate={candidate_id} job={job_id} score={score} grade={grade}",
+      "shortlist": "SHORTLIST | job={job_id} total={total} shortlisted={shortlisted} rejected={rejected}",
+      "error": "ERROR  | code={error_code} candidate={candidate_id} message={message}",
+      "job_queue": "JOB    | job_id={job_id} type={job_type} status={status} duration={duration}s"
+    }
+  },
+  "limits": {
+    "max_file_size_mb": 5,
+    "max_batch_size": 50,
+    "rate_limit": "100 requests per minute per API key",
+    "job_ttl_hours": 24,
+    "max_retries": 3
+  }
+}
