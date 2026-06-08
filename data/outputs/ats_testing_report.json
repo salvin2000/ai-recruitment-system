@@ -1,0 +1,186 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-08T18:54:07.516562",
+    "tester_version": "1.0",
+    "total_test_cases": 12,
+    "thresholds_used": {
+      "precision_target": 0.8,
+      "recall_target": 0.75,
+      "f1_target": 0.77,
+      "accuracy_target": 0.8,
+      "mismatch_tolerance": 0.2
+    }
+  },
+  "confusion_matrix": {
+    "true_positive": 5,
+    "false_positive": 0,
+    "false_negative": 1,
+    "true_negative": 6,
+    "mismatches": [
+      {
+        "test_id": "TC-009",
+        "candidate_id": "ZCP-TEST-SNEH",
+        "ai_decision": "rejected",
+        "manual_decision": "review",
+        "ats_score": 44.85,
+        "profile_category": "non_tech_mid",
+        "notes": "MISMATCH — Analyst applying for SW Eng role. AI rejected, human says review."
+      },
+      {
+        "test_id": "TC-011",
+        "candidate_id": "ZCP-TEST-NEHA",
+        "ai_decision": "review",
+        "manual_decision": "shortlisted",
+        "ats_score": 48.9,
+        "profile_category": "non_tech_fresher",
+        "notes": "MISMATCH — MBA fresher with strong academics. AI review, human shortlists."
+      }
+    ],
+    "total": 12
+  },
+  "accuracy_metrics": {
+    "precision": 1.0,
+    "recall": 0.8333,
+    "f1_score": 0.9091,
+    "accuracy": 0.9167,
+    "mismatch_rate": 0.1667,
+    "total_mismatches": 2
+  },
+  "meets_targets": {
+    "precision": true,
+    "recall": true,
+    "f1_score": true,
+    "accuracy": true,
+    "mismatch_rate": true
+  },
+  "overall_pass": true,
+  "category_analysis": {
+    "tech_senior": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "cases": [
+        "TC-001",
+        "TC-002"
+      ],
+      "meets_target": true
+    },
+    "tech_mid": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "cases": [
+        "TC-003",
+        "TC-004"
+      ],
+      "meets_target": true
+    },
+    "tech_fresher": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "cases": [
+        "TC-005",
+        "TC-006"
+      ],
+      "meets_target": true
+    },
+    "non_tech_senior": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "cases": [
+        "TC-007",
+        "TC-008"
+      ],
+      "meets_target": true
+    },
+    "non_tech_mid": {
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5,
+      "cases": [
+        "TC-009",
+        "TC-010"
+      ],
+      "meets_target": false
+    },
+    "non_tech_fresher": {
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5,
+      "cases": [
+        "TC-011",
+        "TC-012"
+      ],
+      "meets_target": false
+    }
+  },
+  "role_analysis": {
+    "software_engineer": {
+      "total": 6,
+      "correct": 5,
+      "accuracy": 0.8333,
+      "avg_score": 59.04,
+      "meets_target": true
+    },
+    "data_scientist": {
+      "total": 1,
+      "correct": 1,
+      "accuracy": 1.0,
+      "avg_score": 71.2,
+      "meets_target": true
+    },
+    "hr_manager": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "avg_score": 70.3,
+      "meets_target": true
+    },
+    "data_analyst": {
+      "total": 3,
+      "correct": 2,
+      "accuracy": 0.6667,
+      "avg_score": 48.9,
+      "meets_target": false
+    }
+  },
+  "improvement_backlog": [
+    {
+      "priority": "Medium",
+      "area": "Profile Category: non_tech_mid",
+      "issue": "Accuracy 50.0% below target for non_tech_mid profiles",
+      "improvement": "Add calibrated thresholds and weight profiles specific to non_tech_mid profiles",
+      "metric": "category_accuracy"
+    },
+    {
+      "priority": "Medium",
+      "area": "Profile Category: non_tech_fresher",
+      "issue": "Accuracy 50.0% below target for non_tech_fresher profiles",
+      "improvement": "Add calibrated thresholds and weight profiles specific to non_tech_fresher profiles",
+      "metric": "category_accuracy"
+    },
+    {
+      "priority": "Medium",
+      "area": "Fresher Profiles",
+      "issue": "1 mismatch(es) in fresher profiles",
+      "improvement": "Add academic performance and internship weighting for fresher profiles",
+      "metric": "fresher_accuracy"
+    },
+    {
+      "priority": "Low",
+      "area": "Semantic Matching",
+      "issue": "TF-IDF semantic scores are lower than neural embeddings",
+      "improvement": "Integrate a lightweight sentence transformer model to improve semantic similarity scores",
+      "metric": "semantic_quality"
+    },
+    {
+      "priority": "Low",
+      "area": "Skill Synonyms",
+      "issue": "Exact keyword matching misses candidates who describe skills differently",
+      "improvement": "Build a skill synonym dictionary for all major technologies and domains",
+      "metric": "skill_coverage"
+    }
+  ]
+}
