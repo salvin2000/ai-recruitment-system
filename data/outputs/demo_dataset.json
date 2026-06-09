@@ -1,0 +1,399 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "ZCP-CAND-ARJU",
+      "name": "Arjun Krishnan",
+      "role": "Software Engineer",
+      "experience_yrs": 3.9,
+      "skills": [
+        "python",
+        "django",
+        "aws",
+        "docker",
+        "postgresql",
+        "machine learning"
+      ],
+      "education": "B.Tech Computer Science \u2014 RV College of Engineering 2021",
+      "ats_score": 82.24,
+      "grade": "A",
+      "zone": "shortlisted",
+      "decision": "Likely Hire \u2014 Proceed to Technical Interview"
+    },
+    {
+      "candidate_id": "ZCP-CAND-PRIY",
+      "name": "Priya Sharma",
+      "role": "Software Engineer",
+      "experience_yrs": 3.5,
+      "skills": [
+        "python",
+        "django",
+        "react",
+        "postgresql",
+        "git",
+        "docker"
+      ],
+      "education": "B.Tech Computer Science \u2014 BITS Pilani 2021",
+      "ats_score": 73.99,
+      "grade": "B+",
+      "zone": "shortlisted",
+      "decision": "Likely Hire \u2014 Proceed to Technical Interview"
+    },
+    {
+      "candidate_id": "ZCP-CAND-KART",
+      "name": "Karthik Nair",
+      "role": "Software Engineer",
+      "experience_yrs": 2.5,
+      "skills": [
+        "python",
+        "aws",
+        "docker",
+        "kubernetes",
+        "git"
+      ],
+      "education": "B.Tech IT \u2014 NIT Calicut 2022",
+      "ats_score": 65.74,
+      "grade": "B",
+      "zone": "review",
+      "decision": "Manual Review Required"
+    },
+    {
+      "candidate_id": "ZCP-CAND-SNEH",
+      "name": "Sneha Pillai",
+      "role": "Data Analyst",
+      "experience_yrs": 2.0,
+      "skills": [
+        "python",
+        "sql",
+        "power bi",
+        "pandas",
+        "tableau"
+      ],
+      "education": "M.Sc Statistics \u2014 University of Mumbai 2021",
+      "ats_score": 41.85,
+      "grade": "C",
+      "zone": "rejected",
+      "decision": "Rejected \u2014 Does Not Meet SW Engineer Requirements"
+    },
+    {
+      "candidate_id": "ZCP-CAND-RAHU",
+      "name": "Rahul Menon",
+      "role": "Fresher",
+      "experience_yrs": 0.0,
+      "skills": [
+        "python",
+        "sql",
+        "java",
+        "git"
+      ],
+      "education": "B.Tech Computer Science \u2014 Model Engineering College 2023",
+      "ats_score": 37.37,
+      "grade": "D",
+      "zone": "rejected",
+      "decision": "Rejected \u2014 Insufficient Experience"
+    },
+    {
+      "candidate_id": "ZCP-CAND-VISH",
+      "name": "Vishnu Prasad",
+      "role": "Java Developer",
+      "experience_yrs": 2.0,
+      "skills": [
+        "java",
+        "spring",
+        "mysql"
+      ],
+      "education": "B.Tech IT \u2014 Kerala University 2022",
+      "ats_score": 21.5,
+      "grade": "D",
+      "zone": "rejected",
+      "decision": "Rejected \u2014 Wrong Technology Stack"
+    }
+  ],
+  "job": {
+    "job_id": "ZCP-JOB-20260529-SW01",
+    "role_name": "Software Engineer",
+    "company": "Zescer Business LLP",
+    "required_skills": [
+      "python",
+      "django",
+      "aws",
+      "docker",
+      "postgresql",
+      "git",
+      "rest api"
+    ],
+    "preferred_skills": [
+      "kubernetes",
+      "machine learning",
+      "react",
+      "redis"
+    ],
+    "min_experience_years": 2,
+    "max_experience_years": 5,
+    "min_education": "b.tech",
+    "field_of_study": "computer science",
+    "role_type": "software_engineer"
+  },
+  "results": {
+    "demo_metadata": {
+      "run_at": "2026-06-09T11:47:54.094307",
+      "job_id": "ZCP-JOB-20260529-SW01",
+      "role": "Software Engineer",
+      "total_candidates": 6
+    },
+    "job_requirements": {
+      "job_id": "ZCP-JOB-20260529-SW01",
+      "role_name": "Software Engineer",
+      "company": "Zescer Business LLP",
+      "required_skills": [
+        "python",
+        "django",
+        "aws",
+        "docker",
+        "postgresql",
+        "git",
+        "rest api"
+      ],
+      "preferred_skills": [
+        "kubernetes",
+        "machine learning",
+        "react",
+        "redis"
+      ],
+      "min_experience_years": 2,
+      "max_experience_years": 5,
+      "min_education": "b.tech",
+      "field_of_study": "computer science",
+      "role_type": "software_engineer"
+    },
+    "ranked_results": [
+      {
+        "candidate_id": "ZCP-CAND-ARJU",
+        "name": "Arjun Krishnan",
+        "role": "Software Engineer",
+        "experience_yrs": 3.9,
+        "skills": [
+          "python",
+          "django",
+          "aws",
+          "docker",
+          "postgresql",
+          "machine learning"
+        ],
+        "education": "B.Tech Computer Science \u2014 RV College of Engineering 2021",
+        "ats_score": 82.24,
+        "grade": "A",
+        "zone": "shortlisted",
+        "decision": "Likely Hire \u2014 Proceed to Technical Interview"
+      },
+      {
+        "candidate_id": "ZCP-CAND-PRIY",
+        "name": "Priya Sharma",
+        "role": "Software Engineer",
+        "experience_yrs": 3.5,
+        "skills": [
+          "python",
+          "django",
+          "react",
+          "postgresql",
+          "git",
+          "docker"
+        ],
+        "education": "B.Tech Computer Science \u2014 BITS Pilani 2021",
+        "ats_score": 73.99,
+        "grade": "B+",
+        "zone": "shortlisted",
+        "decision": "Likely Hire \u2014 Proceed to Technical Interview"
+      },
+      {
+        "candidate_id": "ZCP-CAND-KART",
+        "name": "Karthik Nair",
+        "role": "Software Engineer",
+        "experience_yrs": 2.5,
+        "skills": [
+          "python",
+          "aws",
+          "docker",
+          "kubernetes",
+          "git"
+        ],
+        "education": "B.Tech IT \u2014 NIT Calicut 2022",
+        "ats_score": 65.74,
+        "grade": "B",
+        "zone": "review",
+        "decision": "Manual Review Required"
+      },
+      {
+        "candidate_id": "ZCP-CAND-SNEH",
+        "name": "Sneha Pillai",
+        "role": "Data Analyst",
+        "experience_yrs": 2.0,
+        "skills": [
+          "python",
+          "sql",
+          "power bi",
+          "pandas",
+          "tableau"
+        ],
+        "education": "M.Sc Statistics \u2014 University of Mumbai 2021",
+        "ats_score": 41.85,
+        "grade": "C",
+        "zone": "rejected",
+        "decision": "Rejected \u2014 Does Not Meet SW Engineer Requirements"
+      },
+      {
+        "candidate_id": "ZCP-CAND-RAHU",
+        "name": "Rahul Menon",
+        "role": "Fresher",
+        "experience_yrs": 0.0,
+        "skills": [
+          "python",
+          "sql",
+          "java",
+          "git"
+        ],
+        "education": "B.Tech Computer Science \u2014 Model Engineering College 2023",
+        "ats_score": 37.37,
+        "grade": "D",
+        "zone": "rejected",
+        "decision": "Rejected \u2014 Insufficient Experience"
+      },
+      {
+        "candidate_id": "ZCP-CAND-VISH",
+        "name": "Vishnu Prasad",
+        "role": "Java Developer",
+        "experience_yrs": 2.0,
+        "skills": [
+          "java",
+          "spring",
+          "mysql"
+        ],
+        "education": "B.Tech IT \u2014 Kerala University 2022",
+        "ats_score": 21.5,
+        "grade": "D",
+        "zone": "rejected",
+        "decision": "Rejected \u2014 Wrong Technology Stack"
+      }
+    ],
+    "summary": {
+      "shortlisted_count": 2,
+      "review_count": 1,
+      "rejected_count": 3,
+      "avg_score": 53.78,
+      "top_score": 82.24,
+      "shortlist_rate": 33.3
+    },
+    "shortlisted": [
+      {
+        "candidate_id": "ZCP-CAND-ARJU",
+        "name": "Arjun Krishnan",
+        "role": "Software Engineer",
+        "experience_yrs": 3.9,
+        "skills": [
+          "python",
+          "django",
+          "aws",
+          "docker",
+          "postgresql",
+          "machine learning"
+        ],
+        "education": "B.Tech Computer Science \u2014 RV College of Engineering 2021",
+        "ats_score": 82.24,
+        "grade": "A",
+        "zone": "shortlisted",
+        "decision": "Likely Hire \u2014 Proceed to Technical Interview"
+      },
+      {
+        "candidate_id": "ZCP-CAND-PRIY",
+        "name": "Priya Sharma",
+        "role": "Software Engineer",
+        "experience_yrs": 3.5,
+        "skills": [
+          "python",
+          "django",
+          "react",
+          "postgresql",
+          "git",
+          "docker"
+        ],
+        "education": "B.Tech Computer Science \u2014 BITS Pilani 2021",
+        "ats_score": 73.99,
+        "grade": "B+",
+        "zone": "shortlisted",
+        "decision": "Likely Hire \u2014 Proceed to Technical Interview"
+      }
+    ],
+    "review": [
+      {
+        "candidate_id": "ZCP-CAND-KART",
+        "name": "Karthik Nair",
+        "role": "Software Engineer",
+        "experience_yrs": 2.5,
+        "skills": [
+          "python",
+          "aws",
+          "docker",
+          "kubernetes",
+          "git"
+        ],
+        "education": "B.Tech IT \u2014 NIT Calicut 2022",
+        "ats_score": 65.74,
+        "grade": "B",
+        "zone": "review",
+        "decision": "Manual Review Required"
+      }
+    ],
+    "rejected": [
+      {
+        "candidate_id": "ZCP-CAND-SNEH",
+        "name": "Sneha Pillai",
+        "role": "Data Analyst",
+        "experience_yrs": 2.0,
+        "skills": [
+          "python",
+          "sql",
+          "power bi",
+          "pandas",
+          "tableau"
+        ],
+        "education": "M.Sc Statistics \u2014 University of Mumbai 2021",
+        "ats_score": 41.85,
+        "grade": "C",
+        "zone": "rejected",
+        "decision": "Rejected \u2014 Does Not Meet SW Engineer Requirements"
+      },
+      {
+        "candidate_id": "ZCP-CAND-RAHU",
+        "name": "Rahul Menon",
+        "role": "Fresher",
+        "experience_yrs": 0.0,
+        "skills": [
+          "python",
+          "sql",
+          "java",
+          "git"
+        ],
+        "education": "B.Tech Computer Science \u2014 Model Engineering College 2023",
+        "ats_score": 37.37,
+        "grade": "D",
+        "zone": "rejected",
+        "decision": "Rejected \u2014 Insufficient Experience"
+      },
+      {
+        "candidate_id": "ZCP-CAND-VISH",
+        "name": "Vishnu Prasad",
+        "role": "Java Developer",
+        "experience_yrs": 2.0,
+        "skills": [
+          "java",
+          "spring",
+          "mysql"
+        ],
+        "education": "B.Tech IT \u2014 Kerala University 2022",
+        "ats_score": 21.5,
+        "grade": "D",
+        "zone": "rejected",
+        "decision": "Rejected \u2014 Wrong Technology Stack"
+      }
+    ]
+  }
+}

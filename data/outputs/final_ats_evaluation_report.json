@@ -1,0 +1,541 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-09T11:47:54.095982",
+    "report_type": "Final ATS Evaluation Report",
+    "project": "Zecpath AI Recruitment System",
+    "developer": "Salvin Cheriyan Babu",
+    "internship": "Zescer Business LLP",
+    "report_version": "1.0"
+  },
+  "production_readiness": {
+    "total_checks": 43,
+    "passed_checks": 43,
+    "failed_checks": 0,
+    "pass_rate": 1.0,
+    "production_ready": true,
+    "categories": {
+      "pipeline_completeness": {
+        "label": "All 18 pipeline days implemented",
+        "passed": 17,
+        "total": 17,
+        "all_pass": true,
+        "checks": [
+          {
+            "item": "Day 3  - Project setup and environment",
+            "status": true
+          },
+          {
+            "item": "Day 4  - JSON schema design",
+            "status": true
+          },
+          {
+            "item": "Day 5  - Resume text extraction",
+            "status": true
+          },
+          {
+            "item": "Day 6  - Job description parser",
+            "status": true
+          },
+          {
+            "item": "Day 7  - AI data pipeline",
+            "status": true
+          },
+          {
+            "item": "Day 8  - Resume section segmentation",
+            "status": true
+          },
+          {
+            "item": "Day 9  - Skill extraction engine",
+            "status": true
+          },
+          {
+            "item": "Day 10 - Experience parser",
+            "status": true
+          },
+          {
+            "item": "Day 11 - Education & certification parser",
+            "status": true
+          },
+          {
+            "item": "Day 12 - Semantic matching engine",
+            "status": true
+          },
+          {
+            "item": "Day 13 - ATS scoring formula",
+            "status": true
+          },
+          {
+            "item": "Day 14 - Candidate ranking & shortlisting",
+            "status": true
+          },
+          {
+            "item": "Day 15 - Fairness & bias reduction",
+            "status": true
+          },
+          {
+            "item": "Day 16 - ATS API design",
+            "status": true
+          },
+          {
+            "item": "Day 17 - ATS system testing",
+            "status": true
+          },
+          {
+            "item": "Day 18 - Optimization & performance tuning",
+            "status": true
+          },
+          {
+            "item": "Day 19 - Documentation & knowledge transfer",
+            "status": true
+          }
+        ]
+      },
+      "code_quality": {
+        "label": "Code quality standards",
+        "passed": 6,
+        "total": 6,
+        "all_pass": true,
+        "checks": [
+          {
+            "item": "All modules have docstrings",
+            "status": true
+          },
+          {
+            "item": "All constants defined at module level",
+            "status": true
+          },
+          {
+            "item": "No hardcoded values in business logic",
+            "status": true
+          },
+          {
+            "item": "All outputs saved as structured JSON",
+            "status": true
+          },
+          {
+            "item": "Error handling for missing data",
+            "status": true
+          },
+          {
+            "item": "Git history with meaningful commit messages",
+            "status": true
+          }
+        ]
+      },
+      "testing": {
+        "label": "Test coverage",
+        "passed": 5,
+        "total": 5,
+        "all_pass": true,
+        "checks": [
+          {
+            "item": "535+ automated tests passing",
+            "status": true
+          },
+          {
+            "item": "All 17 test modules present",
+            "status": true
+          },
+          {
+            "item": "Edge cases tested (empty, missing, malformed)",
+            "status": true
+          },
+          {
+            "item": "Performance benchmarks documented",
+            "status": true
+          },
+          {
+            "item": "Accuracy metrics validated (91.67%)",
+            "status": true
+          }
+        ]
+      },
+      "fairness": {
+        "label": "Fairness and bias standards",
+        "passed": 5,
+        "total": 5,
+        "all_pass": true,
+        "checks": [
+          {
+            "item": "Personal attributes masked (10 categories)",
+            "status": true
+          },
+          {
+            "item": "Buzzword inflation removed",
+            "status": true
+          },
+          {
+            "item": "Score normalization implemented",
+            "status": true
+          },
+          {
+            "item": "Bias risk detection working",
+            "status": true
+          },
+          {
+            "item": "Role-specific weight profiles configured",
+            "status": true
+          }
+        ]
+      },
+      "api_readiness": {
+        "label": "API and integration readiness",
+        "passed": 5,
+        "total": 5,
+        "all_pass": true,
+        "checks": [
+          {
+            "item": "7 REST endpoints designed with contracts",
+            "status": true
+          },
+          {
+            "item": "15 error codes defined",
+            "status": true
+          },
+          {
+            "item": "Async job lifecycle management working",
+            "status": true
+          },
+          {
+            "item": "Request validation implemented",
+            "status": true
+          },
+          {
+            "item": "Logging standards defined",
+            "status": true
+          }
+        ]
+      },
+      "documentation": {
+        "label": "Documentation completeness",
+        "passed": 5,
+        "total": 5,
+        "all_pass": true,
+        "checks": [
+          {
+            "item": "Architecture documented across 6 layers",
+            "status": true
+          },
+          {
+            "item": "All 12 modules in module registry",
+            "status": true
+          },
+          {
+            "item": "Scoring logic with worked example",
+            "status": true
+          },
+          {
+            "item": "7 troubleshooting issues documented",
+            "status": true
+          },
+          {
+            "item": "Developer quick reference with 5 guides",
+            "status": true
+          }
+        ]
+      }
+    }
+  },
+  "final_metrics": {
+    "total_days": 20,
+    "total_modules": 12,
+    "total_tests": 535,
+    "tests_passing": 535,
+    "pipeline_layers": 6,
+    "api_endpoints": 7,
+    "error_codes": 15,
+    "profile_categories": 6,
+    "weight_profiles": 6,
+    "bias_mask_fields": 10,
+    "noise_patterns": 10,
+    "accuracy_metrics": {
+      "precision": 1.0,
+      "recall": 0.8333,
+      "f1_score": 0.9091,
+      "accuracy": 0.9167,
+      "mismatch_rate": 0.1667
+    },
+    "performance_metrics": {
+      "pipeline_speedup_pct": 50,
+      "memory_reduction_pct": 57,
+      "cache_hit_rate_pct": 75,
+      "text_reduction_pct": 24
+    }
+  },
+  "demo_results": {
+    "demo_metadata": {
+      "run_at": "2026-06-09T11:47:54.095970",
+      "job_id": "ZCP-JOB-20260529-SW01",
+      "role": "Software Engineer",
+      "total_candidates": 6
+    },
+    "job_requirements": {
+      "job_id": "ZCP-JOB-20260529-SW01",
+      "role_name": "Software Engineer",
+      "company": "Zescer Business LLP",
+      "required_skills": [
+        "python",
+        "django",
+        "aws",
+        "docker",
+        "postgresql",
+        "git",
+        "rest api"
+      ],
+      "preferred_skills": [
+        "kubernetes",
+        "machine learning",
+        "react",
+        "redis"
+      ],
+      "min_experience_years": 2,
+      "max_experience_years": 5,
+      "min_education": "b.tech",
+      "field_of_study": "computer science",
+      "role_type": "software_engineer"
+    },
+    "ranked_results": [
+      {
+        "candidate_id": "ZCP-CAND-ARJU",
+        "name": "Arjun Krishnan",
+        "role": "Software Engineer",
+        "experience_yrs": 3.9,
+        "skills": [
+          "python",
+          "django",
+          "aws",
+          "docker",
+          "postgresql",
+          "machine learning"
+        ],
+        "education": "B.Tech Computer Science — RV College of Engineering 2021",
+        "ats_score": 82.24,
+        "grade": "A",
+        "zone": "shortlisted",
+        "decision": "Likely Hire — Proceed to Technical Interview"
+      },
+      {
+        "candidate_id": "ZCP-CAND-PRIY",
+        "name": "Priya Sharma",
+        "role": "Software Engineer",
+        "experience_yrs": 3.5,
+        "skills": [
+          "python",
+          "django",
+          "react",
+          "postgresql",
+          "git",
+          "docker"
+        ],
+        "education": "B.Tech Computer Science — BITS Pilani 2021",
+        "ats_score": 73.99,
+        "grade": "B+",
+        "zone": "shortlisted",
+        "decision": "Likely Hire — Proceed to Technical Interview"
+      },
+      {
+        "candidate_id": "ZCP-CAND-KART",
+        "name": "Karthik Nair",
+        "role": "Software Engineer",
+        "experience_yrs": 2.5,
+        "skills": [
+          "python",
+          "aws",
+          "docker",
+          "kubernetes",
+          "git"
+        ],
+        "education": "B.Tech IT — NIT Calicut 2022",
+        "ats_score": 65.74,
+        "grade": "B",
+        "zone": "review",
+        "decision": "Manual Review Required"
+      },
+      {
+        "candidate_id": "ZCP-CAND-SNEH",
+        "name": "Sneha Pillai",
+        "role": "Data Analyst",
+        "experience_yrs": 2.0,
+        "skills": [
+          "python",
+          "sql",
+          "power bi",
+          "pandas",
+          "tableau"
+        ],
+        "education": "M.Sc Statistics — University of Mumbai 2021",
+        "ats_score": 41.85,
+        "grade": "C",
+        "zone": "rejected",
+        "decision": "Rejected — Does Not Meet SW Engineer Requirements"
+      },
+      {
+        "candidate_id": "ZCP-CAND-RAHU",
+        "name": "Rahul Menon",
+        "role": "Fresher",
+        "experience_yrs": 0.0,
+        "skills": [
+          "python",
+          "sql",
+          "java",
+          "git"
+        ],
+        "education": "B.Tech Computer Science — Model Engineering College 2023",
+        "ats_score": 37.37,
+        "grade": "D",
+        "zone": "rejected",
+        "decision": "Rejected — Insufficient Experience"
+      },
+      {
+        "candidate_id": "ZCP-CAND-VISH",
+        "name": "Vishnu Prasad",
+        "role": "Java Developer",
+        "experience_yrs": 2.0,
+        "skills": [
+          "java",
+          "spring",
+          "mysql"
+        ],
+        "education": "B.Tech IT — Kerala University 2022",
+        "ats_score": 21.5,
+        "grade": "D",
+        "zone": "rejected",
+        "decision": "Rejected — Wrong Technology Stack"
+      }
+    ],
+    "summary": {
+      "shortlisted_count": 2,
+      "review_count": 1,
+      "rejected_count": 3,
+      "avg_score": 53.78,
+      "top_score": 82.24,
+      "shortlist_rate": 33.3
+    },
+    "shortlisted": [
+      {
+        "candidate_id": "ZCP-CAND-ARJU",
+        "name": "Arjun Krishnan",
+        "role": "Software Engineer",
+        "experience_yrs": 3.9,
+        "skills": [
+          "python",
+          "django",
+          "aws",
+          "docker",
+          "postgresql",
+          "machine learning"
+        ],
+        "education": "B.Tech Computer Science — RV College of Engineering 2021",
+        "ats_score": 82.24,
+        "grade": "A",
+        "zone": "shortlisted",
+        "decision": "Likely Hire — Proceed to Technical Interview"
+      },
+      {
+        "candidate_id": "ZCP-CAND-PRIY",
+        "name": "Priya Sharma",
+        "role": "Software Engineer",
+        "experience_yrs": 3.5,
+        "skills": [
+          "python",
+          "django",
+          "react",
+          "postgresql",
+          "git",
+          "docker"
+        ],
+        "education": "B.Tech Computer Science — BITS Pilani 2021",
+        "ats_score": 73.99,
+        "grade": "B+",
+        "zone": "shortlisted",
+        "decision": "Likely Hire — Proceed to Technical Interview"
+      }
+    ],
+    "review": [
+      {
+        "candidate_id": "ZCP-CAND-KART",
+        "name": "Karthik Nair",
+        "role": "Software Engineer",
+        "experience_yrs": 2.5,
+        "skills": [
+          "python",
+          "aws",
+          "docker",
+          "kubernetes",
+          "git"
+        ],
+        "education": "B.Tech IT — NIT Calicut 2022",
+        "ats_score": 65.74,
+        "grade": "B",
+        "zone": "review",
+        "decision": "Manual Review Required"
+      }
+    ],
+    "rejected": [
+      {
+        "candidate_id": "ZCP-CAND-SNEH",
+        "name": "Sneha Pillai",
+        "role": "Data Analyst",
+        "experience_yrs": 2.0,
+        "skills": [
+          "python",
+          "sql",
+          "power bi",
+          "pandas",
+          "tableau"
+        ],
+        "education": "M.Sc Statistics — University of Mumbai 2021",
+        "ats_score": 41.85,
+        "grade": "C",
+        "zone": "rejected",
+        "decision": "Rejected — Does Not Meet SW Engineer Requirements"
+      },
+      {
+        "candidate_id": "ZCP-CAND-RAHU",
+        "name": "Rahul Menon",
+        "role": "Fresher",
+        "experience_yrs": 0.0,
+        "skills": [
+          "python",
+          "sql",
+          "java",
+          "git"
+        ],
+        "education": "B.Tech Computer Science — Model Engineering College 2023",
+        "ats_score": 37.37,
+        "grade": "D",
+        "zone": "rejected",
+        "decision": "Rejected — Insufficient Experience"
+      },
+      {
+        "candidate_id": "ZCP-CAND-VISH",
+        "name": "Vishnu Prasad",
+        "role": "Java Developer",
+        "experience_yrs": 2.0,
+        "skills": [
+          "java",
+          "spring",
+          "mysql"
+        ],
+        "education": "B.Tech IT — Kerala University 2022",
+        "ats_score": 21.5,
+        "grade": "D",
+        "zone": "rejected",
+        "decision": "Rejected — Wrong Technology Stack"
+      }
+    ]
+  },
+  "pipeline_summary": {
+    "total_days": 20,
+    "total_modules": 12,
+    "total_tests": 535,
+    "all_tests_pass": true,
+    "accuracy": 0.9167,
+    "precision": 1.0,
+    "speedup_pct": 50
+  },
+  "verdict": {
+    "production_ready": true,
+    "recommendation": "APPROVED FOR PRODUCTION — All systems operational, all tests passing, accuracy targets met."
+  }
+}
