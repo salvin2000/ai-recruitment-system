@@ -1,0 +1,86 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-09T11:09:50.771833",
+    "optimizer_version": "1.0",
+    "n_resumes_tested": 5
+  },
+  "improvements": {
+    "text_extraction_ms": {
+      "before_ms": 463.72,
+      "after_ms": 204.08,
+      "improvement_ms": 259.64,
+      "improvement_pct": 56.0,
+      "target_ms": 200,
+      "meets_target": false
+    },
+    "skill_extraction_ms": {
+      "before_ms": 121.94,
+      "after_ms": 59.23,
+      "improvement_ms": 62.71,
+      "improvement_pct": 51.4,
+      "target_ms": 60,
+      "meets_target": true
+    },
+    "experience_parsing_ms": {
+      "before_ms": 85.14,
+      "after_ms": 48.62,
+      "improvement_ms": 36.52,
+      "improvement_pct": 42.9,
+      "target_ms": 50,
+      "meets_target": true
+    },
+    "education_parsing_ms": {
+      "before_ms": 79.22,
+      "after_ms": 44.41,
+      "improvement_ms": 34.81,
+      "improvement_pct": 43.9,
+      "target_ms": 45,
+      "meets_target": true
+    },
+    "semantic_matching_ms": {
+      "before_ms": 347.88,
+      "after_ms": 184.59,
+      "improvement_ms": 163.29,
+      "improvement_pct": 46.9,
+      "target_ms": 180,
+      "meets_target": false
+    },
+    "ats_scoring_ms": {
+      "before_ms": 43.72,
+      "after_ms": 24.84,
+      "improvement_ms": 18.88,
+      "improvement_pct": 43.2,
+      "target_ms": 25,
+      "meets_target": true
+    },
+    "total_pipeline_ms": {
+      "before_ms": 1141.62,
+      "after_ms": 565.77,
+      "improvement_ms": 575.85,
+      "improvement_pct": 50.4,
+      "target_ms": 560,
+      "meets_target": false
+    }
+  },
+  "overall_pass": false,
+  "baselines": {
+    "text_extraction_ms": 450,
+    "skill_extraction_ms": 120,
+    "experience_parsing_ms": 90,
+    "education_parsing_ms": 80,
+    "semantic_matching_ms": 340,
+    "ats_scoring_ms": 45,
+    "total_pipeline_ms": 1125,
+    "memory_per_resume_kb": 8200
+  },
+  "targets": {
+    "text_extraction_ms": 200,
+    "skill_extraction_ms": 60,
+    "experience_parsing_ms": 50,
+    "education_parsing_ms": 45,
+    "semantic_matching_ms": 180,
+    "ats_scoring_ms": 25,
+    "total_pipeline_ms": 560,
+    "memory_per_resume_kb": 3500
+  }
+}
