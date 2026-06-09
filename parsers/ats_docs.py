@@ -1,0 +1,544 @@
+"""
+Day 19 – ATS Documentation & Knowledge Transfer
+Zecpath AI Recruitment Platform
+
+Makes the ATS maintainable, explainable, and extendable by generating
+technical documentation, architecture descriptions, scoring logic docs,
+and troubleshooting guides.
+"""
+
+import json
+from datetime import datetime
+from pathlib import Path
+
+
+# ── Pipeline Architecture ─────────────────────────────────────────────────────
+
+PIPELINE_ARCHITECTURE = {
+    "name":        "Zecpath ATS AI Pipeline",
+    "version":     "1.0",
+    "total_days":  18,
+    "description": (
+        "End-to-end AI recruitment pipeline that processes resumes "
+        "and job descriptions through 18 sequential modules to produce "
+        "ranked, scored, and shortlisted candidate lists."
+    ),
+    "layers": {
+        "data_ingestion": {
+            "days":        [3, 4, 5],
+            "description": "Environment setup, schema design, and resume text extraction",
+            "modules":     ["logger.py", "extractor.py"],
+            "input":       "PDF or DOCX resume files",
+            "output":      "Raw text strings",
+        },
+        "parsing": {
+            "days":        [6, 7, 8, 9, 10, 11],
+            "description": "Structured extraction of all resume components",
+            "modules":     [
+                "jd_parser.py", "data_pipeline.py", "section_segmenter.py",
+                "skill_extractor.py", "experience_parser.py", "education_parser.py"
+            ],
+            "input":       "Raw resume text",
+            "output":      "Structured JSON with skills, experience, education",
+        },
+        "intelligence": {
+            "days":        [12, 13],
+            "description": "Semantic matching and ATS scoring",
+            "modules":     ["semantic_matcher.py", "ats_scorer.py"],
+            "input":       "Structured candidate and job profiles",
+            "output":      "Weighted scores with component breakdown",
+        },
+        "decision": {
+            "days":        [14, 15],
+            "description": "Ranking, shortlisting, and fairness",
+            "modules":     ["candidate_ranker.py", "bias_reducer.py"],
+            "input":       "Candidate scores",
+            "output":      "Ranked list with zone classification",
+        },
+        "integration": {
+            "days":        [16],
+            "description": "REST API for backend integration",
+            "modules":     ["ats_api.py"],
+            "input":       "HTTP requests",
+            "output":      "JSON API responses",
+        },
+        "quality": {
+            "days":        [17, 18],
+            "description": "Testing, optimization, and performance tuning",
+            "modules":     ["ats_tester.py", "ats_optimizer.py"],
+            "input":       "Pipeline outputs",
+            "output":      "Accuracy metrics, performance reports",
+        },
+    },
+}
+
+# ── Module Registry ───────────────────────────────────────────────────────────
+
+MODULE_REGISTRY = {
+    "extractor.py": {
+        "day":         5,
+        "layer":       "data_ingestion",
+        "class":       "ResumeExtractor",
+        "purpose":     "Extracts raw text from PDF and DOCX resume files",
+        "inputs":      ["file_path: str"],
+        "outputs":     ["raw_text: str"],
+        "key_methods": ["extract_from_pdf()", "extract_from_docx()", "extract()"],
+    },
+    "jd_parser.py": {
+        "day":         6,
+        "layer":       "parsing",
+        "class":       "JDParser",
+        "purpose":     "Parses job descriptions into structured JSON profiles",
+        "inputs":      ["jd_text: str"],
+        "outputs":     ["job_profile: dict"],
+        "key_methods": ["parse()", "extract_skills()", "extract_requirements()"],
+    },
+    "skill_extractor.py": {
+        "day":         9,
+        "layer":       "parsing",
+        "class":       "SkillExtractionEngine",
+        "purpose":     "Extracts and categorizes skills from resume text",
+        "inputs":      ["resume_text: str"],
+        "outputs":     ["skill_summary: dict with technical/soft/business/creative"],
+        "key_methods": ["extract_skills()", "categorize_skills()", "score_skills()"],
+    },
+    "experience_parser.py": {
+        "day":         10,
+        "layer":       "parsing",
+        "class":       "ExperienceParser",
+        "purpose":     "Parses work experience sections into structured records",
+        "inputs":      ["resume_text: str", "job_requirements: dict"],
+        "outputs":     ["experience_records: list", "relevance_score: dict"],
+        "key_methods": ["parse()", "extract_roles()", "calculate_total_years()"],
+    },
+    "education_parser.py": {
+        "day":         11,
+        "layer":       "parsing",
+        "class":       "EducationParser",
+        "purpose":     "Parses education and certifications from resume text",
+        "inputs":      ["resume_text: str", "job_requirements: dict"],
+        "outputs":     ["qualifications: list", "certifications: list"],
+        "key_methods": ["parse()", "normalize_degree()", "score_education_relevance()"],
+    },
+    "semantic_matcher.py": {
+        "day":         12,
+        "layer":       "intelligence",
+        "class":       "SemanticMatchingEngine",
+        "purpose":     "Computes TF-IDF semantic similarity between resume and JD",
+        "inputs":      ["resume_text: str", "jd_text: str"],
+        "outputs":     ["similarity_scores: dict", "overall_match: dict"],
+        "key_methods": ["match()", "match_batch()", "build_corpus()"],
+    },
+    "ats_scorer.py": {
+        "day":         13,
+        "layer":       "intelligence",
+        "class":       "ATSScoringEngine",
+        "purpose":     "Combines skill, experience, education, semantic into weighted score",
+        "inputs":      ["skill_data", "experience_data", "education_data", "semantic_data"],
+        "outputs":     ["final_score: float", "grade: str", "recommendation: str"],
+        "key_methods": ["score()", "score_batch()", "generate_scorecard()"],
+    },
+    "candidate_ranker.py": {
+        "day":         14,
+        "layer":       "decision",
+        "class":       "CandidateRanker",
+        "purpose":     "Ranks and shortlists candidates based on ATS scores",
+        "inputs":      ["ats_results: list"],
+        "outputs":     ["ranked_list: list", "shortlisting_report: dict"],
+        "key_methods": ["rank_candidates()", "get_shortlisted()", "generate_shortlist_report()"],
+    },
+    "bias_reducer.py": {
+        "day":         15,
+        "layer":       "decision",
+        "class":       "ResumeNormalizer, ScoreNormalizer, BiasDetector",
+        "purpose":     "Reduces bias by masking personal attributes and normalizing scores",
+        "inputs":      ["resume_text: str", "ats_results: list"],
+        "outputs":     ["normalized_text: str", "bias_evaluation: dict"],
+        "key_methods": ["normalize_resume()", "min_max_normalize()", "evaluate_resume()"],
+    },
+    "ats_api.py": {
+        "day":         16,
+        "layer":       "integration",
+        "class":       "ATSAPISpecification, AsyncJobManager",
+        "purpose":     "Defines REST API contracts and async job lifecycle management",
+        "inputs":      ["HTTP requests"],
+        "outputs":     ["JSON responses", "job tracking records"],
+        "key_methods": ["validate_request()", "create_job()", "update_status()"],
+    },
+    "ats_tester.py": {
+        "day":         17,
+        "layer":       "quality",
+        "class":       "ATSTester",
+        "purpose":     "Tests ATS accuracy by comparing AI vs manual decisions",
+        "inputs":      ["test_cases: list"],
+        "outputs":     ["accuracy_metrics: dict", "improvement_backlog: list"],
+        "key_methods": ["run_tests()", "build_confusion_matrix()", "compute_metrics()"],
+    },
+    "ats_optimizer.py": {
+        "day":         18,
+        "layer":       "quality",
+        "class":       "TextCleaner, LRUCache, PerformanceBenchmarker",
+        "purpose":     "Optimizes pipeline speed, memory, and entity detection",
+        "inputs":      ["resume_text: str", "pipeline_results: list"],
+        "outputs":     ["cleaned_text: str", "performance_report: dict"],
+        "key_methods": ["clean()", "prune_sparse_vector()", "run_benchmark()"],
+    },
+}
+
+# ── Scoring Logic Documentation ───────────────────────────────────────────────
+
+SCORING_LOGIC = {
+    "overview": (
+        "The ATS scoring formula combines four component scores into a "
+        "single weighted final score out of 100. Each component uses data "
+        "from a specific parsing module. The weights are configurable per "
+        "role type using DEFAULT_WEIGHT_PROFILES in ats_scorer.py."
+    ),
+    "formula":
+        "final_score = (skill_match * w1) + (experience_relevance * w2) "
+        "+ (education_alignment * w3) + (semantic_similarity * w4)",
+    "components": {
+        "skill_match": {
+            "weight_default": 0.30,
+            "source":         "Day 9 — skill_extractor.py",
+            "sub_formula":    "0.70 * required_match_rate + 0.30 * preferred_match_rate",
+            "range":          "0.0 to 1.0",
+            "description":    "Percentage of required and preferred skills the candidate has",
+        },
+        "experience_relevance": {
+            "weight_default": 0.30,
+            "source":         "Day 10 — experience_parser.py",
+            "sub_formula":    "relevance_score from experience parser (role sim + years + skills)",
+            "range":          "0.0 to 1.0",
+            "description":    "How relevant the candidate's work history is to the job",
+        },
+        "education_alignment": {
+            "weight_default": 0.20,
+            "source":         "Day 11 — education_parser.py",
+            "sub_formula":    "0.50 * degree_score + 0.30 * field_score + 0.20 * cert_score",
+            "range":          "0.0 to 1.0",
+            "description":    "How well the candidate's education matches the job requirements",
+        },
+        "semantic_similarity": {
+            "weight_default": 0.20,
+            "source":         "Day 12 — semantic_matcher.py",
+            "sub_formula":    "TF-IDF cosine similarity normalized to 0-1 range",
+            "range":          "0.0 to 1.0",
+            "description":    "Deep text similarity between resume and job description",
+        },
+    },
+    "grade_thresholds": {
+        "A+": "90 and above",
+        "A":  "80 to 89",
+        "B+": "70 to 79",
+        "B":  "60 to 69",
+        "C+": "50 to 59",
+        "C":  "40 to 49",
+        "D":  "Below 40",
+    },
+    "weight_profiles": {
+        "software_engineer":  {"skill_match": 0.35, "experience_relevance": 0.30, "education_alignment": 0.15, "semantic_similarity": 0.20},
+        "data_analyst":       {"skill_match": 0.30, "experience_relevance": 0.30, "education_alignment": 0.20, "semantic_similarity": 0.20},
+        "management_trainee": {"skill_match": 0.20, "experience_relevance": 0.20, "education_alignment": 0.35, "semantic_similarity": 0.25},
+        "devops_engineer":    {"skill_match": 0.40, "experience_relevance": 0.35, "education_alignment": 0.10, "semantic_similarity": 0.15},
+        "hr_manager":         {"skill_match": 0.25, "experience_relevance": 0.35, "education_alignment": 0.20, "semantic_similarity": 0.20},
+    },
+}
+
+# ── Troubleshooting Guide ─────────────────────────────────────────────────────
+
+TROUBLESHOOTING_GUIDE = [
+    {
+        "issue":       "Resume text extraction returns empty string",
+        "symptoms":    ["extractor returns empty text", "all scores are 0.0"],
+        "causes":      ["PDF is image-based (scanned)", "File is password protected", "Corrupted file"],
+        "solutions":   [
+            "Use OCR preprocessing for scanned PDFs",
+            "Ask candidate to re-upload without password",
+            "Validate file integrity before processing",
+        ],
+        "error_code":  "ATS_003",
+    },
+    {
+        "issue":       "All candidates scoring very low or all scoring high",
+        "symptoms":    ["Every candidate gets grade D", "All candidates shortlisted"],
+        "causes":      ["Wrong role_type selected", "Job requirements not populated", "Weight profile misconfigured"],
+        "solutions":   [
+            "Verify role_type matches the job posting",
+            "Check that required_skills list is not empty in job requirements",
+            "Validate weight profile sums to 1.0",
+        ],
+        "error_code":  "ATS_013",
+    },
+    {
+        "issue":       "Skill extraction misses obvious skills",
+        "symptoms":    ["Python not detected in a Python developer resume"],
+        "causes":      ["Skill written in unusual format", "Skill in image or table", "Encoding issue"],
+        "solutions":   [
+            "Run TextCleaner before skill extraction",
+            "Check for encoding errors in raw text",
+            "Add skill variant to SKILL_DISAMBIGUATION in ats_optimizer.py",
+        ],
+        "error_code":  None,
+    },
+    {
+        "issue":       "Semantic similarity scores are all very low",
+        "symptoms":    ["All semantic scores below 0.05"],
+        "causes":      ["TF-IDF corpus too small", "Background corpus not included", "Thresholds not calibrated"],
+        "solutions":   [
+            "Ensure BACKGROUND_CORPUS is included in build_corpus()",
+            "Verify semantic_matcher.py is using version 3 with background corpus",
+            "Check SIMILARITY_THRESHOLDS are calibrated for TF-IDF not neural embeddings",
+        ],
+        "error_code":  None,
+    },
+    {
+        "issue":       "Async job stays in pending state",
+        "symptoms":    ["Job status never changes from pending", "Timeout errors"],
+        "causes":      ["Worker process not running", "Job queue full", "Parsing error silently failing"],
+        "solutions":   [
+            "Check that the async worker process is running",
+            "Monitor job queue length and scale workers if needed",
+            "Check ERROR level logs for silent parsing failures",
+        ],
+        "error_code":  "ATS_008",
+    },
+    {
+        "issue":       "High bias risk flags on all resumes",
+        "symptoms":    ["Every resume flagged as High risk"],
+        "causes":      ["Personal info density threshold too low", "Name pattern too broad"],
+        "solutions":   [
+            "Review BIAS_INDICATOR_THRESHOLDS in bias_reducer.py",
+            "Tighten the name regex pattern to reduce false matches",
+            "Run normalize_resume() before bias detection",
+        ],
+        "error_code":  None,
+    },
+    {
+        "issue":       "Memory usage grows during batch processing",
+        "symptoms":    ["RAM increases with each resume", "Out of memory after 100+ resumes"],
+        "causes":      ["GC interval too high", "Cache not bounded", "Vectors not pruned"],
+        "solutions":   [
+            "Reduce gc_interval in MEMORY_CONFIG from 50 to 20",
+            "Verify LRUCache max_size is set correctly",
+            "Call prune_sparse_vector() before storing TF-IDF vectors",
+        ],
+        "error_code":  None,
+    },
+]
+
+# ── Developer Quick Reference ─────────────────────────────────────────────────
+
+DEVELOPER_QUICK_REFERENCE = {
+    "add_new_role_type": {
+        "title":   "Add a new role type weight profile",
+        "steps": [
+            "Open parsers/ats_scorer.py",
+            "Add a new entry to DEFAULT_WEIGHT_PROFILES dict",
+            "Ensure the 4 weights sum to 1.0",
+            "Add matching thresholds to ROLE_THRESHOLDS in candidate_ranker.py",
+            "Run: venv/Scripts/python.exe -m pytest tests/test_ats_scorer.py -v",
+        ],
+    },
+    "add_new_skill": {
+        "title":   "Add a new skill to the skill dictionary",
+        "steps": [
+            "Open parsers/skill_dictionary.py",
+            "Add the skill to the appropriate category list",
+            "Add any known variants to SKILL_DISAMBIGUATION in ats_optimizer.py",
+            "Run: venv/Scripts/python.exe -m pytest tests/test_skill_extractor.py -v",
+        ],
+    },
+    "extend_bias_masking": {
+        "title":   "Add a new personal attribute to mask",
+        "steps": [
+            "Open parsers/bias_reducer.py",
+            "Add new entry to BIAS_MASK_PATTERNS with regex pattern",
+            "Test the pattern: re.findall(pattern, sample_text, re.IGNORECASE)",
+            "Run: venv/Scripts/python.exe -m pytest tests/test_bias_reducer.py -v",
+        ],
+    },
+    "run_full_pipeline": {
+        "title":   "Run the complete ATS pipeline on a resume",
+        "steps": [
+            "cd C:\\\\Users\\\\shali\\\\OneDrive\\\\Desktop\\\\ai-recruitment-system",
+            "source venv/Scripts/activate",
+            "venv/Scripts/python.exe run_ats_scorer.py",
+            "venv/Scripts/python.exe run_candidate_ranker.py",
+            "Check data/outputs/ for all JSON results",
+        ],
+    },
+    "run_all_tests": {
+        "title":   "Run the full test suite",
+        "steps": [
+            "cd C:\\\\Users\\\\shali\\\\OneDrive\\\\Desktop\\\\ai-recruitment-system",
+            "venv/Scripts/python.exe -m pytest tests/ -v",
+            "Expected: 488+ tests passing",
+        ],
+    },
+}
+
+
+class ATSDocumentationGenerator:
+    """
+    Generates technical documentation, architecture summaries,
+    scoring logic explanations, and troubleshooting guides.
+    """
+
+    def __init__(self):
+        self.architecture  = PIPELINE_ARCHITECTURE
+        self.modules       = MODULE_REGISTRY
+        self.scoring       = SCORING_LOGIC
+        self.troubleshoot  = TROUBLESHOOTING_GUIDE
+        self.quick_ref     = DEVELOPER_QUICK_REFERENCE
+
+    # ── Architecture Summary ──────────────────────────────────────────────────
+
+    def generate_architecture_summary(self) -> dict:
+        """Generate a complete architecture summary."""
+        layers_summary = {}
+        for layer_name, layer_data in self.architecture["layers"].items():
+            layers_summary[layer_name] = {
+                "days":        layer_data["days"],
+                "description": layer_data["description"],
+                "modules":     layer_data["modules"],
+                "input":       layer_data["input"],
+                "output":      layer_data["output"],
+                "module_count":len(layer_data["modules"]),
+            }
+
+        return {
+            "pipeline_name":    self.architecture["name"],
+            "version":          self.architecture["version"],
+            "total_days":       self.architecture["total_days"],
+            "total_layers":     len(self.architecture["layers"]),
+            "total_modules":    len(self.modules),
+            "description":      self.architecture["description"],
+            "layers":           layers_summary,
+        }
+
+    # ── Module Documentation ──────────────────────────────────────────────────
+
+    def get_module_docs(self, module_name: str = None) -> dict:
+        """Get documentation for a specific module or all modules."""
+        if module_name:
+            return self.modules.get(module_name, {})
+        return self.modules
+
+    def get_modules_by_layer(self, layer: str) -> list:
+        """Get all modules belonging to a specific pipeline layer."""
+        return [
+            {"module": name, **data}
+            for name, data in self.modules.items()
+            if data.get("layer") == layer
+        ]
+
+    # ── Scoring Logic ─────────────────────────────────────────────────────────
+
+    def generate_scoring_explainer(self) -> dict:
+        """Generate a detailed scoring logic explanation."""
+        return {
+            "overview":          self.scoring["overview"],
+            "formula":           self.scoring["formula"],
+            "components":        self.scoring["components"],
+            "grade_thresholds":  self.scoring["grade_thresholds"],
+            "weight_profiles":   self.scoring["weight_profiles"],
+            "example": {
+                "candidate":    "Arjun Krishnan — Software Engineer",
+                "role_type":    "software_engineer",
+                "weights":      self.scoring["weight_profiles"]["software_engineer"],
+                "component_scores": {
+                    "skill_match":          0.675,
+                    "experience_relevance": 0.850,
+                    "education_alignment":  1.000,
+                    "semantic_similarity":  0.695,
+                },
+                "calculation": {
+                    "skill_contribution":     round(0.675 * 0.35 * 100, 2),
+                    "experience_contribution":round(0.850 * 0.30 * 100, 2),
+                    "education_contribution": round(1.000 * 0.15 * 100, 2),
+                    "semantic_contribution":  round(0.695 * 0.20 * 100, 2),
+                },
+                "final_score":  round(
+                    0.675*0.35*100 + 0.850*0.30*100 +
+                    1.000*0.15*100 + 0.695*0.20*100, 2
+                ),
+                "grade":        "B+",
+            },
+        }
+
+    # ── Troubleshooting ───────────────────────────────────────────────────────
+
+    def get_troubleshooting_guide(self,
+                                   issue_keyword: str = None) -> list:
+        """Get troubleshooting guide, optionally filtered by keyword."""
+        if issue_keyword:
+            return [
+                entry for entry in self.troubleshoot
+                if issue_keyword.lower() in entry["issue"].lower()
+                or any(issue_keyword.lower() in s.lower()
+                       for s in entry["symptoms"])
+            ]
+        return self.troubleshoot
+
+    # ── Developer Guide ───────────────────────────────────────────────────────
+
+    def get_developer_guide(self, task: str = None) -> dict:
+        """Get developer quick reference, optionally for a specific task."""
+        if task:
+            return self.quick_ref.get(task, {})
+        return self.quick_ref
+
+    # ── Full Documentation ────────────────────────────────────────────────────
+
+    def generate_full_documentation(self) -> dict:
+        """Generate the complete ATS technical documentation."""
+        return {
+            "doc_metadata": {
+                "generated_at":  datetime.now().isoformat(),
+                "doc_version":   "1.0",
+                "pipeline_name": self.architecture["name"],
+                "total_modules": len(self.modules),
+                "author":        "Zecpath AI Team",
+            },
+            "architecture":       self.generate_architecture_summary(),
+            "module_registry":    self.modules,
+            "scoring_logic":      self.generate_scoring_explainer(),
+            "troubleshooting":    self.troubleshoot,
+            "developer_guide":    self.quick_ref,
+        }
+
+    def save_documentation(self, output_path: str):
+        """Save full documentation to JSON file."""
+        docs = self.generate_full_documentation()
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(docs, f, indent=2, ensure_ascii=False)
+        print(f"Saved -> {output_path}")
+
+    def generate_ascii_architecture(self) -> str:
+        """Generate ASCII art architecture diagram."""
+        lines = [
+            "=" * 65,
+            "  ZECPATH ATS AI PIPELINE — ARCHITECTURE OVERVIEW",
+            "=" * 65,
+        ]
+
+        layer_order = [
+            "data_ingestion", "parsing", "intelligence",
+            "decision", "integration", "quality"
+        ]
+
+        for layer_name in layer_order:
+            layer = self.architecture["layers"][layer_name]
+            days  = ", ".join(f"Day {d}" for d in layer["days"])
+            lines.append(f"\n  [{layer_name.upper().replace('_', ' ')}] ({days})")
+            lines.append(f"  {layer['description']}")
+            lines.append(f"  Input  : {layer['input']}")
+            lines.append(f"  Output : {layer['output']}")
+            lines.append(f"  Modules: {', '.join(layer['modules'])}")
+            if layer_name != "quality":
+                lines.append("      |")
+                lines.append("      v")
+
+        lines.append("\n" + "=" * 65)
+        return "\n".join(lines)
