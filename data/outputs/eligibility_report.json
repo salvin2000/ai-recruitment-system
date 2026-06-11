@@ -1,0 +1,97 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-11T17:16:22.279783",
+    "job_id": "ZCP-JOB-20260529-SW01",
+    "role_type": "software_engineer",
+    "total_evaluated": 6,
+    "params_used": {
+      "min_ats_score": 65.0,
+      "review_ats_score": 50.0,
+      "min_experience_years": 1.5,
+      "max_experience_years": 10.0,
+      "mandatory_skills": [
+        "python"
+      ],
+      "preferred_skills": [
+        "django",
+        "aws",
+        "docker"
+      ],
+      "min_mandatory_match": 1.0,
+      "location_required": false,
+      "allowed_locations": [],
+      "availability_required": false,
+      "max_notice_period_days": 60
+    }
+  },
+  "summary": {
+    "total": 6,
+    "eligible_count": 3,
+    "review_count": 0,
+    "rejected_count": 3,
+    "eligible_rate": 50.0,
+    "rejection_rate": 50.0
+  },
+  "eligible_candidates": [
+    {
+      "candidate_id": "ZCP-CAND-ARJU",
+      "ats_score": 82.24,
+      "eligibility_tag": "eligible",
+      "checks_passed": 5,
+      "total_checks": 5,
+      "failed_rules": []
+    },
+    {
+      "candidate_id": "ZCP-CAND-PRIY",
+      "ats_score": 73.99,
+      "eligibility_tag": "eligible",
+      "checks_passed": 5,
+      "total_checks": 5,
+      "failed_rules": []
+    },
+    {
+      "candidate_id": "ZCP-CAND-KART",
+      "ats_score": 65.74,
+      "eligibility_tag": "eligible",
+      "checks_passed": 5,
+      "total_checks": 5,
+      "failed_rules": []
+    }
+  ],
+  "review_candidates": [],
+  "rejected_candidates": [
+    {
+      "candidate_id": "ZCP-CAND-SNEH",
+      "ats_score": 44.85,
+      "eligibility_tag": "rejected",
+      "checks_passed": 3,
+      "total_checks": 5,
+      "failed_rules": [
+        "ats_score",
+        "mandatory_skills"
+      ]
+    },
+    {
+      "candidate_id": "ZCP-CAND-RAHU",
+      "ats_score": 37.37,
+      "eligibility_tag": "rejected",
+      "checks_passed": 3,
+      "total_checks": 5,
+      "failed_rules": [
+        "ats_score",
+        "experience"
+      ]
+    },
+    {
+      "candidate_id": "ZCP-CAND-VISH",
+      "ats_score": 21.5,
+      "eligibility_tag": "rejected",
+      "checks_passed": 3,
+      "total_checks": 5,
+      "failed_rules": [
+        "ats_score",
+        "mandatory_skills"
+      ]
+    }
+  ]
+}
