@@ -1,0 +1,52 @@
+[
+  {
+    "test_id": "STT-001",
+    "raw": "Um, so I have like, you know, around five years of experience with Python.",
+    "clean": "So I have, around 5 years of experience with Python."
+  },
+  {
+    "test_id": "STT-002",
+    "raw": "I have 3 yrs exp as a sr dev in a tech org.",
+    "clean": "I have 3 years experience as a senior developer in a technology organization."
+  },
+  {
+    "test_id": "STT-003",
+    "raw": "Yeah definitely that works for me absolutely.",
+    "clean": "Yeah definitely that works for me absolutely."
+  },
+  {
+    "test_id": "STT-004",
+    "raw": "You can reach me at john@email.com or call 9876543210.",
+    "clean": "You can reach me at [EMAIL_REDACTED] or call [PHONE_REDACTED]."
+  },
+  {
+    "test_id": "STT-005",
+    "raw": "My CTC is around ten LPA and I expect fourteen to fifteen LPA.",
+    "clean": "My CTC is around 10 LPA and I expect 14 to 15 LPA."
+  },
+  {
+    "test_id": "STT-006",
+    "raw": "I have been working with— I mean my current role involves Python and Django.",
+    "clean": "I have been working my current role involves Python and Django."
+  },
+  {
+    "test_id": "STT-007",
+    "raw": "Around three.",
+    "clean": "Around 3."
+  },
+  {
+    "test_id": "STT-008",
+    "raw": "I have [inaudible] years of experience with [noise] and Docker.",
+    "clean": "I have [inaudible] years of experience with [noise] and Docker."
+  },
+  {
+    "test_id": "STT-009",
+    "raw": "Mera experience almost teen saal ka hai with Python.",
+    "clean": "Mera experience almost teen saal ka hai with Python."
+  },
+  {
+    "test_id": "STT-010",
+    "raw": "i work at infosys i have been there for two years i use python and java",
+    "clean": "I work at infosys i have been there for 2 years i use python and java."
+  }
+]

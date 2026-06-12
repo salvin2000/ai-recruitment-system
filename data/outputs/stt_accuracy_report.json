@@ -1,0 +1,226 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-12T23:22:49.134904",
+    "total_tests": 10,
+    "passed": 6,
+    "failed": 4,
+    "pass_rate": 60.0,
+    "avg_wer": 0.2392
+  },
+  "by_category": {
+    "filler_removal": {
+      "total": 1,
+      "passed": 0
+    },
+    "abbreviation_expansion": {
+      "total": 1,
+      "passed": 1
+    },
+    "yes_no_normalization": {
+      "total": 1,
+      "passed": 0
+    },
+    "pii_redaction": {
+      "total": 1,
+      "passed": 1
+    },
+    "numeric_normalization": {
+      "total": 1,
+      "passed": 1
+    },
+    "interrupted_speech": {
+      "total": 1,
+      "passed": 0
+    },
+    "partial_answer": {
+      "total": 1,
+      "passed": 0
+    },
+    "background_noise": {
+      "total": 1,
+      "passed": 1
+    },
+    "mixed_language": {
+      "total": 1,
+      "passed": 1
+    },
+    "punctuation_correction": {
+      "total": 1,
+      "passed": 1
+    }
+  },
+  "test_results": [
+    {
+      "test_id": "STT-001",
+      "category": "filler_removal",
+      "accent": "neutral_indian_english",
+      "confidence": 0.92,
+      "raw": "Um, so I have like, you know, around five years of experience with Python.",
+      "expected": "I have around five years of experience with Python.",
+      "cleaned": "So I have, around 5 years of experience with Python.",
+      "wer": 0.3333,
+      "passed": false,
+      "is_partial": false,
+      "flagged": false
+    },
+    {
+      "test_id": "STT-002",
+      "category": "abbreviation_expansion",
+      "accent": "neutral_indian_english",
+      "confidence": 0.88,
+      "raw": "I have 3 yrs exp as a sr dev in a tech org.",
+      "expected": "I have 3 years experience as a senior developer in a technology organization.",
+      "cleaned": "I have 3 years experience as a senior developer in a technology organization.",
+      "wer": 0.0,
+      "passed": true,
+      "is_partial": false,
+      "flagged": false
+    },
+    {
+      "test_id": "STT-003",
+      "category": "yes_no_normalization",
+      "accent": "south_indian_accent",
+      "confidence": 0.85,
+      "raw": "Yeah definitely that works for me absolutely.",
+      "expected": "Yes that works for me.",
+      "cleaned": "Yeah definitely that works for me absolutely.",
+      "wer": 0.8,
+      "passed": false,
+      "is_partial": false,
+      "flagged": false
+    },
+    {
+      "test_id": "STT-004",
+      "category": "pii_redaction",
+      "accent": "neutral_indian_english",
+      "confidence": 0.94,
+      "raw": "You can reach me at john@email.com or call 9876543210.",
+      "expected": "You can reach me at [EMAIL_REDACTED] or call [PHONE_REDACTED].",
+      "cleaned": "You can reach me at [EMAIL_REDACTED] or call [PHONE_REDACTED].",
+      "wer": 0.0,
+      "passed": true,
+      "is_partial": false,
+      "flagged": false
+    },
+    {
+      "test_id": "STT-005",
+      "category": "numeric_normalization",
+      "accent": "north_indian_accent",
+      "confidence": 0.87,
+      "raw": "My CTC is around ten LPA and I expect fourteen to fifteen LPA.",
+      "expected": "My CTC is around 10 LPA and I expect 14 to 15 LPA.",
+      "cleaned": "My CTC is around 10 LPA and I expect 14 to 15 LPA.",
+      "wer": 0.0,
+      "passed": true,
+      "is_partial": false,
+      "flagged": false
+    },
+    {
+      "test_id": "STT-006",
+      "category": "interrupted_speech",
+      "accent": "neutral_indian_english",
+      "confidence": 0.79,
+      "raw": "I have been working with— I mean my current role involves Python and Django.",
+      "expected": "My current role involves Python and Django.",
+      "cleaned": "I have been working my current role involves Python and Django.",
+      "wer": 0.5714,
+      "passed": false,
+      "is_partial": false,
+      "flagged": false
+    },
+    {
+      "test_id": "STT-007",
+      "category": "partial_answer",
+      "accent": "south_indian_accent",
+      "confidence": 0.91,
+      "raw": "Around three.",
+      "expected": "Around three.",
+      "cleaned": "Around 3.",
+      "wer": 0.5,
+      "passed": false,
+      "is_partial": true,
+      "flagged": false
+    },
+    {
+      "test_id": "STT-008",
+      "category": "background_noise",
+      "accent": "background_noise",
+      "confidence": 0.61,
+      "raw": "I have [inaudible] years of experience with [noise] and Docker.",
+      "expected": "I have [inaudible] years of experience with [noise] and Docker.",
+      "cleaned": "I have [inaudible] years of experience with [noise] and Docker.",
+      "wer": 0.0,
+      "passed": true,
+      "is_partial": false,
+      "flagged": true
+    },
+    {
+      "test_id": "STT-009",
+      "category": "mixed_language",
+      "accent": "mixed_hindi_english",
+      "confidence": 0.76,
+      "raw": "Mera experience almost teen saal ka hai with Python.",
+      "expected": "Mera experience almost teen saal ka hai with Python.",
+      "cleaned": "Mera experience almost teen saal ka hai with Python.",
+      "wer": 0.0,
+      "passed": true,
+      "is_partial": false,
+      "flagged": false
+    },
+    {
+      "test_id": "STT-010",
+      "category": "punctuation_correction",
+      "accent": "neutral_indian_english",
+      "confidence": 0.89,
+      "raw": "i work at infosys i have been there for two years i use python and java",
+      "expected": "I work at Infosys. I have been there for two years. I use Python and Java.",
+      "cleaned": "I work at infosys i have been there for 2 years i use python and java.",
+      "wer": 0.1875,
+      "passed": true,
+      "is_partial": false,
+      "flagged": false
+    }
+  ],
+  "accent_profiles": [
+    {
+      "profile": "neutral_indian_english",
+      "region": "Bangalore/Hyderabad",
+      "expected_wer": 0.08
+    },
+    {
+      "profile": "south_indian_accent",
+      "region": "Kerala/Tamil Nadu",
+      "expected_wer": 0.12
+    },
+    {
+      "profile": "north_indian_accent",
+      "region": "Delhi/UP",
+      "expected_wer": 0.1
+    },
+    {
+      "profile": "mixed_hindi_english",
+      "region": "Pan-India",
+      "expected_wer": 0.15
+    },
+    {
+      "profile": "fast_speaker",
+      "region": "Any",
+      "expected_wer": 0.14
+    },
+    {
+      "profile": "soft_speaker",
+      "region": "Any",
+      "expected_wer": 0.18
+    },
+    {
+      "profile": "background_noise",
+      "region": "Any",
+      "expected_wer": 0.2
+    },
+    {
+      "profile": "phone_quality_audio",
+      "region": "Any",
+      "expected_wer": 0.22
+    }
+  ]
+}
