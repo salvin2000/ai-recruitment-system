@@ -1,0 +1,569 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-12T23:09:08.631426",
+    "version": "1.0",
+    "project": "Zecpath AI Recruitment System",
+    "day": 23
+  },
+  "transcript_storage_format": {
+    "version": "1.0",
+    "description": "Zecpath voice transcript storage format",
+    "fields": {
+      "transcript_id": "Unique identifier for this transcript: ZCP-TR-{YYYYMMDD}-{seq}",
+      "candidate_id": "Links to candidate profile: ZCP-CAND-{code}",
+      "job_id": "Links to job posting: ZCP-JOB-{YYYYMMDD}-{code}",
+      "session_id": "Links to the screening session: ZCP-SESS-{YYYYMMDD}-{seq}",
+      "created_at": "ISO 8601 timestamp when transcript was created",
+      "duration_seconds": "Total duration of the voice call in seconds",
+      "language": "BCP-47 language code — en-IN, hi-IN, ml-IN etc.",
+      "status": "completed / partial / failed / interrupted",
+      "turns": "Ordered list of conversation turns (utterances)",
+      "metadata": "Call-level metadata object",
+      "summary": "AI-generated summary of the screening outcome"
+    }
+  },
+  "metadata_standards": {
+    "candidate_id": {
+      "format": "ZCP-CAND-{4-char-code}",
+      "example": "ZCP-CAND-ARJU",
+      "source": "Generated at candidate registration",
+      "required": true,
+      "description": "Unique identifier linking transcript to candidate profile"
+    },
+    "job_id": {
+      "format": "ZCP-JOB-{YYYYMMDD}-{role-code}",
+      "example": "ZCP-JOB-20260529-SW01",
+      "source": "Generated at job posting creation",
+      "required": true,
+      "description": "Links transcript to the specific job the candidate applied for"
+    },
+    "question_id": {
+      "format": "Q{3-digit-number}",
+      "example": "Q031",
+      "source": "Day 22 screening dataset question bank",
+      "required": true,
+      "description": "Links each turn to the question from the Day 22 dataset"
+    },
+    "session_id": {
+      "format": "ZCP-SESS-{YYYYMMDD}-{seq}",
+      "example": "ZCP-SESS-20260610-001",
+      "source": "Generated at session start",
+      "required": true,
+      "description": "Unique identifier for one complete screening call session"
+    },
+    "timestamp": {
+      "format": "ISO 8601 — YYYY-MM-DDTHH:MM:SS.ffffff",
+      "example": "2026-06-10T10:15:32.442000",
+      "source": "Recorded at turn start by voice engine",
+      "required": true,
+      "description": "Exact moment the AI or candidate began speaking this turn"
+    },
+    "confidence_level": {
+      "format": "float 0.0 to 1.0",
+      "example": "0.87",
+      "source": "Speech-to-text engine output",
+      "required": true,
+      "description": "STT engine confidence in the transcription accuracy for this turn",
+      "thresholds": {
+        "high": "0.85 and above — text used as-is",
+        "medium": "0.65 to 0.84 — text used with a low-confidence flag",
+        "low": "0.50 to 0.64 — human review recommended",
+        "rejected": "Below 0.50 — turn marked unclear, not used in scoring"
+      }
+    },
+    "speaker": {
+      "format": "ai / candidate",
+      "example": "candidate",
+      "source": "Speaker diarization from voice engine",
+      "required": true,
+      "description": "Identifies whether the AI or the candidate spoke this turn"
+    },
+    "turn_index": {
+      "format": "integer starting at 0",
+      "example": "4",
+      "source": "Incremented sequentially during the call",
+      "required": true,
+      "description": "Position of this turn in the conversation sequence"
+    },
+    "duration_ms": {
+      "format": "integer — milliseconds",
+      "example": "4200",
+      "source": "Measured by voice engine from start to end of utterance",
+      "required": false,
+      "description": "Duration of this specific utterance in milliseconds"
+    }
+  },
+  "normalization_rules": {
+    "text_cleaning": [
+      {
+        "rule": "lowercase_trim",
+        "description": "Strip leading/trailing whitespace and lowercase for analysis"
+      },
+      {
+        "rule": "remove_fillers",
+        "description": "Remove filler words: um, uh, hmm, you know, like, basically"
+      },
+      {
+        "rule": "normalize_numbers",
+        "description": "Convert spoken numbers to digits: five -> 5, ten lakh -> 1000000"
+      },
+      {
+        "rule": "normalize_currency",
+        "description": "Standardize salary mentions: 10 LPA, 10 lakhs per annum -> 1000000"
+      },
+      {
+        "rule": "expand_abbreviations",
+        "description": "Expand: yrs -> years, exp -> experience, CTC -> cost to company"
+      },
+      {
+        "rule": "remove_repetitions",
+        "description": "Remove immediate word repetitions: I I work -> I work"
+      },
+      {
+        "rule": "normalize_punctuation",
+        "description": "Add sentence-ending punctuation where missing using pause detection"
+      },
+      {
+        "rule": "redact_pii",
+        "description": "Mask phone numbers, email addresses, and Aadhaar/PAN patterns"
+      }
+    ],
+    "answer_extraction": [
+      {
+        "rule": "yes_no_detection",
+        "description": "Map affirmative/negative phrases to boolean: yeah/sure/of course -> yes"
+      },
+      {
+        "rule": "numeric_extraction",
+        "description": "Extract numbers from text: around three years -> 3, about 8 LPA -> 800000"
+      },
+      {
+        "rule": "skill_normalization",
+        "description": "Map skill variants: ML -> machine learning, JS -> javascript"
+      },
+      {
+        "rule": "date_normalization",
+        "description": "Convert relative dates: next month -> YYYY-MM-DD from call date"
+      },
+      {
+        "rule": "confidence_flagging",
+        "description": "Flag turns with STT confidence below 0.65 for human review"
+      }
+    ],
+    "quality_checks": [
+      {
+        "rule": "min_word_count",
+        "description": "Flag text answers with fewer than 5 words as potentially incomplete"
+      },
+      {
+        "rule": "language_detection",
+        "description": "Detect code-switching and tag turns with mixed language"
+      },
+      {
+        "rule": "silence_detection",
+        "description": "Flag turns where candidate was silent for more than 5 seconds"
+      },
+      {
+        "rule": "interruption_handling",
+        "description": "Handle turns where AI and candidate spoke simultaneously"
+      }
+    ]
+  },
+  "database_schema": {
+    "screening_sessions": {
+      "description": "One record per screening call",
+      "fields": {
+        "session_id": {
+          "type": "VARCHAR(40)",
+          "pk": true,
+          "nullable": false
+        },
+        "transcript_id": {
+          "type": "VARCHAR(40)",
+          "pk": false,
+          "nullable": false
+        },
+        "candidate_id": {
+          "type": "VARCHAR(20)",
+          "pk": false,
+          "nullable": false,
+          "fk": "candidates.candidate_id"
+        },
+        "job_id": {
+          "type": "VARCHAR(30)",
+          "pk": false,
+          "nullable": false,
+          "fk": "jobs.job_id"
+        },
+        "started_at": {
+          "type": "TIMESTAMP",
+          "pk": false,
+          "nullable": false
+        },
+        "ended_at": {
+          "type": "TIMESTAMP",
+          "pk": false,
+          "nullable": true
+        },
+        "duration_seconds": {
+          "type": "INTEGER",
+          "pk": false,
+          "nullable": true
+        },
+        "status": {
+          "type": "VARCHAR(20)",
+          "pk": false,
+          "nullable": false
+        },
+        "language": {
+          "type": "VARCHAR(10)",
+          "pk": false,
+          "nullable": false
+        },
+        "total_turns": {
+          "type": "INTEGER",
+          "pk": false,
+          "nullable": true
+        },
+        "ai_version": {
+          "type": "VARCHAR(10)",
+          "pk": false,
+          "nullable": true
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "pk": false,
+          "nullable": false
+        }
+      }
+    },
+    "transcript_turns": {
+      "description": "One record per utterance in the conversation",
+      "fields": {
+        "turn_id": {
+          "type": "VARCHAR(50)",
+          "pk": true,
+          "nullable": false
+        },
+        "session_id": {
+          "type": "VARCHAR(40)",
+          "pk": false,
+          "nullable": false,
+          "fk": "screening_sessions.session_id"
+        },
+        "turn_index": {
+          "type": "INTEGER",
+          "pk": false,
+          "nullable": false
+        },
+        "speaker": {
+          "type": "VARCHAR(10)",
+          "pk": false,
+          "nullable": false
+        },
+        "question_id": {
+          "type": "VARCHAR(10)",
+          "pk": false,
+          "nullable": true,
+          "fk": "screening_questions.question_id"
+        },
+        "raw_text": {
+          "type": "TEXT",
+          "pk": false,
+          "nullable": false
+        },
+        "normalized_text": {
+          "type": "TEXT",
+          "pk": false,
+          "nullable": true
+        },
+        "confidence_score": {
+          "type": "FLOAT",
+          "pk": false,
+          "nullable": true
+        },
+        "confidence_level": {
+          "type": "VARCHAR(10)",
+          "pk": false,
+          "nullable": true
+        },
+        "duration_ms": {
+          "type": "INTEGER",
+          "pk": false,
+          "nullable": true
+        },
+        "started_at": {
+          "type": "TIMESTAMP",
+          "pk": false,
+          "nullable": false
+        },
+        "is_flagged": {
+          "type": "BOOLEAN",
+          "pk": false,
+          "nullable": false
+        },
+        "flag_reason": {
+          "type": "VARCHAR(100)",
+          "pk": false,
+          "nullable": true
+        },
+        "language": {
+          "type": "VARCHAR(10)",
+          "pk": false,
+          "nullable": true
+        }
+      }
+    },
+    "extracted_answers": {
+      "description": "Structured answers extracted from candidate turns",
+      "fields": {
+        "answer_id": {
+          "type": "VARCHAR(50)",
+          "pk": true,
+          "nullable": false
+        },
+        "turn_id": {
+          "type": "VARCHAR(50)",
+          "pk": false,
+          "nullable": false,
+          "fk": "transcript_turns.turn_id"
+        },
+        "session_id": {
+          "type": "VARCHAR(40)",
+          "pk": false,
+          "nullable": false
+        },
+        "candidate_id": {
+          "type": "VARCHAR(20)",
+          "pk": false,
+          "nullable": false
+        },
+        "question_id": {
+          "type": "VARCHAR(10)",
+          "pk": false,
+          "nullable": false
+        },
+        "answer_type": {
+          "type": "VARCHAR(20)",
+          "pk": false,
+          "nullable": false
+        },
+        "raw_answer": {
+          "type": "TEXT",
+          "pk": false,
+          "nullable": false
+        },
+        "extracted_value": {
+          "type": "TEXT",
+          "pk": false,
+          "nullable": true
+        },
+        "normalized_value": {
+          "type": "TEXT",
+          "pk": false,
+          "nullable": true
+        },
+        "is_valid": {
+          "type": "BOOLEAN",
+          "pk": false,
+          "nullable": false
+        },
+        "validation_notes": {
+          "type": "VARCHAR(200)",
+          "pk": false,
+          "nullable": true
+        },
+        "extracted_at": {
+          "type": "TIMESTAMP",
+          "pk": false,
+          "nullable": false
+        }
+      }
+    },
+    "screening_scores": {
+      "description": "Per-question and total scores from the screening call",
+      "fields": {
+        "score_id": {
+          "type": "VARCHAR(50)",
+          "pk": true,
+          "nullable": false
+        },
+        "session_id": {
+          "type": "VARCHAR(40)",
+          "pk": false,
+          "nullable": false,
+          "fk": "screening_sessions.session_id"
+        },
+        "candidate_id": {
+          "type": "VARCHAR(20)",
+          "pk": false,
+          "nullable": false
+        },
+        "question_id": {
+          "type": "VARCHAR(10)",
+          "pk": false,
+          "nullable": false
+        },
+        "score": {
+          "type": "FLOAT",
+          "pk": false,
+          "nullable": false
+        },
+        "max_score": {
+          "type": "FLOAT",
+          "pk": false,
+          "nullable": false
+        },
+        "score_reason": {
+          "type": "VARCHAR(200)",
+          "pk": false,
+          "nullable": true
+        },
+        "scored_at": {
+          "type": "TIMESTAMP",
+          "pk": false,
+          "nullable": false
+        }
+      }
+    },
+    "screening_results": {
+      "description": "Final screening outcome per session",
+      "fields": {
+        "result_id": {
+          "type": "VARCHAR(50)",
+          "pk": true,
+          "nullable": false
+        },
+        "session_id": {
+          "type": "VARCHAR(40)",
+          "pk": false,
+          "nullable": false,
+          "fk": "screening_sessions.session_id"
+        },
+        "candidate_id": {
+          "type": "VARCHAR(20)",
+          "pk": false,
+          "nullable": false
+        },
+        "job_id": {
+          "type": "VARCHAR(30)",
+          "pk": false,
+          "nullable": false
+        },
+        "total_score": {
+          "type": "FLOAT",
+          "pk": false,
+          "nullable": false
+        },
+        "max_possible": {
+          "type": "FLOAT",
+          "pk": false,
+          "nullable": false
+        },
+        "percentage": {
+          "type": "FLOAT",
+          "pk": false,
+          "nullable": false
+        },
+        "outcome": {
+          "type": "VARCHAR(20)",
+          "pk": false,
+          "nullable": false
+        },
+        "outcome_reason": {
+          "type": "VARCHAR(500)",
+          "pk": false,
+          "nullable": true
+        },
+        "ai_summary": {
+          "type": "TEXT",
+          "pk": false,
+          "nullable": true
+        },
+        "reviewed_by": {
+          "type": "VARCHAR(50)",
+          "pk": false,
+          "nullable": true
+        },
+        "reviewed_at": {
+          "type": "TIMESTAMP",
+          "pk": false,
+          "nullable": true
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "pk": false,
+          "nullable": false
+        }
+      }
+    }
+  },
+  "transcript_status": {
+    "completed": "All questions were asked and candidate responses recorded",
+    "partial": "Call ended before all mandatory questions were answered",
+    "failed": "Technical failure prevented transcript creation",
+    "interrupted": "Candidate or AI disconnected mid-call",
+    "rescheduled": "Candidate requested to reschedule before call started"
+  },
+  "screening_outcomes": {
+    "advance": "Candidate passed screening — proceed to technical interview",
+    "hold": "Borderline result — requires human review before decision",
+    "reject": "Candidate did not meet screening criteria",
+    "incomplete": "Insufficient data to make a decision — reschedule",
+    "no_show": "Candidate did not attend the screening call"
+  },
+  "schema_summary": {
+    "tables": [
+      "screening_sessions",
+      "transcript_turns",
+      "extracted_answers",
+      "screening_scores",
+      "screening_results"
+    ],
+    "total_tables": 5,
+    "field_counts": {
+      "screening_sessions": 12,
+      "transcript_turns": 14,
+      "extracted_answers": 12,
+      "screening_scores": 8,
+      "screening_results": 13
+    },
+    "total_fields": 59,
+    "primary_keys": {
+      "screening_sessions": [
+        "session_id"
+      ],
+      "transcript_turns": [
+        "turn_id"
+      ],
+      "extracted_answers": [
+        "answer_id"
+      ],
+      "screening_scores": [
+        "score_id"
+      ],
+      "screening_results": [
+        "result_id"
+      ]
+    },
+    "foreign_keys": {
+      "screening_sessions": {
+        "candidate_id": "candidates.candidate_id",
+        "job_id": "jobs.job_id"
+      },
+      "transcript_turns": {
+        "session_id": "screening_sessions.session_id",
+        "question_id": "screening_questions.question_id"
+      },
+      "extracted_answers": {
+        "turn_id": "transcript_turns.turn_id"
+      },
+      "screening_scores": {
+        "session_id": "screening_sessions.session_id"
+      },
+      "screening_results": {
+        "session_id": "screening_sessions.session_id"
+      }
+    }
+  }
+}
