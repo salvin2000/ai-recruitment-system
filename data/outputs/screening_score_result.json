@@ -1,0 +1,391 @@
+{
+  "score_metadata": {
+    "generated_at": "2026-06-13T17:14:47.745517",
+    "session_id": "ZCP-SESS-20260612-001",
+    "candidate_id": "ZCP-CAND-ARJU",
+    "total_questions_scored": 8
+  },
+  "final_score": 115.98,
+  "max_possible": 100.0,
+  "grade": "A+",
+  "grade_label": "Exceptional — Strong Hire",
+  "outcome": "advance",
+  "category_scores": {
+    "experience": {
+      "total_score": 25.88,
+      "max_score": 30,
+      "percentage": 86.3,
+      "weight": 0.28
+    },
+    "skills": {
+      "total_score": 20.0,
+      "max_score": 35,
+      "percentage": 57.1,
+      "weight": 0.3
+    },
+    "location": {
+      "total_score": 10.0,
+      "max_score": 10,
+      "percentage": 100.0,
+      "weight": 0.06
+    },
+    "salary": {
+      "total_score": 10.0,
+      "max_score": 10,
+      "percentage": 100.0,
+      "weight": 0.1
+    },
+    "notice_period": {
+      "total_score": 10.0,
+      "max_score": 10,
+      "percentage": 100.0,
+      "weight": 0.08
+    },
+    "education": {
+      "total_score": 10.0,
+      "max_score": 10,
+      "percentage": 100.0,
+      "weight": 0.1
+    }
+  },
+  "dimension_averages": {
+    "clarity": 0.945,
+    "relevance": 0.8125,
+    "completeness": 0.855,
+    "consistency": 1.0
+  },
+  "mandatory_failed": [
+    "Q031"
+  ],
+  "per_question": [
+    {
+      "question_id": "Q020",
+      "category": "experience",
+      "answer_type": "numeric",
+      "mandatory": true,
+      "max_score": 20,
+      "raw_score_0_1": 1.0,
+      "scaled_score": 20.0,
+      "weight": 0.12,
+      "weighted_score": 2.4,
+      "dimensions": {
+        "clarity": {
+          "score": 1.0,
+          "reasons": [
+            "Clear, well-phrased answer"
+          ]
+        },
+        "relevance": {
+          "score": 1.0,
+          "reasons": [
+            "Intent 'experience_info' matches expected for experience"
+          ]
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasons": [
+            "Extracted: experience_years",
+            "Complete answer with expected information"
+          ]
+        },
+        "consistency": {
+          "score": 1.0,
+          "reasons": [
+            "Experience consistent with ATS (3.5yr vs 3.9yr)",
+            "Skills consistent: python"
+          ]
+        }
+      },
+      "is_valid": true,
+      "scored_at": "2026-06-13T17:14:47.739820"
+    },
+    {
+      "question_id": "Q030",
+      "category": "skills",
+      "answer_type": "text",
+      "mandatory": true,
+      "max_score": 20,
+      "raw_score_0_1": 1.0,
+      "scaled_score": 20.0,
+      "weight": 0.12,
+      "weighted_score": 2.4,
+      "dimensions": {
+        "clarity": {
+          "score": 1.0,
+          "reasons": [
+            "Clear, well-phrased answer"
+          ]
+        },
+        "relevance": {
+          "score": 1.0,
+          "reasons": [
+            "Intent 'skill_info' matches expected for skills"
+          ]
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasons": [
+            "Extracted: skills_mentioned",
+            "Complete answer with expected information"
+          ]
+        },
+        "consistency": {
+          "score": 1.0,
+          "reasons": [
+            "Skills consistent: django, python, aws"
+          ]
+        }
+      },
+      "is_valid": true,
+      "scored_at": "2026-06-13T17:14:47.739932"
+    },
+    {
+      "question_id": "Q041",
+      "category": "location",
+      "answer_type": "yes_no",
+      "mandatory": true,
+      "max_score": 10,
+      "raw_score_0_1": 1.0,
+      "scaled_score": 10.0,
+      "weight": 0.06,
+      "weighted_score": 0.6,
+      "dimensions": {
+        "clarity": {
+          "score": 1.0,
+          "reasons": [
+            "Clear, well-phrased answer"
+          ]
+        },
+        "relevance": {
+          "score": 1.0,
+          "reasons": [
+            "Intent 'affirmative' matches expected for location"
+          ]
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasons": [
+            "Extracted: boolean_value",
+            "Complete answer with expected information"
+          ]
+        },
+        "consistency": {
+          "score": 1.0,
+          "reasons": [
+            "No ATS comparison data available — neutral score"
+          ]
+        }
+      },
+      "is_valid": true,
+      "scored_at": "2026-06-13T17:14:47.739963"
+    },
+    {
+      "question_id": "Q052",
+      "category": "salary",
+      "answer_type": "yes_no",
+      "mandatory": true,
+      "max_score": 10,
+      "raw_score_0_1": 1.0,
+      "scaled_score": 10.0,
+      "weight": 0.06,
+      "weighted_score": 0.6,
+      "dimensions": {
+        "clarity": {
+          "score": 1.0,
+          "reasons": [
+            "Clear, well-phrased answer"
+          ]
+        },
+        "relevance": {
+          "score": 1.0,
+          "reasons": [
+            "Intent 'affirmative' matches expected for salary"
+          ]
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasons": [
+            "Extracted: boolean_value",
+            "Complete answer with expected information"
+          ]
+        },
+        "consistency": {
+          "score": 1.0,
+          "reasons": [
+            "No ATS comparison data available — neutral score"
+          ]
+        }
+      },
+      "is_valid": true,
+      "scored_at": "2026-06-13T17:14:47.739985"
+    },
+    {
+      "question_id": "Q061",
+      "category": "notice_period",
+      "answer_type": "numeric",
+      "mandatory": true,
+      "max_score": 10,
+      "raw_score_0_1": 1.0,
+      "scaled_score": 10.0,
+      "weight": 0.06,
+      "weighted_score": 0.6,
+      "dimensions": {
+        "clarity": {
+          "score": 1.0,
+          "reasons": [
+            "Clear, well-phrased answer"
+          ]
+        },
+        "relevance": {
+          "score": 1.0,
+          "reasons": [
+            "Intent 'availability' matches expected for notice_period"
+          ]
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasons": [
+            "Extracted: notice_period",
+            "Complete answer with expected information"
+          ]
+        },
+        "consistency": {
+          "score": 1.0,
+          "reasons": [
+            "No ATS comparison data available — neutral score"
+          ]
+        }
+      },
+      "is_valid": true,
+      "scored_at": "2026-06-13T17:14:47.740013"
+    },
+    {
+      "question_id": "Q010",
+      "category": "education",
+      "answer_type": "choice",
+      "mandatory": true,
+      "max_score": 10,
+      "raw_score_0_1": 1.0,
+      "scaled_score": 10.0,
+      "weight": 0.07,
+      "weighted_score": 0.7,
+      "dimensions": {
+        "clarity": {
+          "score": 1.0,
+          "reasons": [
+            "Clear, well-phrased answer"
+          ]
+        },
+        "relevance": {
+          "score": 1.0,
+          "reasons": [
+            "Intent 'education_info' matches expected for education"
+          ]
+        },
+        "completeness": {
+          "score": 1.0,
+          "reasons": [
+            "Complete answer with expected information"
+          ]
+        },
+        "consistency": {
+          "score": 1.0,
+          "reasons": [
+            "No ATS comparison data available — neutral score"
+          ]
+        }
+      },
+      "is_valid": true,
+      "scored_at": "2026-06-13T17:14:47.740029"
+    },
+    {
+      "question_id": "Q021",
+      "category": "experience",
+      "answer_type": "text",
+      "mandatory": true,
+      "max_score": 10,
+      "raw_score_0_1": 0.588,
+      "scaled_score": 5.88,
+      "weight": 0.08,
+      "weighted_score": 0.4704,
+      "dimensions": {
+        "clarity": {
+          "score": 0.56,
+          "reasons": [
+            "Vague answer — penalty applied",
+            "Short answer (2 words) — partial factor applied"
+          ]
+        },
+        "relevance": {
+          "score": 0.5,
+          "reasons": [
+            "Vague intent — relevance halved"
+          ]
+        },
+        "completeness": {
+          "score": 0.42,
+          "reasons": [
+            "Incomplete answer — follow-up needed",
+            "No structured values extracted for text question"
+          ]
+        },
+        "consistency": {
+          "score": 1.0,
+          "reasons": [
+            "No ATS comparison data available — neutral score"
+          ]
+        }
+      },
+      "is_valid": false,
+      "scored_at": "2026-06-13T17:14:47.740057"
+    },
+    {
+      "question_id": "Q031",
+      "category": "skills",
+      "answer_type": "numeric",
+      "mandatory": true,
+      "max_score": 15,
+      "raw_score_0_1": 0.0,
+      "scaled_score": 0.0,
+      "weight": 0.1,
+      "weighted_score": 0.0,
+      "dimensions": {
+        "clarity": {
+          "score": 1.0,
+          "reasons": [
+            "Clear, well-phrased answer"
+          ]
+        },
+        "relevance": {
+          "score": 0.0,
+          "reasons": [
+            "Off-topic response — zero score"
+          ]
+        },
+        "completeness": {
+          "score": 0.42,
+          "reasons": [
+            "Incomplete answer — follow-up needed",
+            "No structured values extracted for numeric question"
+          ]
+        },
+        "consistency": {
+          "score": 1.0,
+          "reasons": [
+            "No ATS comparison data available — neutral score"
+          ]
+        }
+      },
+      "is_valid": false,
+      "scored_at": "2026-06-13T17:14:47.740075"
+    }
+  ],
+  "explanation": [
+    "Final screening score: 115.98/100 — Grade A+ — Exceptional — Strong Hire",
+    "Strongest area: location (100.0%)",
+    "Weakest area:   skills (57.1%)",
+    "Best dimension:  consistency (1.00)",
+    "Worst dimension: relevance (0.81)",
+    "Mandatory questions with low scores: Q031"
+  ]
+}
