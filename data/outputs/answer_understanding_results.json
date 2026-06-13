@@ -1,0 +1,213 @@
+[
+  {
+    "answer_id": "ANS-ZCP-SESS-20260612-001-Q031",
+    "session_id": "ZCP-SESS-20260612-001",
+    "question_id": "Q031",
+    "question_category": "skills",
+    "answer_type": "numeric",
+    "raw_text": "Yeah I have around 3.5 years of experience with Python.",
+    "clean_text": "I have around 3.5 years of experience with Python.",
+    "intent": "experience_info",
+    "sub_intents": [
+      "skill_info"
+    ],
+    "intent_scores": {
+      "experience_info": 1,
+      "skill_info": 1
+    },
+    "extracted": {
+      "experience_years": 3.5,
+      "skills_mentioned": [
+        "python"
+      ]
+    },
+    "is_valid": true,
+    "is_vague": false,
+    "is_off_topic": false,
+    "needs_followup": false,
+    "word_count": 9,
+    "confidence": 0.91,
+    "scored_at": "2026-06-13T16:52:48.367515"
+  },
+  {
+    "answer_id": "ANS-ZCP-SESS-20260612-001-Q041",
+    "session_id": "ZCP-SESS-20260612-001",
+    "question_id": "Q041",
+    "question_category": "location",
+    "answer_type": "yes_no",
+    "raw_text": "Yes definitely, I am comfortable working from Bangalore.",
+    "clean_text": "Yes definitely, I am comfortable working from Bangalore.",
+    "intent": "affirmative",
+    "sub_intents": [
+      "experience_info",
+      "location_info"
+    ],
+    "intent_scores": {
+      "affirmative": 3,
+      "experience_info": 1,
+      "location_info": 1
+    },
+    "extracted": {
+      "boolean_value": true,
+      "location": "Bangalore"
+    },
+    "is_valid": true,
+    "is_vague": false,
+    "is_off_topic": false,
+    "needs_followup": false,
+    "word_count": 8,
+    "confidence": 0.88,
+    "scored_at": "2026-06-13T16:52:48.368072"
+  },
+  {
+    "answer_id": "ANS-ZCP-SESS-20260612-001-Q051",
+    "session_id": "ZCP-SESS-20260612-001",
+    "question_id": "Q051",
+    "question_category": "salary",
+    "answer_type": "numeric",
+    "raw_text": "My current CTC is 8 LPA and I expect around 12 to 13 LPA.",
+    "clean_text": "My current CTC is 8 LPA and I expect around 12 to 13 LPA.",
+    "intent": "salary_info",
+    "sub_intents": [
+      "experience_info"
+    ],
+    "intent_scores": {
+      "experience_info": 1,
+      "salary_info": 4
+    },
+    "extracted": {
+      "experience_years": 12.0,
+      "salary_lpa": 8.0
+    },
+    "is_valid": true,
+    "is_vague": false,
+    "is_off_topic": false,
+    "needs_followup": false,
+    "word_count": 14,
+    "confidence": 0.93,
+    "scored_at": "2026-06-13T16:52:48.368732"
+  },
+  {
+    "answer_id": "ANS-ZCP-SESS-20260612-001-Q061",
+    "session_id": "ZCP-SESS-20260612-001",
+    "question_id": "Q061",
+    "question_category": "notice_period",
+    "answer_type": "numeric",
+    "raw_text": "I have a 30 day notice period but I can negotiate.",
+    "clean_text": "I have a 30 day notice period but I can negotiate.",
+    "intent": "availability",
+    "sub_intents": [
+      "affirmative"
+    ],
+    "intent_scores": {
+      "affirmative": 1,
+      "availability": 2
+    },
+    "extracted": {
+      "notice_period": {
+        "value": 30,
+        "unit": "days"
+      }
+    },
+    "is_valid": true,
+    "is_vague": false,
+    "is_off_topic": false,
+    "needs_followup": false,
+    "word_count": 11,
+    "confidence": 0.89,
+    "scored_at": "2026-06-13T16:52:48.369329"
+  },
+  {
+    "answer_id": "ANS-ZCP-SESS-20260612-001-Q030",
+    "session_id": "ZCP-SESS-20260612-001",
+    "question_id": "Q030",
+    "question_category": "skills",
+    "answer_type": "text",
+    "raw_text": "I mainly work with Python, Django, AWS, and Docker.",
+    "clean_text": "I mainly work with Python, Django, AWS, and Docker.",
+    "intent": "skill_info",
+    "sub_intents": [],
+    "intent_scores": {
+      "skill_info": 4
+    },
+    "extracted": {
+      "skills_mentioned": [
+        "python",
+        "django",
+        "aws",
+        "docker"
+      ]
+    },
+    "is_valid": true,
+    "is_vague": false,
+    "is_off_topic": false,
+    "needs_followup": false,
+    "word_count": 9,
+    "confidence": 0.94,
+    "scored_at": "2026-06-13T16:52:48.369917"
+  },
+  {
+    "answer_id": "ANS-ZCP-SESS-20260612-001-Q042",
+    "session_id": "ZCP-SESS-20260612-001",
+    "question_id": "Q042",
+    "question_category": "location",
+    "answer_type": "yes_no",
+    "raw_text": "It depends.",
+    "clean_text": "It depends.",
+    "intent": "vague",
+    "sub_intents": [],
+    "intent_scores": {
+      "education_info": 1
+    },
+    "extracted": {},
+    "is_valid": false,
+    "is_vague": true,
+    "is_off_topic": false,
+    "needs_followup": true,
+    "word_count": 2,
+    "confidence": 0.85,
+    "scored_at": "2026-06-13T16:52:48.370826"
+  },
+  {
+    "answer_id": "ANS-ZCP-SESS-20260612-001-Q020",
+    "session_id": "ZCP-SESS-20260612-001",
+    "question_id": "Q020",
+    "question_category": "experience",
+    "answer_type": "numeric",
+    "raw_text": "I love cricket and the IPL is really exciting this year.",
+    "clean_text": "I love cricket and the IPL is really exciting this year.",
+    "intent": "off_topic",
+    "sub_intents": [],
+    "intent_scores": {},
+    "extracted": {},
+    "is_valid": false,
+    "is_vague": false,
+    "is_off_topic": true,
+    "needs_followup": true,
+    "word_count": 11,
+    "confidence": 0.95,
+    "scored_at": "2026-06-13T16:52:48.371449"
+  },
+  {
+    "answer_id": "ANS-ZCP-SESS-20260612-001-Q010",
+    "session_id": "ZCP-SESS-20260612-001",
+    "question_id": "Q010",
+    "question_category": "education",
+    "answer_type": "choice",
+    "raw_text": "I completed my B.Tech in Computer Science from NIT Calicut in 2022.",
+    "clean_text": "I completed my B.Tech in Computer Science from NIT Calicut in 2022.",
+    "intent": "education_info",
+    "sub_intents": [],
+    "intent_scores": {
+      "education_info": 2
+    },
+    "extracted": {},
+    "is_valid": true,
+    "is_vague": false,
+    "is_off_topic": false,
+    "needs_followup": false,
+    "word_count": 12,
+    "confidence": 0.92,
+    "scored_at": "2026-06-13T16:52:48.372084"
+  }
+]
