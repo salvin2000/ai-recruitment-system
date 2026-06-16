@@ -1,0 +1,143 @@
+{
+  "session_id": "ZCP-SESS-20260612-001",
+  "final_status": {
+    "session_id": "ZCP-SESS-20260612-001",
+    "candidate_name": "Arjun Krishnan",
+    "state": "follow_up",
+    "turn_count": 7,
+    "skip_count": 0,
+    "total_failures": 2,
+    "asked_questions": [
+      "Q001",
+      "Q020",
+      "Q021",
+      "Q030",
+      "Q031"
+    ],
+    "skipped_questions": [],
+    "should_abort": false,
+    "retry_counts": {
+      "Q021": 1,
+      "Q030": 1
+    }
+  },
+  "call_log": [
+    {
+      "event": "start_call",
+      "state": "greeting",
+      "timestamp": "2026-06-16T21:38:59.510298",
+      "message": "Thank you so much for your time, Arjun Krishnan. I am an AI screening assistant from Zecpath. This call will take about 10 minutes. Are you ready to proceed?"
+    },
+    {
+      "event": "ask_question",
+      "state": "listening",
+      "timestamp": "2026-06-16T21:38:59.510601",
+      "question_id": "Q001",
+      "text": "Good morning, Arjun. I am an AI from Zecpath. Are you ready to proceed?"
+    },
+    {
+      "event": "process_answer",
+      "state": "transitioning",
+      "timestamp": "2026-06-16T21:38:59.510858",
+      "question_id": "Q001",
+      "action": "next_question",
+      "outcome": "valid_complete"
+    },
+    {
+      "event": "ask_question",
+      "state": "listening",
+      "timestamp": "2026-06-16T21:38:59.510926",
+      "question_id": "Q020",
+      "text": "How many years of total professional experience do you have?"
+    },
+    {
+      "event": "process_answer",
+      "state": "transitioning",
+      "timestamp": "2026-06-16T21:38:59.511018",
+      "question_id": "Q020",
+      "action": "next_question",
+      "outcome": "valid_complete"
+    },
+    {
+      "event": "ask_question",
+      "state": "listening",
+      "timestamp": "2026-06-16T21:38:59.511070",
+      "question_id": "Q021",
+      "text": "What is your current job title and company?"
+    },
+    {
+      "event": "process_answer",
+      "state": "retry",
+      "timestamp": "2026-06-16T21:38:59.511167",
+      "question_id": "Q021",
+      "action": "retry",
+      "outcome": "vague"
+    },
+    {
+      "event": "ask_question",
+      "state": "listening",
+      "timestamp": "2026-06-16T21:38:59.511320",
+      "question_id": "Q021",
+      "text": "Let me try that again — what is your current role and employer?"
+    },
+    {
+      "event": "process_answer",
+      "state": "processing",
+      "timestamp": "2026-06-16T21:38:59.511601",
+      "question_id": "Q021",
+      "action": "wait",
+      "outcome": "silence"
+    },
+    {
+      "event": "ask_question",
+      "state": "processing",
+      "timestamp": "2026-06-16T21:38:59.511788",
+      "question_id": "Q030",
+      "text": "What are your top three technical skills?"
+    },
+    {
+      "event": "process_answer",
+      "state": "retry",
+      "timestamp": "2026-06-16T21:38:59.512276",
+      "question_id": "Q030",
+      "action": "retry",
+      "outcome": "off_topic"
+    },
+    {
+      "event": "ask_question",
+      "state": "listening",
+      "timestamp": "2026-06-16T21:38:59.512465",
+      "question_id": "Q030",
+      "text": "No problem — could you name the technologies you use most at work?"
+    },
+    {
+      "event": "process_answer",
+      "state": "transitioning",
+      "timestamp": "2026-06-16T21:38:59.512853",
+      "question_id": "Q030",
+      "action": "next_question",
+      "outcome": "valid_complete"
+    },
+    {
+      "event": "ask_question",
+      "state": "listening",
+      "timestamp": "2026-06-16T21:38:59.513082",
+      "question_id": "Q031",
+      "text": "How many years of experience do you have with Python?"
+    },
+    {
+      "event": "process_answer",
+      "state": "follow_up",
+      "timestamp": "2026-06-16T21:38:59.513440",
+      "question_id": "Q031",
+      "action": "follow_up",
+      "outcome": "valid_partial"
+    },
+    {
+      "event": "end_call",
+      "state": "follow_up",
+      "timestamp": "2026-06-16T21:38:59.513589"
+    }
+  ],
+  "generated_at": "2026-06-16T21:38:59.515903"
+}
