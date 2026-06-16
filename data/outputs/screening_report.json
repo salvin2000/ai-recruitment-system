@@ -1,0 +1,265 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-16T11:33:12.908250",
+    "report_version": "1.0",
+    "template": "standard",
+    "session_id": "ZCP-SESS-20260612-001",
+    "candidate_id": "ZCP-CAND-ARJU",
+    "job_id": "ZCP-JOB-20260529-SW01"
+  },
+  "candidate_summary": {
+    "name": "Arjun Krishnan",
+    "candidate_id": "ZCP-CAND-ARJU",
+    "role_applied": "Software Engineer",
+    "company": "Zescer Business LLP",
+    "ats_score": 82.24,
+    "screening_score": 86.5,
+    "grade": "A",
+    "outcome": "advance"
+  },
+  "screening_score": {
+    "final_score": 86.5,
+    "grade": "A",
+    "grade_label": "Excellent — Recommend for Interview",
+    "outcome": "advance",
+    "category_scores": {
+      "experience": {
+        "total_score": 25.9,
+        "max_score": 30,
+        "percentage": 86.3
+      },
+      "skills": {
+        "total_score": 20.0,
+        "max_score": 35,
+        "percentage": 57.1
+      },
+      "location": {
+        "total_score": 10.0,
+        "max_score": 10,
+        "percentage": 100.0
+      },
+      "salary": {
+        "total_score": 10.0,
+        "max_score": 10,
+        "percentage": 100.0
+      },
+      "notice_period": {
+        "total_score": 10.0,
+        "max_score": 10,
+        "percentage": 100.0
+      }
+    },
+    "dimension_averages": {
+      "clarity": 0.945,
+      "relevance": 0.8125,
+      "completeness": 0.855,
+      "consistency": 1.0
+    },
+    "explanation": [
+      "Final screening score: 86.5/100 — Grade A — Excellent — Recommend for Interview",
+      "Strongest area: location (100.0%)",
+      "Weakest area: skills (57.1%)"
+    ],
+    "mandatory_failed": [
+      "Q031"
+    ]
+  },
+  "communication_profile": {
+    "avg_confidence": 0.58,
+    "avg_sentiment": 0.3333,
+    "avg_strength": 68.5,
+    "overall_strength_level": "moderate",
+    "overall_strength_label": "Moderate Communicator",
+    "total_hesitations": 3,
+    "total_uncertainties": 1,
+    "behavioral_tags": {
+      "on_topic": 6,
+      "positive_framing": 4,
+      "fast_responder": 5,
+      "off_topic": 1,
+      "hesitant": 0,
+      "contradictory": 0
+    }
+  },
+  "key_answers": {
+    "Q020": {
+      "question_id": "Q020",
+      "category": "experience",
+      "clean_text": "I have around 3.5 years of experience with Python.",
+      "intent": "experience_info",
+      "extracted": {
+        "experience_years": 3.5,
+        "skills_mentioned": [
+          "python"
+        ]
+      }
+    },
+    "Q030": {
+      "question_id": "Q030",
+      "category": "skills",
+      "clean_text": "I mainly work with Python, Django, AWS, and Docker.",
+      "intent": "skill_info",
+      "extracted": {
+        "skills_mentioned": [
+          "python",
+          "django",
+          "aws",
+          "docker"
+        ]
+      }
+    },
+    "Q041": {
+      "question_id": "Q041",
+      "category": "location",
+      "clean_text": "Yes definitely, I am comfortable working from Bangalore.",
+      "intent": "affirmative",
+      "extracted": {
+        "boolean_value": true,
+        "location": "Bangalore"
+      }
+    },
+    "Q051": {
+      "question_id": "Q051",
+      "category": "salary",
+      "clean_text": "My current CTC is 8 LPA and I expect around 12 to 13 LPA.",
+      "intent": "salary_info",
+      "extracted": {
+        "salary_lpa": 8.0,
+        "experience_years": 12.0
+      }
+    },
+    "Q052": {
+      "question_id": "Q052",
+      "category": "salary",
+      "clean_text": "Yes, that budget aligns with my expectations.",
+      "intent": "affirmative",
+      "extracted": {
+        "boolean_value": true
+      }
+    },
+    "Q061": {
+      "question_id": "Q061",
+      "category": "notice_period",
+      "clean_text": "I have a 30 day notice period but can negotiate.",
+      "intent": "availability",
+      "extracted": {
+        "notice_period": {
+          "value": 30,
+          "unit": "days"
+        }
+      }
+    }
+  },
+  "skill_confirmations": {
+    "confirmed": [
+      "python",
+      "django",
+      "aws",
+      "docker"
+    ],
+    "required_match": [
+      "python",
+      "django",
+      "aws",
+      "docker"
+    ],
+    "preferred_match": []
+  },
+  "availability": {
+    "preferred_location": "Bangalore",
+    "location_comfortable": true,
+    "notice_period": {
+      "value": 30,
+      "unit": "days"
+    },
+    "target_joining_days": 60,
+    "availability_ok": true
+  },
+  "salary_expectation": {
+    "stated_lpa": 8.0,
+    "budget_aligned": true,
+    "budget_min_lpa": 8,
+    "budget_max_lpa": 14
+  },
+  "strengths": [
+    {
+      "indicator": "strong_experience_match",
+      "label": "Candidate's stated experience closely matches ATS profile",
+      "evidence": "Screening score: 86.5"
+    },
+    {
+      "indicator": "skill_depth_confirmed",
+      "label": "Candidate confirmed depth in primary skills with specific examples",
+      "evidence": "Confirmed: python, django, aws, docker"
+    },
+    {
+      "indicator": "high_confidence_signals",
+      "label": "Candidate communicated with ownership language and confidence",
+      "evidence": "Avg confidence: 0.58"
+    },
+    {
+      "indicator": "positive_sentiment",
+      "label": "Candidate expressed positive framing throughout the screening",
+      "evidence": "Avg sentiment: 0.33"
+    },
+    {
+      "indicator": "salary_aligned",
+      "label": "Candidate's salary expectation is within the budget range",
+      "evidence": "Candidate confirmed budget alignment"
+    },
+    {
+      "indicator": "immediate_availability",
+      "label": "Candidate is immediately available or has a short notice period",
+      "evidence": "Notice period: 30 days"
+    },
+    {
+      "indicator": "location_confirmed",
+      "label": "Candidate confirmed comfort with the job location",
+      "evidence": "Comfortable with Bangalore"
+    }
+  ],
+  "risks": [
+    {
+      "indicator": "missing_mandatory_answers",
+      "label": "One or more mandatory questions were not answered",
+      "evidence": "Questions unanswered: Q021, Q031",
+      "severity": "high"
+    },
+    {
+      "indicator": "vague_on_key_questions",
+      "label": "Candidate was vague on critical questions",
+      "evidence": "Vague on: Q021",
+      "severity": "medium"
+    },
+    {
+      "indicator": "off_topic_responses",
+      "label": "Candidate gave off-topic answers to key questions",
+      "evidence": "Off-topic on: Q031",
+      "severity": "medium"
+    }
+  ],
+  "missing_data": {
+    "unanswered_questions": [
+      "Q021",
+      "Q031"
+    ],
+    "vague_questions": [
+      "Q021"
+    ],
+    "offtopic_questions": [
+      "Q031"
+    ],
+    "total_valid_answers": 6,
+    "total_answers": 8
+  },
+  "recommendation": {
+    "level": "recommend",
+    "label": "Recommend",
+    "description": "Candidate meets most criteria. Proceed to technical interview with minor items to verify.",
+    "color": "light_green",
+    "score_range": [
+      65,
+      79
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+============================================================
+  ZECPATH AI SCREENING REPORT
+  Candidate : Arjun Krishnan
+  Role      : Software Engineer at Zescer Business LLP
+  Date      : 2026-06-16
+============================================================
+  Screening Score : 86.5 / 100  |  Grade: A
+  Communication   : 68.5/100  |  Moderate Communicator
+  Confidence      : 0.58  |  Sentiment: 0.33
+============================================================
+  Skills Confirmed: python, django, aws, docker
+  Notice Period   : 30 days
+  Location OK     : True
+  Salary Stated   : 8.0 LPA  |  Budget: 8-14 LPA
+  Budget Aligned  : True
+============================================================
+  Strengths (7):
+    + Candidate's stated experience closely matches ATS profile
+    + Candidate confirmed depth in primary skills with specific examples
+    + Candidate communicated with ownership language and confidence
+    + Candidate expressed positive framing throughout the screening
+  Risks (3):
+    ! [HIGH] One or more mandatory questions were not answered
+    ! [MEDIUM] Candidate was vague on critical questions
+    ! [MEDIUM] Candidate gave off-topic answers to key questions
+============================================================
+  RECOMMENDATION: RECOMMEND
+  Candidate meets most criteria. Proceed to technical interview with minor items to verify.
+============================================================
