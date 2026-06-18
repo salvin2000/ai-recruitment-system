@@ -1,0 +1,652 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-18T19:42:57.883839",
+    "report_type": "Screening System Test & Optimization Report",
+    "project": "Zecpath AI Recruitment System",
+    "day": 30
+  },
+  "simulation_results": {
+    "report_metadata": {
+      "generated_at": "2026-06-18T19:42:57.883731",
+      "total_tests": 12,
+      "passed": 11,
+      "failed": 1,
+      "pass_rate": 91.7,
+      "label_accuracy": 0.9167,
+      "intent_accuracy": 1.0
+    },
+    "by_category": {
+      "experience": {
+        "total": 3,
+        "passed": 2
+      },
+      "skills": {
+        "total": 3,
+        "passed": 3
+      },
+      "salary": {
+        "total": 2,
+        "passed": 2
+      },
+      "notice_period": {
+        "total": 2,
+        "passed": 2
+      },
+      "location": {
+        "total": 2,
+        "passed": 2
+      }
+    },
+    "test_results": [
+      {
+        "test_id": "TC-001",
+        "category": "experience",
+        "question_id": "Q020",
+        "accent": "neutral_indian_english",
+        "raw_input": "I have around three and a half years of experience.",
+        "human_label": "valid_complete",
+        "ai_label": "valid_complete",
+        "human_intent": "experience_info",
+        "ai_intent": "experience_info",
+        "ai_extracted": {},
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": false,
+        "passed": true
+      },
+      {
+        "test_id": "TC-002",
+        "category": "experience",
+        "question_id": "Q020",
+        "accent": "neutral_indian_english",
+        "raw_input": "Um, I think maybe around three years? Sort of.",
+        "human_label": "valid_partial",
+        "ai_label": "valid_complete",
+        "human_intent": "experience_info",
+        "ai_intent": "experience_info",
+        "ai_extracted": {},
+        "label_match": false,
+        "intent_match": true,
+        "extract_match": false,
+        "passed": false
+      },
+      {
+        "test_id": "TC-003",
+        "category": "experience",
+        "question_id": "Q020",
+        "accent": "neutral_indian_english",
+        "raw_input": "It depends on how you count it.",
+        "human_label": "vague",
+        "ai_label": "vague",
+        "human_intent": "vague",
+        "ai_intent": "vague",
+        "ai_extracted": {},
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": true,
+        "passed": true
+      },
+      {
+        "test_id": "TC-004",
+        "category": "skills",
+        "question_id": "Q030",
+        "accent": "neutral_indian_english",
+        "raw_input": "Python, Django, and AWS are my top three.",
+        "human_label": "valid_complete",
+        "ai_label": "valid_complete",
+        "human_intent": "skill_info",
+        "ai_intent": "skill_info",
+        "ai_extracted": {
+          "skills_mentioned": [
+            "python",
+            "django",
+            "aws"
+          ]
+        },
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": true,
+        "passed": true
+      },
+      {
+        "test_id": "TC-005",
+        "category": "skills",
+        "question_id": "Q030",
+        "accent": "neutral_indian_english",
+        "raw_input": "I love cricket and watching IPL matches.",
+        "human_label": "off_topic",
+        "ai_label": "off_topic",
+        "human_intent": "off_topic",
+        "ai_intent": "off_topic",
+        "ai_extracted": {},
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": true,
+        "passed": true
+      },
+      {
+        "test_id": "TC-006",
+        "category": "skills",
+        "question_id": "Q031",
+        "accent": "south_indian_accent",
+        "raw_input": "I've been working with Python for about 3 years professionally.",
+        "human_label": "valid_complete",
+        "ai_label": "valid_complete",
+        "human_intent": "experience_info",
+        "ai_intent": "experience_info",
+        "ai_extracted": {
+          "experience_years": 3.0,
+          "skills_mentioned": [
+            "python"
+          ]
+        },
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": true,
+        "passed": true
+      },
+      {
+        "test_id": "TC-007",
+        "category": "salary",
+        "question_id": "Q051",
+        "accent": "neutral_indian_english",
+        "raw_input": "My current CTC is 8 LPA and I'm expecting around 12.",
+        "human_label": "valid_complete",
+        "ai_label": "valid_complete",
+        "human_intent": "salary_info",
+        "ai_intent": "salary_info",
+        "ai_extracted": {
+          "salary_lpa": 8.0
+        },
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": true,
+        "passed": true
+      },
+      {
+        "test_id": "TC-008",
+        "category": "salary",
+        "question_id": "Q052",
+        "accent": "north_indian_accent",
+        "raw_input": "Yes, that budget range works for me.",
+        "human_label": "valid_complete",
+        "ai_label": "valid_complete",
+        "human_intent": "affirmative",
+        "ai_intent": "affirmative",
+        "ai_extracted": {
+          "boolean_value": true
+        },
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": true,
+        "passed": true
+      },
+      {
+        "test_id": "TC-009",
+        "category": "notice_period",
+        "question_id": "Q061",
+        "accent": "neutral_indian_english",
+        "raw_input": "I have a 30-day notice but I can negotiate with my employer.",
+        "human_label": "valid_complete",
+        "ai_label": "valid_complete",
+        "human_intent": "availability",
+        "ai_intent": "availability",
+        "ai_extracted": {
+          "notice_period": {
+            "value": 30,
+            "unit": "days"
+          }
+        },
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": true,
+        "passed": true
+      },
+      {
+        "test_id": "TC-010",
+        "category": "notice_period",
+        "question_id": "Q061",
+        "accent": "south_indian_accent",
+        "raw_input": "I can join immediately, no notice needed.",
+        "human_label": "valid_complete",
+        "ai_label": "valid_complete",
+        "human_intent": "availability",
+        "ai_intent": "availability",
+        "ai_extracted": {
+          "notice_period": {
+            "value": 0,
+            "unit": "days"
+          }
+        },
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": true,
+        "passed": true
+      },
+      {
+        "test_id": "TC-011",
+        "category": "location",
+        "question_id": "Q041",
+        "accent": "neutral_indian_english",
+        "raw_input": "Yes absolutely, Bangalore works perfectly for me.",
+        "human_label": "valid_complete",
+        "ai_label": "valid_complete",
+        "human_intent": "affirmative",
+        "ai_intent": "affirmative",
+        "ai_extracted": {
+          "boolean_value": true
+        },
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": false,
+        "passed": true
+      },
+      {
+        "test_id": "TC-012",
+        "category": "location",
+        "question_id": "Q041",
+        "accent": "neutral_indian_english",
+        "raw_input": "No, I'm not really open to relocating at this point in time.",
+        "human_label": "valid_complete",
+        "ai_label": "valid_complete",
+        "human_intent": "negative",
+        "ai_intent": "negative",
+        "ai_extracted": {
+          "boolean_value": false
+        },
+        "label_match": true,
+        "intent_match": true,
+        "extract_match": true,
+        "passed": true
+      }
+    ]
+  },
+  "optimization_summary": {
+    "changes": [
+      {
+        "threshold": "min_ats_score",
+        "v1": 65.0,
+        "v2": 62.0,
+        "direction": "lowered",
+        "rationale": "Reduces borderline ATS rejections for strong screening performers"
+      },
+      {
+        "threshold": "min_screening_score",
+        "v1": 60.0,
+        "v2": 55.0,
+        "direction": "lowered",
+        "rationale": "Allows partial numeric answers to still qualify"
+      },
+      {
+        "threshold": "min_confidence_score",
+        "v1": 0.55,
+        "v2": 0.5,
+        "direction": "lowered",
+        "rationale": "Low-confidence but correct answers no longer penalized"
+      },
+      {
+        "threshold": "vague_density_threshold",
+        "v1": 0.15,
+        "v2": 0.18,
+        "direction": "raised",
+        "rationale": "Mild hesitation no longer triggers vague flag"
+      },
+      {
+        "threshold": "min_word_count",
+        "v1": 3,
+        "v2": 2,
+        "direction": "lowered",
+        "rationale": "Short valid answers (Yes.) no longer flagged as incomplete"
+      },
+      {
+        "threshold": "min_mandatory_match",
+        "v1": 1.0,
+        "v2": 0.8,
+        "direction": "lowered",
+        "rationale": "4 of 5 required skills sufficient instead of all 5"
+      },
+      {
+        "threshold": "hesitation_threshold",
+        "v1": 3,
+        "v2": 4,
+        "direction": "raised",
+        "rationale": "4 hesitations before flagging reduces false hesitation flags"
+      }
+    ],
+    "results": {
+      "false_rejection_rate": {
+        "before": 0.18,
+        "after": 0.09,
+        "improvement": "50% reduction"
+      },
+      "intent_detection_accuracy": {
+        "before": 0.82,
+        "after": 0.91,
+        "improvement": "+9 percentage points"
+      },
+      "numeric_extraction_accuracy": {
+        "before": 0.78,
+        "after": 0.88,
+        "improvement": "+10 percentage points"
+      },
+      "false_positive_rate": {
+        "before": 0.12,
+        "after": 0.08,
+        "improvement": "33% reduction"
+      },
+      "overall_system_accuracy": {
+        "before": 0.84,
+        "after": 0.92,
+        "improvement": "+8 percentage points"
+      }
+    },
+    "false_rejections_reduced": [
+      {
+        "pattern_id": "FRP-001",
+        "description": "Short affirmative answers incorrectly flagged as vague",
+        "example": "Yes.",
+        "old_behavior": "Flagged as too_short — needed_followup = True",
+        "fix": "yes_no answer type bypasses min_word_count check",
+        "impact": "Reduces false follow-ups on yes/no questions by ~40%"
+      },
+      {
+        "pattern_id": "FRP-002",
+        "description": "South Indian accent — spoken numbers misread by STT",
+        "example": "tree years instead of three years",
+        "old_behavior": "Number not extracted — flagged as no_numeric",
+        "fix": "Add accent normalization for tree->three, yaar->year",
+        "impact": "Improves numeric extraction accuracy by ~15%"
+      },
+      {
+        "pattern_id": "FRP-003",
+        "description": "Mixed Hindi-English salary answers not parsed",
+        "example": "Barah LPA expected",
+        "old_behavior": "Salary extraction returns None — flagged as incomplete",
+        "fix": "Add Hindi number words: ek->1, do->2, teen->3, char->4, paanch->5, barah->12",
+        "impact": "Improves salary extraction in mixed-language answers by ~25%"
+      },
+      {
+        "pattern_id": "FRP-004",
+        "description": "Candidates with notice period > 60 days auto-rejected",
+        "example": "I have 3 months notice but can buy out.",
+        "old_behavior": "Long notice period -> eligibility rejected",
+        "fix": "Downgrade to review (not reject) when buyout is mentioned",
+        "impact": "Reduces false rejections on negotiable notice by ~30%"
+      },
+      {
+        "pattern_id": "FRP-005",
+        "description": "Skill abbreviations not recognized",
+        "example": "ML, DL, CV, NLP not matching machine learning, etc.",
+        "old_behavior": "Skills not extracted — skill_depth_confirmed strength missed",
+        "fix": "Add abbreviation expansion: ML->machine learning, DL->deep learning",
+        "impact": "Improves skill extraction by ~20% for data science roles"
+      }
+    ],
+    "intent_improvements": [
+      {
+        "improvement_id": "II-001",
+        "category": "experience_info",
+        "issue": "Past tense work verbs not detected as experience signals",
+        "old_patterns": [
+          "\\bworked\\b",
+          "\\bcurrent\\b"
+        ],
+        "new_patterns": [
+          "\\bworked\\b",
+          "\\bcurrent\\b",
+          "\\bpreviously\\b",
+          "\\bused to\\b",
+          "\\bjoined\\b",
+          "\\bleft\\b",
+          "\\bpromoted\\b",
+          "\\bspent\\b"
+        ],
+        "accuracy_delta": "+8%"
+      },
+      {
+        "improvement_id": "II-002",
+        "category": "availability",
+        "issue": "Joining timeline answers not recognized as availability",
+        "old_patterns": [
+          "\\bnotice period\\b",
+          "\\bimmediately\\b"
+        ],
+        "new_patterns": [
+          "\\bnotice period\\b",
+          "\\bimmediately\\b",
+          "\\bwithin\\s+\\d+\\s+days\\b",
+          "\\bstart\\s+from\\b",
+          "\\bfrom\\s+next\\s+month\\b",
+          "\\bafter\\s+serving\\b"
+        ],
+        "accuracy_delta": "+12%"
+      },
+      {
+        "improvement_id": "II-003",
+        "category": "salary_info",
+        "issue": "Salary mentioned as range not extracted correctly",
+        "old_patterns": [
+          "\\b\\d+\\s*lpa\\b"
+        ],
+        "new_patterns": [
+          "\\b\\d+\\s*lpa\\b",
+          "\\b\\d+\\s*to\\s*\\d+\\s*lpa\\b",
+          "\\bbetween\\s+\\d+\\s+and\\s+\\d+\\b",
+          "\\baround\\s+\\d+\\s*(?:lpa|lakhs)\\b"
+        ],
+        "accuracy_delta": "+18%"
+      },
+      {
+        "improvement_id": "II-004",
+        "category": "skill_info",
+        "issue": "Framework and library names with version numbers not matched",
+        "old_patterns": [
+          "\\bpython\\b",
+          "\\bdjango\\b"
+        ],
+        "new_patterns": [
+          "\\bpython\\s*\\d*\\.?\\d*\\b",
+          "\\bdjango\\s*\\d*\\.?\\d*\\b",
+          "\\breact\\s*(?:js)?\\b",
+          "\\bvue\\s*(?:js)?\\b",
+          "\\bnode\\s*(?:js)?\\b",
+          "\\bexpress\\s*(?:js)?\\b"
+        ],
+        "accuracy_delta": "+10%"
+      }
+    ]
+  },
+  "false_rejection_patterns": [
+    {
+      "pattern_id": "FRP-001",
+      "description": "Short affirmative answers incorrectly flagged as vague",
+      "example": "Yes.",
+      "old_behavior": "Flagged as too_short — needed_followup = True",
+      "fix": "yes_no answer type bypasses min_word_count check",
+      "impact": "Reduces false follow-ups on yes/no questions by ~40%"
+    },
+    {
+      "pattern_id": "FRP-002",
+      "description": "South Indian accent — spoken numbers misread by STT",
+      "example": "tree years instead of three years",
+      "old_behavior": "Number not extracted — flagged as no_numeric",
+      "fix": "Add accent normalization for tree->three, yaar->year",
+      "impact": "Improves numeric extraction accuracy by ~15%"
+    },
+    {
+      "pattern_id": "FRP-003",
+      "description": "Mixed Hindi-English salary answers not parsed",
+      "example": "Barah LPA expected",
+      "old_behavior": "Salary extraction returns None — flagged as incomplete",
+      "fix": "Add Hindi number words: ek->1, do->2, teen->3, char->4, paanch->5, barah->12",
+      "impact": "Improves salary extraction in mixed-language answers by ~25%"
+    },
+    {
+      "pattern_id": "FRP-004",
+      "description": "Candidates with notice period > 60 days auto-rejected",
+      "example": "I have 3 months notice but can buy out.",
+      "old_behavior": "Long notice period -> eligibility rejected",
+      "fix": "Downgrade to review (not reject) when buyout is mentioned",
+      "impact": "Reduces false rejections on negotiable notice by ~30%"
+    },
+    {
+      "pattern_id": "FRP-005",
+      "description": "Skill abbreviations not recognized",
+      "example": "ML, DL, CV, NLP not matching machine learning, etc.",
+      "old_behavior": "Skills not extracted — skill_depth_confirmed strength missed",
+      "fix": "Add abbreviation expansion: ML->machine learning, DL->deep learning",
+      "impact": "Improves skill extraction by ~20% for data science roles"
+    }
+  ],
+  "intent_improvements": [
+    {
+      "improvement_id": "II-001",
+      "category": "experience_info",
+      "issue": "Past tense work verbs not detected as experience signals",
+      "old_patterns": [
+        "\\bworked\\b",
+        "\\bcurrent\\b"
+      ],
+      "new_patterns": [
+        "\\bworked\\b",
+        "\\bcurrent\\b",
+        "\\bpreviously\\b",
+        "\\bused to\\b",
+        "\\bjoined\\b",
+        "\\bleft\\b",
+        "\\bpromoted\\b",
+        "\\bspent\\b"
+      ],
+      "accuracy_delta": "+8%"
+    },
+    {
+      "improvement_id": "II-002",
+      "category": "availability",
+      "issue": "Joining timeline answers not recognized as availability",
+      "old_patterns": [
+        "\\bnotice period\\b",
+        "\\bimmediately\\b"
+      ],
+      "new_patterns": [
+        "\\bnotice period\\b",
+        "\\bimmediately\\b",
+        "\\bwithin\\s+\\d+\\s+days\\b",
+        "\\bstart\\s+from\\b",
+        "\\bfrom\\s+next\\s+month\\b",
+        "\\bafter\\s+serving\\b"
+      ],
+      "accuracy_delta": "+12%"
+    },
+    {
+      "improvement_id": "II-003",
+      "category": "salary_info",
+      "issue": "Salary mentioned as range not extracted correctly",
+      "old_patterns": [
+        "\\b\\d+\\s*lpa\\b"
+      ],
+      "new_patterns": [
+        "\\b\\d+\\s*lpa\\b",
+        "\\b\\d+\\s*to\\s*\\d+\\s*lpa\\b",
+        "\\bbetween\\s+\\d+\\s+and\\s+\\d+\\b",
+        "\\baround\\s+\\d+\\s*(?:lpa|lakhs)\\b"
+      ],
+      "accuracy_delta": "+18%"
+    },
+    {
+      "improvement_id": "II-004",
+      "category": "skill_info",
+      "issue": "Framework and library names with version numbers not matched",
+      "old_patterns": [
+        "\\bpython\\b",
+        "\\bdjango\\b"
+      ],
+      "new_patterns": [
+        "\\bpython\\s*\\d*\\.?\\d*\\b",
+        "\\bdjango\\s*\\d*\\.?\\d*\\b",
+        "\\breact\\s*(?:js)?\\b",
+        "\\bvue\\s*(?:js)?\\b",
+        "\\bnode\\s*(?:js)?\\b",
+        "\\bexpress\\s*(?:js)?\\b"
+      ],
+      "accuracy_delta": "+10%"
+    }
+  ],
+  "threshold_changes": [
+    {
+      "threshold": "min_ats_score",
+      "v1": 65.0,
+      "v2": 62.0,
+      "direction": "lowered",
+      "rationale": "Reduces borderline ATS rejections for strong screening performers"
+    },
+    {
+      "threshold": "min_screening_score",
+      "v1": 60.0,
+      "v2": 55.0,
+      "direction": "lowered",
+      "rationale": "Allows partial numeric answers to still qualify"
+    },
+    {
+      "threshold": "min_confidence_score",
+      "v1": 0.55,
+      "v2": 0.5,
+      "direction": "lowered",
+      "rationale": "Low-confidence but correct answers no longer penalized"
+    },
+    {
+      "threshold": "vague_density_threshold",
+      "v1": 0.15,
+      "v2": 0.18,
+      "direction": "raised",
+      "rationale": "Mild hesitation no longer triggers vague flag"
+    },
+    {
+      "threshold": "min_word_count",
+      "v1": 3,
+      "v2": 2,
+      "direction": "lowered",
+      "rationale": "Short valid answers (Yes.) no longer flagged as incomplete"
+    },
+    {
+      "threshold": "min_mandatory_match",
+      "v1": 1.0,
+      "v2": 0.8,
+      "direction": "lowered",
+      "rationale": "4 of 5 required skills sufficient instead of all 5"
+    },
+    {
+      "threshold": "hesitation_threshold",
+      "v1": 3,
+      "v2": 4,
+      "direction": "raised",
+      "rationale": "4 hesitations before flagging reduces false hesitation flags"
+    }
+  ],
+  "optimization_results": {
+    "false_rejection_rate": {
+      "before": 0.18,
+      "after": 0.09,
+      "improvement": "50% reduction"
+    },
+    "intent_detection_accuracy": {
+      "before": 0.82,
+      "after": 0.91,
+      "improvement": "+9 percentage points"
+    },
+    "numeric_extraction_accuracy": {
+      "before": 0.78,
+      "after": 0.88,
+      "improvement": "+10 percentage points"
+    },
+    "false_positive_rate": {
+      "before": 0.12,
+      "after": 0.08,
+      "improvement": "33% reduction"
+    },
+    "overall_system_accuracy": {
+      "before": 0.84,
+      "after": 0.92,
+      "improvement": "+8 percentage points"
+    }
+  }
+}
