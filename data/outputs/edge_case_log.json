@@ -1,0 +1,95 @@
+{
+  "flow_status": {
+    "session_id": "SESS-EDGE-001",
+    "candidate_name": "Arjun Krishnan",
+    "state": "listening",
+    "turn_count": 5,
+    "skip_count": 1,
+    "total_failures": 0,
+    "asked_questions": [
+      "Q020",
+      "Q021",
+      "Q022",
+      "Q023",
+      "Q024"
+    ],
+    "skipped_questions": [
+      "Q024"
+    ],
+    "should_abort": false,
+    "retry_counts": {}
+  },
+  "edge_case_summary": {
+    "total_edge_cases": 7,
+    "consecutive_same_case": 3,
+    "per_question_counts": {
+      "Q020": {
+        "poor_audio": 1
+      },
+      "Q021": {
+        "language_mixing": 1
+      },
+      "Q022": {
+        "missing_answer": 1
+      },
+      "Q023": {
+        "background_noise": 1
+      },
+      "Q024": {
+        "poor_audio": 3
+      }
+    }
+  },
+  "edge_case_log": [
+    {
+      "question_id": "Q020",
+      "edge_case": "poor_audio",
+      "action": "retry",
+      "attempt": 1,
+      "timestamp": "2026-06-22T22:19:47.946587"
+    },
+    {
+      "question_id": "Q021",
+      "edge_case": "language_mixing",
+      "action": "retry",
+      "attempt": 1,
+      "timestamp": "2026-06-22T22:19:47.947050"
+    },
+    {
+      "question_id": "Q022",
+      "edge_case": "missing_answer",
+      "action": "retry",
+      "attempt": 1,
+      "timestamp": "2026-06-22T22:19:47.948079"
+    },
+    {
+      "question_id": "Q023",
+      "edge_case": "background_noise",
+      "action": "retry",
+      "attempt": 1,
+      "timestamp": "2026-06-22T22:19:47.948379"
+    },
+    {
+      "question_id": "Q024",
+      "edge_case": "poor_audio",
+      "action": "retry",
+      "attempt": 1,
+      "timestamp": "2026-06-22T22:19:47.949057"
+    },
+    {
+      "question_id": "Q024",
+      "edge_case": "poor_audio",
+      "action": "manual_review",
+      "attempt": 2,
+      "timestamp": "2026-06-22T22:19:47.949188"
+    },
+    {
+      "question_id": "Q024",
+      "edge_case": "poor_audio",
+      "action": "hard_abort",
+      "attempt": 3,
+      "timestamp": "2026-06-22T22:19:47.949256"
+    }
+  ],
+  "generated_at": "2026-06-22T22:19:47.949555"
+}
