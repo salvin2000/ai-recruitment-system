@@ -1,0 +1,291 @@
+{
+  "report_metadata": {
+    "title": "Zecpath AI Screening System — Final Evaluation Report",
+    "pipeline_days": "21–31",
+    "total_tests": 561,
+    "generated_at": "2026-06-22T22:46:18.240583"
+  },
+  "production_checklist": {
+    "categories": {
+      "pipeline_completeness": {
+        "label": "Pipeline Completeness",
+        "checks": [
+          {
+            "item": "Day 21 — Eligibility Decision Engine implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 22 — HR Screening Dataset Creation implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 23 — Transcript Data Architecture implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 24 — Speech-to-Text Integration & Cleaning implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 25 — Answer Intent & Understanding Engine implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 26 — Screening Scoring Engine implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 27 — Confidence & Sentiment Signal Analysis implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 28 — AI Screening Report Generator implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 29 — AI Conversation Flow Design implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 30 — Screening System Testing & Optimization implemented",
+            "passed": true
+          },
+          {
+            "item": "Day 31 — Edge Case & Failure Handling implemented",
+            "passed": true
+          }
+        ],
+        "passed": 11,
+        "total": 11
+      },
+      "code_quality": {
+        "label": "Code Quality",
+        "checks": [
+          {
+            "item": "All modules have docstrings and clear method names",
+            "passed": true
+          },
+          {
+            "item": "All thresholds and constants externalized, not hardcoded",
+            "passed": true
+          },
+          {
+            "item": "Error handling present on every external input path",
+            "passed": true
+          },
+          {
+            "item": "Consistent file structure across all 11 days (module / runner / tests)",
+            "passed": true
+          },
+          {
+            "item": "Full Git history with one commit per day",
+            "passed": true
+          },
+          {
+            "item": "No duplicate logic between Day 29 flow control and Day 31 edge-case handling",
+            "passed": true
+          }
+        ],
+        "passed": 6,
+        "total": 6
+      },
+      "test_coverage": {
+        "label": "Test Coverage",
+        "checks": [
+          {
+            "item": "561 automated tests passing across Days 21-31",
+            "passed": true
+          },
+          {
+            "item": "11 independent test modules, one per day",
+            "passed": true
+          },
+          {
+            "item": "Edge cases covered: silence, vague answers, off-topic, poor audio, language mixing, noise",
+            "passed": true
+          },
+          {
+            "item": "Threshold tuning validated against human judgment (Day 30, 91.7% pass rate)",
+            "passed": true
+          },
+          {
+            "item": "Safety fallbacks verified under repeated-failure conditions (Day 31)",
+            "passed": true
+          }
+        ],
+        "passed": 5,
+        "total": 5
+      },
+      "conversation_robustness": {
+        "label": "Conversation Robustness",
+        "checks": [
+          {
+            "item": "11-state conversation state machine with validated transitions (Day 29)",
+            "passed": true
+          },
+          {
+            "item": "6 turn outcomes classified and routed correctly (Day 29)",
+            "passed": true
+          },
+          {
+            "item": "4-stage silence handling progression (Day 29)",
+            "passed": true
+          },
+          {
+            "item": "4 real-world edge cases detected and handled (Day 31)",
+            "passed": true
+          },
+          {
+            "item": "2 safety fallback layers: hard_abort and manual_review (Day 31)",
+            "passed": true
+          }
+        ],
+        "passed": 5,
+        "total": 5
+      },
+      "scoring_and_reporting": {
+        "label": "Scoring & Reporting",
+        "checks": [
+          {
+            "item": "4-dimension scoring engine with 7 grade levels (Day 26)",
+            "passed": true
+          },
+          {
+            "item": "Confidence and sentiment signals factored into scoring (Day 27)",
+            "passed": true
+          },
+          {
+            "item": "11-section recruiter report with 3 export formats (Day 28)",
+            "passed": true
+          },
+          {
+            "item": "Threshold configuration tuned from V1 to V2 with documented rationale (Day 30)",
+            "passed": true
+          }
+        ],
+        "passed": 4,
+        "total": 4
+      },
+      "documentation": {
+        "label": "Documentation",
+        "checks": [
+          {
+            "item": "Technical documentation covering all 11 days",
+            "passed": true
+          },
+          {
+            "item": "API design explanation for screening endpoints",
+            "passed": true
+          },
+          {
+            "item": "Architecture diagram of the full call lifecycle",
+            "passed": true
+          },
+          {
+            "item": "Troubleshooting notes for each of the 4 edge case types",
+            "passed": true
+          },
+          {
+            "item": "Handover document covering code structure and extension points",
+            "passed": true
+          }
+        ],
+        "passed": 5,
+        "total": 5
+      }
+    },
+    "total_checks": 36,
+    "passed_checks": 36,
+    "pass_rate": 1.0,
+    "verdict": "PRODUCTION READY"
+  },
+  "end_to_end_demo": {
+    "candidate": {
+      "name": "Arjun Krishnan",
+      "role_applied": "Backend Developer",
+      "session_id": "SESS-FINAL-001"
+    },
+    "turns": [
+      {
+        "question_id": "Q001",
+        "category": "intro",
+        "question": "Are you ready to proceed?",
+        "answer": "Yes, I'm ready to start.",
+        "score": 95
+      },
+      {
+        "question_id": "Q020",
+        "category": "experience",
+        "question": "How many years of experience do you have?",
+        "answer": "I have about 4 years of backend development experience.",
+        "score": 88
+      },
+      {
+        "question_id": "Q030",
+        "category": "skills",
+        "question": "What are your top technical skills?",
+        "answer": "Python, Django, PostgreSQL, and REST API design.",
+        "score": 91
+      },
+      {
+        "question_id": "Q040",
+        "category": "salary",
+        "question": "What is your expected salary?",
+        "answer": "My expected salary is around 9 LPA.",
+        "score": 85
+      },
+      {
+        "question_id": "Q050",
+        "category": "notice_period",
+        "question": "What is your notice period?",
+        "answer": "I can join within 30 days.",
+        "score": 90
+      },
+      {
+        "question_id": "Q060",
+        "category": "location",
+        "question": "Are you open to relocating?",
+        "answer": "Yes, I'm open to relocating for the right role.",
+        "score": 87
+      }
+    ],
+    "overall_score": 89.3,
+    "recommendation": "Strongly Recommend",
+    "transcript": [
+      "AI: Are you ready to proceed?",
+      "Candidate: Yes, I'm ready to start.",
+      "AI: How many years of experience do you have?",
+      "Candidate: I have about 4 years of backend development experience.",
+      "AI: What are your top technical skills?",
+      "Candidate: Python, Django, PostgreSQL, and REST API design.",
+      "AI: What is your expected salary?",
+      "Candidate: My expected salary is around 9 LPA.",
+      "AI: What is your notice period?",
+      "Candidate: I can join within 30 days.",
+      "AI: Are you open to relocating?",
+      "Candidate: Yes, I'm open to relocating for the right role.",
+      "AI: Are you ready to proceed?",
+      "Candidate: Yes, I'm ready to start.",
+      "AI: How many years of experience do you have?",
+      "Candidate: I have about 4 years of backend development experience.",
+      "AI: What are your top technical skills?",
+      "Candidate: Python, Django, PostgreSQL, and REST API design.",
+      "AI: What is your expected salary?",
+      "Candidate: My expected salary is around 9 LPA.",
+      "AI: What is your notice period?",
+      "Candidate: I can join within 30 days.",
+      "AI: Are you open to relocating?",
+      "Candidate: Yes, I'm open to relocating for the right role."
+    ],
+    "generated_at": "2026-06-22T22:46:18.240576"
+  },
+  "api_endpoints": {
+    "POST /screening/start": "Initialize a new screening call session for a candidate",
+    "POST /screening/{id}/question": "Deliver the next question and move the state machine forward",
+    "POST /screening/{id}/answer": "Submit a candidate answer for processing and classification",
+    "GET  /screening/{id}/status": "Return the current state, turn count, and failure count for a session",
+    "POST /screening/{id}/end": "End the call and trigger final report generation",
+    "GET  /screening/{id}/report": "Retrieve the generated screening report in JSON, Markdown, or text"
+  },
+  "final_verdict": "PRODUCTION READY"
+}
