@@ -1,0 +1,136 @@
+{
+  "document_title": "Zecpath AI HR Interview — Flow Design Document",
+  "role_profile": "experienced_technical",
+  "role_label": "Experienced — Technical",
+  "total_questions": 6,
+  "phase_flow": [
+    {
+      "phase": "introduction",
+      "order": 1,
+      "label": "Introduction",
+      "categories": [
+        "self_introduction"
+      ],
+      "description": "AI delivers a warm greeting, explains the interview format, and asks the candidate to introduce themselves."
+    },
+    {
+      "phase": "core_hr",
+      "order": 2,
+      "label": "Core HR Questions",
+      "categories": [
+        "career_journey",
+        "strengths_weaknesses",
+        "teamwork_culture_fit"
+      ],
+      "description": "AI covers the three core HR evaluation areas that apply to every candidate regardless of role or experience level."
+    },
+    {
+      "phase": "role_evaluation",
+      "order": 3,
+      "label": "Role-Based Evaluation",
+      "categories": [
+        "career_goals"
+      ],
+      "description": "AI asks role-specific and experience-level-specific questions to evaluate alignment with the target position."
+    },
+    {
+      "phase": "closing",
+      "order": 4,
+      "label": "Closing",
+      "categories": [
+        "availability_commitment"
+      ],
+      "description": "AI confirms availability, notice period, and commitment, then closes the interview with a warm handoff message."
+    }
+  ],
+  "question_set": [
+    {
+      "category": "self_introduction",
+      "role_profile": "experienced_technical",
+      "question_text": "Give me a brief introduction — who you are, your current role, and what you have built.",
+      "follow_up": "What is the one thing about yourself you most want us to remember?"
+    },
+    {
+      "category": "career_journey",
+      "role_profile": "experienced_technical",
+      "question_text": "Walk me through your career so far — the roles, the key projects, and why you made each move.",
+      "follow_up": "Which experience has had the biggest impact on how you work today?"
+    },
+    {
+      "category": "strengths_weaknesses",
+      "role_profile": "experienced_technical",
+      "question_text": "What technical strength sets you apart from other engineers at your level, and what is one gap you are closing?",
+      "follow_up": "Can you give me a specific example of a time that weakness affected your work and what you did about it?"
+    },
+    {
+      "category": "teamwork_culture_fit",
+      "role_profile": "experienced_technical",
+      "question_text": "Tell me about a time you disagreed with a technical decision in your team. How did you handle it?",
+      "follow_up": "What kind of team environment brings out the best in you?"
+    },
+    {
+      "category": "career_goals",
+      "role_profile": "experienced_technical",
+      "question_text": "What does your ideal next step look like technically, and where do you want to be in 5 years?",
+      "follow_up": "How does this role specifically fit into those goals?"
+    },
+    {
+      "category": "availability_commitment",
+      "role_profile": "experienced_technical",
+      "question_text": "What is your current notice period, and is there any flexibility on that?",
+      "follow_up": "Is there anything on your end that might affect your availability in the first 90 days?"
+    }
+  ],
+  "state_fields": [
+    "question_id",
+    "category",
+    "role_profile",
+    "question_text",
+    "response_captured",
+    "response_word_count",
+    "follow_up_eligible",
+    "follow_up_asked",
+    "follow_up_response",
+    "score",
+    "timestamp"
+  ],
+  "categories": {
+    "self_introduction": {
+      "label": "Self Introduction",
+      "description": "Candidate introduces themselves, background, and current situation",
+      "order": 1,
+      "phase": "introduction"
+    },
+    "career_journey": {
+      "label": "Career Journey",
+      "description": "Candidate walks through their professional history and key milestones",
+      "order": 2,
+      "phase": "core_hr"
+    },
+    "strengths_weaknesses": {
+      "label": "Strengths & Weaknesses",
+      "description": "Candidate reflects on personal and professional attributes",
+      "order": 3,
+      "phase": "core_hr"
+    },
+    "teamwork_culture_fit": {
+      "label": "Teamwork & Culture Fit",
+      "description": "Candidate demonstrates how they work with others and align with company values",
+      "order": 4,
+      "phase": "core_hr"
+    },
+    "career_goals": {
+      "label": "Career Goals",
+      "description": "Candidate describes short-term and long-term professional aspirations",
+      "order": 5,
+      "phase": "role_evaluation"
+    },
+    "availability_commitment": {
+      "label": "Availability & Commitment",
+      "description": "Candidate confirms availability, notice period, and long-term commitment",
+      "order": 6,
+      "phase": "closing"
+    }
+  },
+  "generated_at": "2026-07-04T09:19:12.567335"
+}
