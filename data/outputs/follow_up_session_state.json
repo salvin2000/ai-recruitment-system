@@ -1,0 +1,165 @@
+{
+  "session_id": "SESS-HR-034",
+  "candidate_name": "Arjun Krishnan",
+  "role_profile": "experienced_technical",
+  "total_turns": 5,
+  "turns": [
+    {
+      "turn_number": 1,
+      "question_id": "Q-SELF-001",
+      "category": "self_introduction",
+      "question_text": "Give me a brief introduction.",
+      "response": "I am a backend developer with 4 years building APIs.",
+      "analysis": {
+        "word_count": 10,
+        "is_vague": false,
+        "has_example": false,
+        "has_number": true,
+        "is_generic": false,
+        "is_contradiction": false,
+        "vague_hits": [],
+        "incomplete_triggers": [
+          "too_short"
+        ],
+        "needs_follow_up": true,
+        "confidence_score": 60,
+        "difficulty_level": "moderate"
+      },
+      "action": "ask_follow_up",
+      "follow_up_type": "deepening",
+      "follow_up_text": "That's a strong background. What has been the single most defining moment in shaping who you are professionally?",
+      "reason": "moderate response → deepening",
+      "timestamp": "2026-07-04T10:40:39.156851"
+    },
+    {
+      "turn_number": 2,
+      "question_id": "Q-CARE-001",
+      "category": "career_journey",
+      "question_text": "Walk me through your career.",
+      "response": "I think I have done various things sort of, maybe backend, kind of frontend too.",
+      "analysis": {
+        "word_count": 15,
+        "is_vague": true,
+        "has_example": false,
+        "has_number": false,
+        "is_generic": true,
+        "is_contradiction": false,
+        "vague_hits": [
+          "i think",
+          "maybe",
+          "kind of",
+          "sort of"
+        ],
+        "incomplete_triggers": [
+          "no_example",
+          "vague_language",
+          "generic_answer"
+        ],
+        "needs_follow_up": true,
+        "confidence_score": 18,
+        "difficulty_level": "surface"
+      },
+      "action": "ask_follow_up",
+      "follow_up_type": "clarification",
+      "follow_up_text": "You mentioned think — could you tell me a bit more about what that involved?",
+      "reason": "surface response → clarification",
+      "timestamp": "2026-07-04T10:40:39.157006"
+    },
+    {
+      "turn_number": 3,
+      "question_id": "Q-STRE-001",
+      "category": "strengths_weaknesses",
+      "question_text": "What is your greatest strength?",
+      "response": "For example, I once led a team of 6 to rebuild our payment API, cutting response time by 35% in 2 sprints.",
+      "analysis": {
+        "word_count": 22,
+        "is_vague": false,
+        "has_example": true,
+        "has_number": true,
+        "is_generic": false,
+        "is_contradiction": false,
+        "vague_hits": [],
+        "incomplete_triggers": [],
+        "needs_follow_up": false,
+        "confidence_score": 88,
+        "difficulty_level": "strong"
+      },
+      "action": "none",
+      "follow_up_type": null,
+      "follow_up_text": null,
+      "reason": "Response is complete and confident",
+      "timestamp": "2026-07-04T10:40:39.157111"
+    },
+    {
+      "turn_number": 4,
+      "question_id": "Q-TEAM-001",
+      "category": "teamwork_culture_fit",
+      "question_text": "Tell me about working in a team.",
+      "response": "I guess I work well with others generally speaking.",
+      "analysis": {
+        "word_count": 9,
+        "is_vague": true,
+        "has_example": false,
+        "has_number": false,
+        "is_generic": false,
+        "is_contradiction": false,
+        "vague_hits": [
+          "i guess",
+          "generally speaking"
+        ],
+        "incomplete_triggers": [
+          "too_short",
+          "no_example",
+          "vague_language"
+        ],
+        "needs_follow_up": true,
+        "confidence_score": 14,
+        "difficulty_level": "surface"
+      },
+      "action": "ask_follow_up",
+      "follow_up_type": "clarification",
+      "follow_up_text": "You mentioned guess — could you explain what you mean by that in a team context?",
+      "reason": "surface response → clarification",
+      "timestamp": "2026-07-04T10:40:39.157180"
+    },
+    {
+      "turn_number": 5,
+      "question_id": "Q-GOAL-001",
+      "category": "career_goals",
+      "question_text": "Where do you see yourself in 5 years?",
+      "response": "I want to become a senior engineer and lead a team within 3 years, then move toward an architect role.",
+      "analysis": {
+        "word_count": 20,
+        "is_vague": false,
+        "has_example": false,
+        "has_number": true,
+        "is_generic": false,
+        "is_contradiction": false,
+        "vague_hits": [],
+        "incomplete_triggers": [],
+        "needs_follow_up": false,
+        "confidence_score": 68,
+        "difficulty_level": "confident"
+      },
+      "action": "none",
+      "follow_up_type": null,
+      "follow_up_text": null,
+      "reason": "Response is complete and confident",
+      "timestamp": "2026-07-04T10:40:39.157283"
+    }
+  ],
+  "confidence_profile": {
+    "average_confidence": 49.6,
+    "min_confidence": 14,
+    "max_confidence": 88,
+    "level_distribution": {
+      "confident": 1,
+      "moderate": 1,
+      "surface": 2,
+      "strong": 1
+    },
+    "follow_ups_asked": 3,
+    "questions_skipped": 0
+  },
+  "generated_at": "2026-07-04T10:40:39.158583"
+}
