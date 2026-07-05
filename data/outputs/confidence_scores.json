@@ -1,0 +1,39 @@
+{
+  "scoring_model": {
+    "weights": {
+      "hesitation": 0.25,
+      "sentiment": 0.25,
+      "stress": 0.25,
+      "contradiction": 0.25
+    },
+    "bands": {
+      "highly_confident": "Highly Confident",
+      "confident": "Confident",
+      "neutral": "Neutral / Composed",
+      "slightly_stressed": "Slightly Stressed",
+      "stressed": "Shows Stress Signals"
+    }
+  },
+  "sample_outputs": [
+    {
+      "level": "stressed",
+      "confidence_score": 65.0,
+      "band": "Confident"
+    },
+    {
+      "level": "uncertain",
+      "confidence_score": 74.0,
+      "band": "Confident"
+    },
+    {
+      "level": "neutral",
+      "confidence_score": 78.5,
+      "band": "Confident"
+    },
+    {
+      "level": "confident",
+      "confidence_score": 95.0,
+      "band": "Highly Confident"
+    }
+  ]
+}
