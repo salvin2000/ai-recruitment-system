@@ -1,0 +1,45 @@
+{
+  "scoring_model": {
+    "weights": {
+      "fluency": 0.25,
+      "grammar": 0.25,
+      "vocabulary": 0.2,
+      "clarity": 0.2,
+      "structure": 0.1
+    },
+    "bands": {
+      "excellent": "Excellent Communicator",
+      "good": "Good Communicator",
+      "adequate": "Adequate Communicator",
+      "developing": "Developing Communicator",
+      "needs_work": "Needs Improvement"
+    },
+    "filler_words_tracked": 16
+  },
+  "sample_outputs": [
+    {
+      "level": "weak",
+      "response": "Um yeah I like basically do stuff and things you know. I am good at my job I thi...",
+      "communication_score": 54.0,
+      "band": "Needs Improvement"
+    },
+    {
+      "level": "developing",
+      "response": "I work well with others. I try to communicate clearly and I think I am a good te...",
+      "communication_score": 64.8,
+      "band": "Adequate Communicator"
+    },
+    {
+      "level": "good",
+      "response": "I have 4 years of experience in backend development. I usually work in agile tea...",
+      "communication_score": 83.4,
+      "band": "Good Communicator"
+    },
+    {
+      "level": "excellent",
+      "response": "For example, when I led a team of 6 engineers, I implemented a structured commun...",
+      "communication_score": 90.5,
+      "band": "Excellent Communicator"
+    }
+  ]
+}
